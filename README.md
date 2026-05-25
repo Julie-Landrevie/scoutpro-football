@@ -12,8 +12,9 @@ ScoutPro est une interface de recrutement football data-driven inspirée des car
 - 📊 **Profiler** chaque joueur avec une fiche style carte FIFA : radar d'attributs, barres PAC/TIR/PAS/DRI/DEF/PHY, points forts & faibles, systèmes adaptés
 - 🎯 **Matcher** des profils selon le style de jeu de son équipe (possession, contre-attaque, pressing haut, bloc bas, jeu direct, transitions)
 - 💶 **Estimer** la valeur marchande et la probabilité d'ouverture à une transaction
-- 📈 **Comparer** deux joueurs d'une même position côte à côte via un radar superposé
-  🌐 **App en ligne :** [scoutpro-football.streamlit.app](https://scoutpro-football.streamlit.app)
+- 📋 **Comparer** deux joueurs d'une même position côte à côte via un radar superposé
+
+🌐 **App en ligne :** [scoutpro-football.streamlit.app](https://scoutpro-football.streamlit.app)
 ---
 
 ## Données
