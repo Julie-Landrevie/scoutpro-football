@@ -229,7 +229,7 @@ with col_detail:
         fig.update_layout(polar=dict(bgcolor='#0d1f0d',
             radialaxis=dict(visible=True,range=[40,99],color='#4b6080',gridcolor='#1e2d45'),
             angularaxis=dict(color='#c9d1e0',gridcolor='#1e2d45')),
-            showlegend=False,paper_bgcolor='transparent',height=280,margin=dict(l=30,r=30,t=20,b=20))
+            showlegend=False,paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)',height=280,margin=dict(l=30,r=30,t=20,b=20))
         c1.plotly_chart(fig, use_container_width=True)
         with c2:
             st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin-bottom:12px'>Attributs</div>",unsafe_allow_html=True)
@@ -305,8 +305,8 @@ with col_detail:
             fig2.update_layout(polar=dict(bgcolor='#0d1222',
                 radialaxis=dict(visible=True,range=[40,99],color='#4b6080',gridcolor='#1e2d45'),
                 angularaxis=dict(color='#c9d1e0',gridcolor='#1e2d45')),
-                legend=dict(bgcolor='transparent',font=dict(color='#c9d1e0')),
-                paper_bgcolor='transparent',height=340,margin=dict(l=40,r=40,t=20,b=20))
+                legend=dict(bgcolor='rgba(0,0,0,0)',font=dict(color='#c9d1e0')),
+                paper_bgcolor='rgba(0,0,0,0)',height=340,margin=dict(l=40,r=40,t=20,b=20))
             st.plotly_chart(fig2, use_container_width=True)
             cmp = pd.DataFrame({'Attribut':labels+['Overall','Âge','Buts','xG','Transf%'],
                 p['player']:[p[a] for a in attrs]+[p['overall'],int(p['age']),int(p['goals']),round(p['xg_total'],2),p['transfer_open']],
