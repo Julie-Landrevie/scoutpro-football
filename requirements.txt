@@ -1,5 +1,5 @@
-statsbombpy==1.0.3
-pandas==2.2.3
-numpy==1.26.4
-streamlit==1.35.0
-plotly==5.22.0
+statsbombpy
+pandas
+numpy
+plotly
+streamlit
