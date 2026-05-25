@@ -1,7 +1,8 @@
 # ⚽ ScoutPro — Player Intelligence Platform
 
-> Football player scouting & profiling platform powered by StatsBomb Open Data  
+> Football player scouting & profiling platform powered by StatsBomb Open Data
 > **Julie Landrevie · Football Data & Video Analyst**
+
 ---
 
 ## Aperçu
@@ -12,9 +13,10 @@ ScoutPro est une interface de recrutement football data-driven inspirée des car
 - 📊 **Profiler** chaque joueur avec une fiche style carte FIFA : radar d'attributs, barres PAC/TIR/PAS/DRI/DEF/PHY, points forts & faibles, systèmes adaptés
 - 🎯 **Matcher** des profils selon le style de jeu de son équipe (possession, contre-attaque, pressing haut, bloc bas, jeu direct, transitions)
 - 💶 **Estimer** la valeur marchande et la probabilité d'ouverture à une transaction
-- 📋 **Comparer** deux joueurs d'une même position côte à côte via un radar superposé
+- 📈 **Comparer** deux joueurs d'une même position côte à côte via un radar superposé
 
 🌐 **App en ligne :** [scoutpro-football.streamlit.app](https://scoutpro-football.streamlit.app)
+
 ---
 
 ## Données
@@ -63,7 +65,7 @@ streamlit run app.py
 
 ## Version portfolio
 
-Ouvrir `portfolio.html` directement dans un navigateur — **aucune installation requise**.  
+Ouvrir `portfolio.html` directement dans un navigateur — **aucune installation requise**.
 80 joueurs intégrés en statique, filtres interactifs, matching tactique, dark mode natif.
 
 ---
