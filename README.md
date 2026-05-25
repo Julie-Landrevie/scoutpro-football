@@ -3,6 +3,7 @@
 > Football player scouting & profiling platform powered by StatsBomb Open Data  
 > **Julie Landrevie · Football Data & Video Analyst**
 
+🌐 **App en ligne :** [scoutpro-football.streamlit.app](https://scoutpro-football.streamlit.app)
 ---
 
 ## Aperçu
