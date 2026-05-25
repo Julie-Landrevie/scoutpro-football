@@ -1,0 +1,1473 @@
+[
+  {
+    "player": "Clément Lenglet",
+    "player_id": 6826.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "CB",
+    "overall": 90,
+    "market_value": "400-650M€",
+    "transfer_open": 72,
+    "pace_score": 76,
+    "shoot_score": 42,
+    "pass_score": 95,
+    "dribble_score": 57,
+    "defense_score": 89,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.16972353,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 398.0,
+    "pass_completion": 0.9271356784,
+    "dribbles_total": 3.0,
+    "dribbles_won": 1.0,
+    "pressures": 62.0,
+    "progressive_passes": 166.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition",
+      "Dribble"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Nuno Mendes",
+    "player_id": 41092.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "LB",
+    "overall": 89,
+    "market_value": "370-610M€",
+    "transfer_open": 12,
+    "pace_score": 90,
+    "shoot_score": 69,
+    "pass_score": 85,
+    "dribble_score": 84,
+    "defense_score": 98,
+    "physic_score": 80,
+    "goals": 1.0,
+    "xg_total": 1.1586964,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 321.0,
+    "pass_completion": 0.8940809969,
+    "dribbles_total": 22.0,
+    "dribbles_won": 11.0,
+    "pressures": 74.0,
+    "progressive_passes": 104.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-4-3"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Précision passe"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Piston offensif",
+      "Débordement",
+      "Centres"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Robert Andrich",
+    "player_id": 9195.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CDM",
+    "overall": 89,
+    "market_value": "370-610M€",
+    "transfer_open": 74,
+    "pace_score": 90,
+    "shoot_score": 60,
+    "pass_score": 94,
+    "dribble_score": 80,
+    "defense_score": 94,
+    "physic_score": 99,
+    "goals": 2.0,
+    "xg_total": 0.929882167,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 475.0,
+    "pass_completion": 0.9031578947,
+    "dribbles_total": 9.0,
+    "dribbles_won": 6.0,
+    "pressures": 68.0,
+    "progressive_passes": 157.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-5-2"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Passe de qualité",
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Précision passe"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Double pivot",
+      "Récupération",
+      "Bloc bas"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Sergio Busquets i Burgos",
+    "player_id": 5203.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "CDM",
+    "overall": 88,
+    "market_value": "350-570M€",
+    "transfer_open": 46,
+    "pace_score": 79,
+    "shoot_score": 40,
+    "pass_score": 95,
+    "dribble_score": 79,
+    "defense_score": 99,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.0,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 500.0,
+    "pass_completion": 0.916,
+    "dribbles_total": 4.0,
+    "dribbles_won": 4.0,
+    "pressures": 84.0,
+    "progressive_passes": 154.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-5-2"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives",
+      "Dribble réussi"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Double pivot",
+      "Récupération",
+      "Bloc bas"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Marco Verratti",
+    "player_id": 3166.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CDM",
+    "overall": 87,
+    "market_value": "200-320M€",
+    "transfer_open": 6,
+    "pace_score": 81,
+    "shoot_score": 48,
+    "pass_score": 94,
+    "dribble_score": 69,
+    "defense_score": 99,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.205030106,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 524.0,
+    "pass_completion": 0.9007633588,
+    "dribbles_total": 5.0,
+    "dribbles_won": 3.0,
+    "pressures": 132.0,
+    "progressive_passes": 150.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-5-2"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Vitesse",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Double pivot",
+      "Récupération",
+      "Bloc bas"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Edmond Fayçal Tapsoba",
+    "player_id": 30606.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CB",
+    "overall": 87,
+    "market_value": "200-320M€",
+    "transfer_open": 45,
+    "pace_score": 76,
+    "shoot_score": 43,
+    "pass_score": 95,
+    "dribble_score": 66,
+    "defense_score": 80,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.24447009,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 424.0,
+    "pass_completion": 0.9127358491,
+    "dribbles_total": 3.0,
+    "dribbles_won": 2.0,
+    "pressures": 50.0,
+    "progressive_passes": 151.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Jordi Alba Ramos",
+    "player_id": 5211.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "LB",
+    "overall": 86,
+    "market_value": "180-300M€",
+    "transfer_open": 63,
+    "pace_score": 74,
+    "shoot_score": 57,
+    "pass_score": 89,
+    "dribble_score": 57,
+    "defense_score": 81,
+    "physic_score": 99,
+    "goals": 1.0,
+    "xg_total": 0.567488824,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 450.0,
+    "pass_completion": 0.8444444444,
+    "dribbles_total": 5.0,
+    "dribbles_won": 1.0,
+    "pressures": 52.0,
+    "progressive_passes": 114.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-4-3"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition",
+      "Dribble"
+    ],
+    "systems": [
+      "Piston offensif",
+      "Débordement",
+      "Centres"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Pedro González López",
+    "player_id": 30486.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "CM",
+    "overall": 84,
+    "market_value": "160-260M€",
+    "transfer_open": 67,
+    "pace_score": 76,
+    "shoot_score": 46,
+    "pass_score": 84,
+    "dribble_score": 73,
+    "defense_score": 99,
+    "physic_score": 95,
+    "goals": 0.0,
+    "xg_total": 0.169435123,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 309.0,
+    "pass_completion": 0.8673139159,
+    "dribbles_total": 6.0,
+    "dribbles_won": 4.0,
+    "pressures": 109.0,
+    "progressive_passes": 112.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-5-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Box-to-box",
+      "Pressing collectif",
+      "Transitions"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Granit Xhaka",
+    "player_id": 3500.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CDM",
+    "overall": 84,
+    "market_value": "160-260M€",
+    "transfer_open": 28,
+    "pace_score": 72,
+    "shoot_score": 57,
+    "pass_score": 95,
+    "dribble_score": 72,
+    "defense_score": 79,
+    "physic_score": 99,
+    "goals": 2.0,
+    "xg_total": 0.764400179,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 514.0,
+    "pass_completion": 0.9046692607,
+    "dribbles_total": 1.0,
+    "dribbles_won": 1.0,
+    "pressures": 49.0,
+    "progressive_passes": 183.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-5-2"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Passe de qualité",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Double pivot",
+      "Récupération",
+      "Bloc bas"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Vitor Machado Ferreira",
+    "player_id": 34639.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CM",
+    "overall": 84,
+    "market_value": "160-260M€",
+    "transfer_open": 26,
+    "pace_score": 80,
+    "shoot_score": 52,
+    "pass_score": 87,
+    "dribble_score": 80,
+    "defense_score": 99,
+    "physic_score": 84,
+    "goals": 0.0,
+    "xg_total": 0.531410034,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 345.0,
+    "pass_completion": 0.9101449275,
+    "dribbles_total": 9.0,
+    "dribbles_won": 6.0,
+    "pressures": 106.0,
+    "progressive_passes": 98.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-5-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Précision passe"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Box-to-box",
+      "Pressing collectif",
+      "Transitions"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Danilo Luís Hélio Pereira",
+    "player_id": 13621.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CB",
+    "overall": 83,
+    "market_value": "150-240M€",
+    "transfer_open": 28,
+    "pace_score": 79,
+    "shoot_score": 52,
+    "pass_score": 96,
+    "dribble_score": 71,
+    "defense_score": 68,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.02164392,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 412.0,
+    "pass_completion": 0.9368932039,
+    "dribbles_total": 4.0,
+    "dribbles_won": 3.0,
+    "pressures": 33.0,
+    "progressive_passes": 167.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Lionel Andrés Messi Cuccittini",
+    "player_id": 5503.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "ST",
+    "overall": 83,
+    "market_value": "150-240M€",
+    "transfer_open": 29,
+    "pace_score": 99,
+    "shoot_score": 65,
+    "pass_score": 90,
+    "dribble_score": 91,
+    "defense_score": 99,
+    "physic_score": 99,
+    "goals": 6.0,
+    "xg_total": 4.928233009,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 796.0,
+    "pass_completion": 0.8128140704,
+    "dribbles_total": 76.0,
+    "dribbles_won": 55.0,
+    "pressures": 91.0,
+    "progressive_passes": 246.0,
+    "formations": [
+      "4-3-3",
+      "4-4-2",
+      "4-2-3-1"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Attaque directe",
+      "Pressing avant",
+      "Profondeur"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Jonathan Tah",
+    "player_id": 8221.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CB",
+    "overall": 83,
+    "market_value": "150-240M€",
+    "transfer_open": 12,
+    "pace_score": 72,
+    "shoot_score": 46,
+    "pass_score": 97,
+    "dribble_score": 72,
+    "defense_score": 72,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.428481415,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 422.0,
+    "pass_completion": 0.9478672986,
+    "dribbles_total": 1.0,
+    "dribbles_won": 1.0,
+    "pressures": 38.0,
+    "progressive_passes": 164.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Fabián Ruiz Peña",
+    "player_id": 6655.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CM",
+    "overall": 83,
+    "market_value": "150-240M€",
+    "transfer_open": 42,
+    "pace_score": 80,
+    "shoot_score": 60,
+    "pass_score": 86,
+    "dribble_score": 70,
+    "defense_score": 99,
+    "physic_score": 82,
+    "goals": 1.0,
+    "xg_total": 1.104075862,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 363.0,
+    "pass_completion": 0.8760330579,
+    "dribbles_total": 9.0,
+    "dribbles_won": 3.0,
+    "pressures": 126.0,
+    "progressive_passes": 99.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-5-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Vitesse",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Box-to-box",
+      "Pressing collectif",
+      "Transitions"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Óscar Mingueza García",
+    "player_id": 43728.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "CB",
+    "overall": 82,
+    "market_value": "90-150M€",
+    "transfer_open": 17,
+    "pace_score": 69,
+    "shoot_score": 57,
+    "pass_score": 86,
+    "dribble_score": 63,
+    "defense_score": 82,
+    "physic_score": 90,
+    "goals": 1.0,
+    "xg_total": 0.533186991,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 312.0,
+    "pass_completion": 0.9423076923,
+    "dribbles_total": 5.0,
+    "dribbles_won": 2.0,
+    "pressures": 54.0,
+    "progressive_passes": 89.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Odilon Kossonou",
+    "player_id": 27133.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CB",
+    "overall": 82,
+    "market_value": "90-150M€",
+    "transfer_open": 87,
+    "pace_score": 77,
+    "shoot_score": 40,
+    "pass_score": 91,
+    "dribble_score": 69,
+    "defense_score": 73,
+    "physic_score": 96,
+    "goals": 0.0,
+    "xg_total": 0.023349753,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 365.0,
+    "pass_completion": 0.9315068493,
+    "dribbles_total": 5.0,
+    "dribbles_won": 3.0,
+    "pressures": 39.0,
+    "progressive_passes": 129.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Warren Zaire Emery",
+    "player_id": 144059.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "RWB",
+    "overall": 80,
+    "market_value": "80-120M€",
+    "transfer_open": 42,
+    "pace_score": 60,
+    "shoot_score": 42,
+    "pass_score": 72,
+    "dribble_score": 63,
+    "defense_score": 98,
+    "physic_score": 72,
+    "goals": 0.0,
+    "xg_total": 0.164017046,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 187.0,
+    "pass_completion": 0.8983957219,
+    "dribbles_total": 6.0,
+    "dribbles_won": 2.0,
+    "pressures": 74.0,
+    "progressive_passes": 35.0,
+    "formations": [
+      "3-4-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "3-4-3",
+    "strengths": [
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Piston droit",
+      "3 derrière",
+      "Transitions"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Frenkie de Jong",
+    "player_id": 8118.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "CM",
+    "overall": 79,
+    "market_value": "70-110M€",
+    "transfer_open": 90,
+    "pace_score": 81,
+    "shoot_score": 45,
+    "pass_score": 91,
+    "dribble_score": 80,
+    "defense_score": 64,
+    "physic_score": 99,
+    "goals": 0.0,
+    "xg_total": 0.481422516,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 386.0,
+    "pass_completion": 0.9300518135,
+    "dribbles_total": 8.0,
+    "dribbles_won": 6.0,
+    "pressures": 37.0,
+    "progressive_passes": 116.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-5-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Dribble efficace",
+      "Vitesse",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Box-to-box",
+      "Pressing collectif",
+      "Transitions"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Piero Martín Hincapié Reyna",
+    "player_id": 38004.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CB",
+    "overall": 79,
+    "market_value": "70-110M€",
+    "transfer_open": 89,
+    "pace_score": 69,
+    "shoot_score": 50,
+    "pass_score": 87,
+    "dribble_score": 57,
+    "defense_score": 81,
+    "physic_score": 79,
+    "goals": 0.0,
+    "xg_total": 0.361262699,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 327.0,
+    "pass_completion": 0.9051987768,
+    "dribbles_total": 3.0,
+    "dribbles_won": 1.0,
+    "pressures": 52.0,
+    "progressive_passes": 114.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition",
+      "Dribble"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Kylian Mbappé Lottin",
+    "player_id": 3009.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "ST",
+    "overall": 77,
+    "market_value": "60-90M€",
+    "transfer_open": 20,
+    "pace_score": 83,
+    "shoot_score": 68,
+    "pass_score": 77,
+    "dribble_score": 83,
+    "defense_score": 85,
+    "physic_score": 95,
+    "goals": 6.0,
+    "xg_total": 6.134734348,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 302.0,
+    "pass_completion": 0.8112582781,
+    "dribbles_total": 43.0,
+    "dribbles_won": 20.0,
+    "pressures": 68.0,
+    "progressive_passes": 68.0,
+    "formations": [
+      "4-3-3",
+      "4-4-2",
+      "4-2-3-1"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Passes progressives",
+      "Efficacité but"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Attaque directe",
+      "Pressing avant",
+      "Profondeur"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Ousmane Dembélé",
+    "player_id": 5477.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "RW",
+    "overall": 75,
+    "market_value": "50-80M€",
+    "transfer_open": 25,
+    "pace_score": 85,
+    "shoot_score": 61,
+    "pass_score": 76,
+    "dribble_score": 87,
+    "defense_score": 90,
+    "physic_score": 85,
+    "goals": 1.0,
+    "xg_total": 1.683614432,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 304.0,
+    "pass_completion": 0.7697368421,
+    "dribbles_total": 36.0,
+    "dribbles_won": 21.0,
+    "pressures": 76.0,
+    "progressive_passes": 79.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-4-3"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Dribble efficace",
+      "Pressing intense",
+      "Vitesse",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Haute pression",
+      "Ailier haut",
+      "Contre-pressing"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Achraf Hakimi Mouh",
+    "player_id": 5245.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "RWB",
+    "overall": 75,
+    "market_value": "50-80M€",
+    "transfer_open": 46,
+    "pace_score": 68,
+    "shoot_score": 65,
+    "pass_score": 73,
+    "dribble_score": 80,
+    "defense_score": 80,
+    "physic_score": 76,
+    "goals": 1.0,
+    "xg_total": 0.34268507,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 213.0,
+    "pass_completion": 0.8920187793,
+    "dribbles_total": 10.0,
+    "dribbles_won": 6.0,
+    "pressures": 50.0,
+    "progressive_passes": 30.0,
+    "formations": [
+      "3-4-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "3-4-3",
+    "strengths": [
+      "Dribble efficace",
+      "Pressing intense",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Piston droit",
+      "3 derrière",
+      "Transitions"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Florian Wirtz",
+    "player_id": 40724.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CAM",
+    "overall": 75,
+    "market_value": "50-80M€",
+    "transfer_open": 41,
+    "pace_score": 78,
+    "shoot_score": 72,
+    "pass_score": 71,
+    "dribble_score": 79,
+    "defense_score": 83,
+    "physic_score": 79,
+    "goals": 4.0,
+    "xg_total": 2.041546458,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 198.0,
+    "pass_completion": 0.8484848485,
+    "dribbles_total": 13.0,
+    "dribbles_won": 4.0,
+    "pressures": 66.0,
+    "progressive_passes": 45.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-4-3"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Pressing intense",
+      "Passes progressives",
+      "Efficacité but"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Jeu de possession",
+      "Milieu créatif",
+      "Entre les lignes"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Sergio Ramos García",
+    "player_id": 5201.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CB",
+    "overall": 74,
+    "market_value": "40-70M€",
+    "transfer_open": 11,
+    "pace_score": 73,
+    "shoot_score": 82,
+    "pass_score": 86,
+    "dribble_score": 59,
+    "defense_score": 66,
+    "physic_score": 80,
+    "goals": 1.0,
+    "xg_total": 0.08323985,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 259.0,
+    "pass_completion": 0.9305019305,
+    "dribbles_total": 2.0,
+    "dribbles_won": 1.0,
+    "pressures": 31.0,
+    "progressive_passes": 145.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Finition",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Dribble"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Marcos Aoás Corrêa",
+    "player_id": 4372.0,
+    "team": "Paris Saint-Germain",
+    "nationality": "FR",
+    "pos": "CB",
+    "overall": 74,
+    "market_value": "40-70M€",
+    "transfer_open": 21,
+    "pace_score": 62,
+    "shoot_score": 45,
+    "pass_score": 86,
+    "dribble_score": 40,
+    "defense_score": 76,
+    "physic_score": 72,
+    "goals": 0.0,
+    "xg_total": 0.461861547,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 277.0,
+    "pass_completion": 0.9458483755,
+    "dribbles_total": 0.0,
+    "dribbles_won": 0.0,
+    "pressures": 45.0,
+    "progressive_passes": 112.0,
+    "formations": [
+      "4-3-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Passe de qualité",
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition",
+      "Dribble"
+    ],
+    "systems": [
+      "Ligne haute",
+      "Sortie balle au sol",
+      "Couverture zone"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  },
+  {
+    "player": "Sergino Dest",
+    "player_id": 21881.0,
+    "team": "Barcelona",
+    "nationality": "EU",
+    "pos": "RB",
+    "overall": 72,
+    "market_value": "30-50M€",
+    "transfer_open": 71,
+    "pace_score": 66,
+    "shoot_score": 45,
+    "pass_score": 72,
+    "dribble_score": 77,
+    "defense_score": 76,
+    "physic_score": 71,
+    "goals": 0.0,
+    "xg_total": 0.139796148,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 194.0,
+    "pass_completion": 0.8917525773,
+    "dribbles_total": 9.0,
+    "dribbles_won": 5.0,
+    "pressures": 44.0,
+    "progressive_passes": 28.0,
+    "formations": [
+      "4-3-3",
+      "4-2-3-1",
+      "3-4-3"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Précision passe",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Finition"
+    ],
+    "systems": [
+      "Piston offensif",
+      "Débordement",
+      "Centres"
+    ],
+    "competitions": [
+      "La Liga 2020/21"
+    ]
+  },
+  {
+    "player": "Nathan Tella",
+    "player_id": 41411.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "RWB",
+    "overall": 70,
+    "market_value": "20-40M€",
+    "transfer_open": 71,
+    "pace_score": 74,
+    "shoot_score": 48,
+    "pass_score": 61,
+    "dribble_score": 80,
+    "defense_score": 78,
+    "physic_score": 64,
+    "goals": 0.0,
+    "xg_total": 0.21904598,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 104.0,
+    "pass_completion": 0.7884615385,
+    "dribbles_total": 14.0,
+    "dribbles_won": 5.0,
+    "pressures": 48.0,
+    "progressive_passes": 22.0,
+    "formations": [
+      "3-4-3",
+      "3-5-2",
+      "5-3-2"
+    ],
+    "best_formation": "3-4-3",
+    "strengths": [
+      "Dribble efficace",
+      "Passes progressives"
+    ],
+    "weaknesses": [
+      "Jeu de passe",
+      "Finition"
+    ],
+    "systems": [
+      "Piston droit",
+      "3 derrière",
+      "Transitions"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Exequiel Alejandro Palacios",
+    "player_id": 28268.0,
+    "team": "Bayer Leverkusen",
+    "nationality": "DE",
+    "pos": "CDM",
+    "overall": 70,
+    "market_value": "20-40M€",
+    "transfer_open": 39,
+    "pace_score": 58,
+    "shoot_score": 63,
+    "pass_score": 69,
+    "dribble_score": 75,
+    "defense_score": 77,
+    "physic_score": 64,
+    "goals": 1.0,
+    "xg_total": 1.092921983,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 148.0,
+    "pass_completion": 0.8851351351,
+    "dribbles_total": 5.0,
+    "dribbles_won": 4.0,
+    "pressures": 46.0,
+    "progressive_passes": 37.0,
+    "formations": [
+      "4-2-3-1",
+      "4-3-3",
+      "3-5-2"
+    ],
+    "best_formation": "4-2-3-1",
+    "strengths": [
+      "Précision passe",
+      "Passes progressives",
+      "Dribble réussi"
+    ],
+    "weaknesses": [
+      "Régularité",
+      "Expérience top niveau"
+    ],
+    "systems": [
+      "Double pivot",
+      "Récupération",
+      "Bloc bas"
+    ],
+    "competitions": [
+      "Bundesliga 2023/24"
+    ]
+  },
+  {
+    "player": "Mathew Leckie",
+    "player_id": 5481.0,
+    "team": "Australia",
+    "nationality": "EU",
+    "pos": "RM",
+    "overall": 70,
+    "market_value": "20-40M€",
+    "transfer_open": 16,
+    "pace_score": 68,
+    "shoot_score": 83,
+    "pass_score": 52,
+    "dribble_score": 68,
+    "defense_score": 77,
+    "physic_score": 60,
+    "goals": 1.0,
+    "xg_total": 0.11353828,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 74.0,
+    "pass_completion": 0.6486486486,
+    "dribbles_total": 11.0,
+    "dribbles_won": 1.0,
+    "pressures": 56.0,
+    "progressive_passes": 17.0,
+    "formations": [
+      "4-4-2",
+      "4-2-3-1"
+    ],
+    "best_formation": "4-4-2",
+    "strengths": [
+      "Finition"
+    ],
+    "weaknesses": [
+      "Jeu de passe"
+    ],
+    "systems": [
+      "Ailier rentrant",
+      "Contre-attaque"
+    ],
+    "competitions": [
+      "FIFA World Cup 2022"
+    ]
+  },
+  {
+    "player": "Bradley Barcola",
+    "player_id": 39420.0,
+    "team": "Lyon",
+    "nationality": "EU",
+    "pos": "ST",
+    "overall": 69,
+    "market_value": "20-30M€",
+    "transfer_open": 81,
+    "pace_score": 60,
+    "shoot_score": 78,
+    "pass_score": 61,
+    "dribble_score": 73,
+    "defense_score": 85,
+    "physic_score": 47,
+    "goals": 2.0,
+    "xg_total": 1.298907011,
+    "assists": 0.0,
+    "key_passes": 0.0,
+    "passes_total": 29.0,
+    "pass_completion": 0.8965517241,
+    "dribbles_total": 8.0,
+    "dribbles_won": 4.0,
+    "pressures": 68.0,
+    "progressive_passes": 8.0,
+    "formations": [
+      "4-3-3",
+      "4-4-2",
+      "4-2-3-1"
+    ],
+    "best_formation": "4-3-3",
+    "strengths": [
+      "Pressing intense",
+      "Précision passe"
+    ],
+    "weaknesses": [
+      "Jeu de passe"
+    ],
+    "systems": [
+      "Attaque directe",
+      "Pressing avant",
+      "Profondeur"
+    ],
+    "competitions": [
+      "Ligue 1 2022/23"
+    ]
+  }
+]
