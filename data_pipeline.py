@@ -64,19 +64,93 @@ POS_MAP = {
     'Left Center Forward': 'ST', 'Right Center Forward': 'ST', 'Center Forward': 'ST', 'Secondary Striker': 'ST',
 }
 
-TEAM_NAT = {
-    'France':'FR','Spain':'ES','Germany':'DE','Portugal':'PT','Brazil':'BR','Argentina':'AR',
-    'England':'EN','Italy':'IT','Netherlands':'NL','Belgium':'BE','Croatia':'HR','Morocco':'MA',
-    'Senegal':'SN','Nigeria':'NG','Serbia':'RS','Denmark':'DK','Switzerland':'CH','Austria':'AT',
-    'Turkey':'TR','Ukraine':'UA','Poland':'PL','Georgia':'GE','Scotland':'SC','Hungary':'HU',
-    'Albania':'AL','Romania':'RO','Slovenia':'SI',
-    'FC Barcelona':'ES','Real Madrid':'ES','Atlético de Madrid':'ES','Real Betis':'ES',
-    'Paris Saint-Germain':'FR','Olympique de Marseille':'FR','AS Monaco':'FR','Stade Rennais':'FR',
-    'Bayern München':'DE','Bayer Leverkusen':'DE','Borussia Dortmund':'DE','Eintracht Frankfurt':'DE',
-    'Juventus':'IT','Inter':'IT','AC Milan':'IT','Napoli':'IT',
-    'Manchester City':'EN','Arsenal':'EN','Liverpool':'EN','Chelsea':'EN','Tottenham Hotspur':'EN',
-    'Manchester United':'EN','Galatasaray':'TR','Benfica':'PT','Porto':'PT','Sporting CP':'PT',
-    'Ajax':'NL','PSV Eindhoven':'NL','Feyenoord':'NL',
+# Mapping équipes NATIONALES StatsBomb → code pays
+# Ne contient QUE les équipes nationales, pas les clubs
+NATIONAL_TEAM_NAT = {
+    'France': 'FR', 'Spain': 'ES', 'Germany': 'DE', 'Portugal': 'PT',
+    'Brazil': 'BR', 'Argentina': 'AR', 'England': 'EN', 'Italy': 'IT',
+    'Netherlands': 'NL', 'Belgium': 'BE', 'Croatia': 'HR', 'Morocco': 'MA',
+    'Senegal': 'SN', 'Nigeria': 'NG', 'Serbia': 'RS', 'Denmark': 'DK',
+    'Switzerland': 'CH', 'Austria': 'AT', 'Turkey': 'TR', 'Ukraine': 'UA',
+    'Poland': 'PL', 'Georgia': 'GE', 'Scotland': 'SC', 'Hungary': 'HU',
+    'Albania': 'AL', 'Romania': 'RO', 'Slovenia': 'SI', 'Uruguay': 'UY',
+    'Colombia': 'CO', 'Ecuador': 'EC', 'Chile': 'CL', 'Mexico': 'MX',
+    'United States': 'US', 'Canada': 'CA', 'Japan': 'JP', 'South Korea': 'KR',
+    'Australia': 'AU', 'Cameroon': 'CM', 'Ghana': 'GH', 'Tunisia': 'TN',
+    'Saudi Arabia': 'SA', 'Iran': 'IR', 'Costa Rica': 'CR', 'Wales': 'WL',
+    'Czech Republic': 'CZ', 'Slovakia': 'SK',
+}
+
+# Noms grand public — corrige les noms complets StatsBomb vers noms connus
+PLAYER_NAME_CLEAN = {
+    # France
+    'Kylian Mbappé Lottin':                    'Kylian Mbappé',
+    'Aurélien Djani Tchouaméni':               'Aurélien Tchouaméni',
+    'Dayotchanculle Upamecano':                'Dayot Upamecano',
+    'Theo Bernard François Hernández':         'Theo Hernandez',
+    'Mike Maignan':                            'Mike Maignan',
+    'William Saliba':                          'William Saliba',
+    'Jules Koundé':                            'Jules Koundé',
+    'Ibrahima Konaté':                         'Ibrahima Konaté',
+    'Adrien Rabiot':                           'Adrien Rabiot',
+    'Antoine Griezmann':                       'Antoine Griezmann',
+    'Ousmane Dembélé':                         'Ousmane Dembélé',
+    'Marcus Thuram':                           'Marcus Thuram',
+    'Olivier Giroud':                          'Olivier Giroud',
+    'Kingsley Coman':                          'Kingsley Coman',
+    'Bradley Barcola':                         'Bradley Barcola',
+    'Eduardo Camavinga':                       'Eduardo Camavinga',
+    'Youssouf Fofana':                         'Youssouf Fofana',
+    'Randal Kolo Muani':                       'Randal Kolo Muani',
+    "N'Golo Kanté":                            "N'Golo Kanté",
+    # Espagne
+    'Jordi Alba Ramos':                        'Jordi Alba',
+    'Sergio Ramos García':                     'Sergio Ramos',
+    'Álvaro Borja Morata Martín':              'Álvaro Morata',
+    'Dani Olmo Carvajal':                      'Dani Olmo',
+    'Lamine Yamal Nasraoui Ebana':             'Lamine Yamal',
+    'Mikel Merino Zazón':                      'Mikel Merino',
+    'Fabián Ruiz Peña':                        'Fabián Ruiz',
+    'Marc Cucurella Saseta':                   'Marc Cucurella',
+    'Nacho Fernández Iglesias':                'Nacho',
+    # Allemagne
+    'Edmond Fayçal Tapsoba':                   'Edmond Tapsoba',
+    'Piero Martín Hincapié Reyna':             'Piero Hincapié',
+    'Ilkay Gündogan':                          'İlkay Gündoğan',
+    'Thomas Müller':                           'Thomas Müller',
+    # Portugal
+    'Cristiano Ronaldo dos Santos Aveiro':     'Cristiano Ronaldo',
+    'Bruno Miguel Borges Fernandes':           'Bruno Fernandes',
+    'João Félix Sequeira':                     'João Félix',
+    'Bernardo Mota Veiga de Carvalho e Silva': 'Bernardo Silva',
+    'Rúben Santos Gato Alves Dias':            'Rúben Dias',
+    'Vitor Machado Ferreira':                  'Vitinha',
+    'Marcos Aoás Corrêa':                      'Marquinhos',
+    # Argentine
+    'Lionel Andrés Messi Cuccittini':          'Lionel Messi',
+    'Ángel Fabián Di María Hernández':         'Ángel Di María',
+    # Maroc
+    'Achraf Hakimi Mouh':                      'Achraf Hakimi',
+    # Espagne — noms complets → noms grand public
+    'Sergio Busquets i Burgos':                'Sergio Busquets',
+    'Pedro González López':                    'Pedri',
+    'Anssumane Fati':                          'Ansu Fati',
+    'Ferran Torres García':                    'Ferran Torres',
+    'Alejandro Baldé Martínez':               'Alejandro Balde',
+    'Rodrigo Hernández Cascante':              'Rodri',
+    'Daniel Carvajal Ramos':                  'Dani Carvajal',
+    'Jesús Navas González':                   'Jesús Navas',
+    'José Luis Gayà Peña':                    'José Gayà',
+    # Angleterre
+    'Jude Victor William Bellingham':         'Jude Bellingham',
+    'Harry Edward Kane':                      'Harry Kane',
+    # Italie
+    'Nicolo Barella':                         'Nicolò Barella',
+    'Federico Bernardeschi':                  'Federico Bernardeschi',
+    # Pays-Bas
+    'Memphis Depay':                          'Memphis Depay',
+    'Virgil van Dijk':                        'Virgil van Dijk',
+    'Cody Gakpo':                             'Cody Gakpo',
 }
 
 
@@ -95,11 +169,36 @@ def aggregate_player_stats(events):
     dribbles = ev[ev['type'] == 'Dribble']
     pressure = ev[ev['type'] == 'Pressure']
 
-    base = ev.groupby(['player', 'player_id', 'team']).agg(
+    # Capturer les équipes nationales jouées par chaque joueur
+    # On garde la team nationale si elle apparaît dans NATIONAL_TEAM_NAT
+    def get_nat_team(teams):
+        for t in teams:
+            if t in NATIONAL_TEAM_NAT:
+                return t
+        return None
+
+    # Séparer équipes nationales et clubs
+    national_teams = set(NATIONAL_TEAM_NAT.keys())
+
+    # Pour le groupby principal : garder le club (la team la plus fréquente hors équipe nationale)
+    def get_club_team(teams_series):
+        clubs = [t for t in teams_series if t not in national_teams]
+        if clubs:
+            return pd.Series(clubs).mode()[0]
+        return teams_series.mode()[0]
+
+    base = ev.groupby(['player', 'player_id']).agg(
+        team=('team', get_club_team),
         competitions=('competition', lambda x: list(x.unique())),
         position=('position', lambda x: x.mode()[0] if len(x.mode()) > 0 else 'Unknown'),
         total_actions=('id', 'count'),
     ).reset_index()
+
+    # Récupérer la nationalité depuis les équipes nationales
+    all_teams = ev.groupby('player')['team'].apply(lambda x: list(x.unique())).reset_index()
+    all_teams.columns = ['player', 'all_teams']
+    all_teams['nat_team'] = all_teams['all_teams'].apply(get_nat_team)
+    base = base.merge(all_teams[['player','nat_team']], on='player', how='left')
 
     p_stats = passes.groupby('player').agg(
         passes_total=('id', 'count'),
@@ -181,22 +280,55 @@ BIG_CLUBS = ['Paris Saint-Germain','FC Barcelona','Real Madrid','Bayern München
 def build_profiles(df):
     df = df[df['total_actions'] >= MIN_ACTIONS].copy()
     df['pos'] = df['position'].map(POS_MAP).fillna('MID')
-    df['nationality'] = df['team'].map(TEAM_NAT).fillna('EU')
+    # Nationalité depuis l'équipe nationale (pas le club)
+    df['nationality'] = df['nat_team'].map(NATIONAL_TEAM_NAT).fillna('EU')
 
-    # Scores
-    df['pass_score']    = (scale(df['passes_total'])*0.4 + scale(df['pass_completion'],0.5,1.0)*0.4 + scale(df['progressive_passes'])*0.2).clip(40,99).round().astype(int)
-    df['shoot_score']   = (scale(df['goals']/(df['shots_total'].clip(1,None)))*0.5 + scale(df['xg_total'])*0.3 + scale(df['shots_on_target']/(df['shots_total'].clip(1,None)))*0.2).clip(40,99).round().astype(int)
-    df['dribble_score'] = (scale(df['dribbles_total'])*0.5 + scale(df['dribbles_won']/(df['dribbles_total'].clip(1,None)),0,1)*0.5).clip(40,99).round().astype(int)
-    df['defense_score'] = scale(df['pressures']).clip(40,99).round().astype(int)
-    df['physic_score']  = scale(df['total_actions']).clip(40,99).round().astype(int)
-    df['pace_score']    = (scale(df['dribbles_total'])*0.5 + scale(df['progressive_passes'])*0.5).clip(40,99).round().astype(int)
+    # Nettoyage des noms vers noms grand public
+    df['player'] = df['player'].map(PLAYER_NAME_CLEAN).fillna(df['player'])
+
+    # ── Normalisation par match pour éviter le biais volume
+    # (les joueurs de grandes équipes accumulent plus d'actions)
+    n_matches = df['competitions'].apply(len).clip(1, None)
+
+    pass_per_match    = df['passes_total'] / n_matches
+    prog_per_match    = df['progressive_passes'] / n_matches
+    drib_per_match    = df['dribbles_total'] / n_matches
+    press_per_match   = df['pressures'] / n_matches
+    actions_per_match = df['total_actions'] / n_matches
+    xg_per_match      = df['xg_total'] / n_matches
+    goals_per_match   = df['goals'] / n_matches
+
+    # Scores basés sur ratios et efficacité, pas le volume brut
+    df['pass_score'] = (
+        scale(pass_per_match) * 0.3 +
+        scale(df['pass_completion'], 0.5, 1.0) * 0.5 +
+        scale(prog_per_match) * 0.2
+    ).clip(40, 99).round().astype(int)
+
+    df['shoot_score'] = (
+        scale(df['goals'] / df['shots_total'].clip(1, None)) * 0.4 +
+        scale(xg_per_match) * 0.4 +
+        scale(df['shots_on_target'] / df['shots_total'].clip(1, None)) * 0.2
+    ).clip(40, 99).round().astype(int)
+
+    df['dribble_score'] = (
+        scale(drib_per_match) * 0.4 +
+        scale(df['dribbles_won'] / df['dribbles_total'].clip(1, None), 0, 1) * 0.6
+    ).clip(40, 99).round().astype(int)
+
+    df['defense_score'] = scale(press_per_match).clip(40, 99).round().astype(int)
+    df['physic_score']  = scale(actions_per_match).clip(40, 99).round().astype(int)
+    df['pace_score']    = (
+        scale(drib_per_match) * 0.5 +
+        scale(prog_per_match) * 0.5
+    ).clip(40, 99).round().astype(int)
 
     # Boost défense pour positions défensives
     def_mask = df['pos'].isin(['GK','CB','LB','RB','LWB','RWB','CDM'])
-    boosted = (df.loc[def_mask, 'defense_score'].astype(float) * 1.1).clip(40,99).round().astype(int)
+    boosted = (df.loc[def_mask, 'defense_score'].astype(float) * 1.1).clip(40, 99).round().astype(int)
     df['defense_score'] = df['defense_score'].astype(object)
     df.loc[def_mask, 'defense_score'] = boosted
-    df['defense_score'] = pd.to_numeric(df['defense_score']).clip(40,99).round().astype(int)
+    df['defense_score'] = pd.to_numeric(df['defense_score']).clip(40, 99).round().astype(int)
 
     # Overall
     def overall(row):
@@ -211,14 +343,38 @@ def build_profiles(df):
 
     df['overall'] = df.apply(overall, axis=1).clip(55, 97)
 
-    # Valeur marchande
+    # Valeur marchande — fourchettes réalistes inspirées de Transfermarkt
+    # Plafond absolu : 200M€ (record historique Neymar PSG 2017)
+    # Source des fourchettes : valeurs médianes Transfermarkt par niveau
     def market_val(row):
-        base = (row['overall'] - 55) ** 2.2 * 0.08
-        if row['overall'] >= 88: base *= 2.5
-        elif row['overall'] >= 83: base *= 1.5
-        lo = max(1, int(base*0.8)); hi = max(lo+5, int(base*1.3))
-        r = lambda v: round(v,-1) if v>=10 else v
-        return f"{r(lo)}-{r(hi)}M€"
+        ov = row['overall']
+        pos = row['pos']
+
+        # Gardiens valent structurellement moins
+        gk_factor = 0.6 if pos == 'GK' else 1.0
+
+        # Fourchette de base selon la note overall
+        if ov >= 93:   lo, hi = 150, 200   # Mbappé, Haaland, Vinicius
+        elif ov >= 90: lo, hi = 100, 150   # top mondial
+        elif ov >= 87: lo, hi =  60, 100   # très haut niveau
+        elif ov >= 84: lo, hi =  30,  60   # international confirmé
+        elif ov >= 81: lo, hi =  15,  30   # bon niveau L1/PL
+        elif ov >= 78: lo, hi =   8,  15   # milieu de tableau L1
+        elif ov >= 75: lo, hi =   3,   8   # rotation / remplaçant
+        elif ov >= 70: lo, hi =   1,   3   # ligue 2 / mercato libre
+        else:          lo, hi = 0.1, 0.8   # joueurs peu actifs
+
+        lo = round(lo * gk_factor, 1)
+        hi = round(hi * gk_factor, 1)
+
+        # Formatage lisible
+        def fmt(v):
+            if v >= 1:
+                return f"{int(round(v))}M€"
+            else:
+                return f"{int(v*1000)}K€"
+
+        return f"{fmt(lo)} – {fmt(hi)}"
 
     df['market_value'] = df.apply(market_val, axis=1)
 
