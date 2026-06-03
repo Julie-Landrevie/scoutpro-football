@@ -1,0 +1,713 @@
+{
+  "_info": "Fichier de référence manuel — valeurs Transfermarkt juin 2026, notes FIFA 25 approximatives",
+  "_source": "Transfermarkt.com + EA FC 25",
+  "_last_updated": "2026-06",
+  "players": [
+    {
+      "name": "Kylian Mbappé",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 91,
+      "market_value": "180M€ – 200M€",
+      "age": 27,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Erling Haaland",
+      "nationality": "NO",
+      "pos": "ST",
+      "overall": 91,
+      "market_value": "180M€ – 200M€",
+      "age": 24,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Vinicius Junior",
+      "nationality": "BR",
+      "pos": "LW",
+      "overall": 92,
+      "market_value": "180M€ – 200M€",
+      "age": 24,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Jude Bellingham",
+      "nationality": "EN",
+      "pos": "CAM",
+      "overall": 90,
+      "market_value": "150M€ – 180M€",
+      "age": 21,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Rodrygo",
+      "nationality": "BR",
+      "pos": "RW",
+      "overall": 87,
+      "market_value": "100M€ – 130M€",
+      "age": 24,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Phil Foden",
+      "nationality": "EN",
+      "pos": "LW",
+      "overall": 89,
+      "market_value": "120M€ – 150M€",
+      "age": 24,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Bukayo Saka",
+      "nationality": "EN",
+      "pos": "RW",
+      "overall": 88,
+      "market_value": "130M€ – 160M€",
+      "age": 23,
+      "club": "Arsenal"
+    },
+    {
+      "name": "Pedri",
+      "nationality": "ES",
+      "pos": "CM",
+      "overall": 88,
+      "market_value": "100M€ – 130M€",
+      "age": 22,
+      "club": "Barcelona"
+    },
+    {
+      "name": "Gavi",
+      "nationality": "ES",
+      "pos": "CM",
+      "overall": 87,
+      "market_value": "80M€ – 110M€",
+      "age": 20,
+      "club": "Barcelona"
+    },
+    {
+      "name": "Lamine Yamal",
+      "nationality": "ES",
+      "pos": "RW",
+      "overall": 87,
+      "market_value": "150M€ – 180M€",
+      "age": 17,
+      "club": "Barcelona"
+    },
+    {
+      "name": "Florian Wirtz",
+      "nationality": "DE",
+      "pos": "CAM",
+      "overall": 88,
+      "market_value": "130M€ – 160M€",
+      "age": 22,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Jamal Musiala",
+      "nationality": "DE",
+      "pos": "CAM",
+      "overall": 88,
+      "market_value": "120M€ – 150M€",
+      "age": 22,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Lionel Messi",
+      "nationality": "AR",
+      "pos": "RW",
+      "overall": 84,
+      "market_value": "20M€ – 35M€",
+      "age": 38,
+      "club": "Inter Miami"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "nationality": "PT",
+      "pos": "ST",
+      "overall": 82,
+      "market_value": "15M€ – 25M€",
+      "age": 41,
+      "club": "Al-Nassr"
+    },
+    {
+      "name": "Neymar",
+      "nationality": "BR",
+      "pos": "LW",
+      "overall": 82,
+      "market_value": "15M€ – 30M€",
+      "age": 33,
+      "club": "Al-Hilal"
+    },
+    {
+      "name": "Karim Benzema",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 82,
+      "market_value": "10M€ – 20M€",
+      "age": 37,
+      "club": "Al-Ittihad"
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "nationality": "FR",
+      "pos": "CDM",
+      "overall": 86,
+      "market_value": "80M€ – 100M€",
+      "age": 25,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "nationality": "FR",
+      "pos": "RW",
+      "overall": 86,
+      "market_value": "60M€ – 80M€",
+      "age": 28,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Antoine Griezmann",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 85,
+      "market_value": "25M€ – 40M€",
+      "age": 35,
+      "club": "Atlético de Madrid"
+    },
+    {
+      "name": "William Saliba",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 87,
+      "market_value": "80M€ – 100M€",
+      "age": 24,
+      "club": "Arsenal"
+    },
+    {
+      "name": "Jules Koundé",
+      "nationality": "FR",
+      "pos": "RB",
+      "overall": 86,
+      "market_value": "60M€ – 80M€",
+      "age": 26,
+      "club": "Barcelona"
+    },
+    {
+      "name": "Adrien Rabiot",
+      "nationality": "FR",
+      "pos": "CM",
+      "overall": 83,
+      "market_value": "20M€ – 35M€",
+      "age": 30,
+      "club": "Marseille"
+    },
+    {
+      "name": "N'Golo Kanté",
+      "nationality": "FR",
+      "pos": "CDM",
+      "overall": 84,
+      "market_value": "20M€ – 35M€",
+      "age": 34,
+      "club": "Al-Ittihad"
+    },
+    {
+      "name": "Mike Maignan",
+      "nationality": "FR",
+      "pos": "GK",
+      "overall": 87,
+      "market_value": "40M€ – 60M€",
+      "age": 29,
+      "club": "AC Milan"
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 85,
+      "market_value": "60M€ – 80M€",
+      "age": 26,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Bradley Barcola",
+      "nationality": "FR",
+      "pos": "LW",
+      "overall": 84,
+      "market_value": "60M€ – 80M€",
+      "age": 22,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Marcus Thuram",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 84,
+      "market_value": "50M€ – 70M€",
+      "age": 27,
+      "club": "Inter"
+    },
+    {
+      "name": "Dayot Upamecano",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 84,
+      "market_value": "45M€ – 65M€",
+      "age": 26,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Clément Lenglet",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 78,
+      "market_value": "8M€ – 15M€",
+      "age": 29,
+      "club": "Atlético de Madrid"
+    },
+    {
+      "name": "Jordi Alba",
+      "nationality": "ES",
+      "pos": "LB",
+      "overall": 78,
+      "market_value": "5M€ – 10M€",
+      "age": 35,
+      "club": "Inter Miami"
+    },
+    {
+      "name": "Sergio Busquets",
+      "nationality": "ES",
+      "pos": "CDM",
+      "overall": 79,
+      "market_value": "5M€ – 10M€",
+      "age": 36,
+      "club": "Inter Miami"
+    },
+    {
+      "name": "Sergio Ramos",
+      "nationality": "ES",
+      "pos": "CB",
+      "overall": 79,
+      "market_value": "5M€ – 10M€",
+      "age": 39,
+      "club": "Sevilla"
+    },
+    {
+      "name": "Rodri",
+      "nationality": "ES",
+      "pos": "CDM",
+      "overall": 91,
+      "market_value": "120M€ – 150M€",
+      "age": 29,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Dani Olmo",
+      "nationality": "ES",
+      "pos": "CAM",
+      "overall": 87,
+      "market_value": "70M€ – 90M€",
+      "age": 26,
+      "club": "Barcelona"
+    },
+    {
+      "name": "Álvaro Morata",
+      "nationality": "ES",
+      "pos": "ST",
+      "overall": 83,
+      "market_value": "20M€ – 35M€",
+      "age": 32,
+      "club": "AC Milan"
+    },
+    {
+      "name": "Toni Kroos",
+      "nationality": "DE",
+      "pos": "CM",
+      "overall": 86,
+      "market_value": "15M€ – 25M€",
+      "age": 35,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "nationality": "DE",
+      "pos": "CDM",
+      "overall": 88,
+      "market_value": "60M€ – 80M€",
+      "age": 29,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Bruno Fernandes",
+      "nationality": "PT",
+      "pos": "CAM",
+      "overall": 87,
+      "market_value": "70M€ – 90M€",
+      "age": 30,
+      "club": "Manchester United"
+    },
+    {
+      "name": "Bernardo Silva",
+      "nationality": "PT",
+      "pos": "CM",
+      "overall": 88,
+      "market_value": "80M€ – 100M€",
+      "age": 30,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Rúben Dias",
+      "nationality": "PT",
+      "pos": "CB",
+      "overall": 88,
+      "market_value": "80M€ – 100M€",
+      "age": 27,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Julián Álvarez",
+      "nationality": "AR",
+      "pos": "ST",
+      "overall": 87,
+      "market_value": "90M€ – 120M€",
+      "age": 25,
+      "club": "Atlético de Madrid"
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "nationality": "AR",
+      "pos": "CM",
+      "overall": 86,
+      "market_value": "70M€ – 90M€",
+      "age": 26,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Lautaro Martínez",
+      "nationality": "AR",
+      "pos": "ST",
+      "overall": 88,
+      "market_value": "100M€ – 130M€",
+      "age": 27,
+      "club": "Inter"
+    },
+    {
+      "name": "Virgil van Dijk",
+      "nationality": "NL",
+      "pos": "CB",
+      "overall": 87,
+      "market_value": "25M€ – 40M€",
+      "age": 33,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Cody Gakpo",
+      "nationality": "NL",
+      "pos": "LW",
+      "overall": 85,
+      "market_value": "60M€ – 80M€",
+      "age": 26,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "nationality": "BE",
+      "pos": "CM",
+      "overall": 88,
+      "market_value": "30M€ – 50M€",
+      "age": 34,
+      "club": "Manchester City"
+    },
+    {
+      "name": "Romelu Lukaku",
+      "nationality": "BE",
+      "pos": "ST",
+      "overall": 84,
+      "market_value": "20M€ – 35M€",
+      "age": 31,
+      "club": "Napoli"
+    },
+    {
+      "name": "Achraf Hakimi",
+      "nationality": "MA",
+      "pos": "RB",
+      "overall": 87,
+      "market_value": "60M€ – 80M€",
+      "age": 26,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Luka Modrić",
+      "nationality": "HR",
+      "pos": "CM",
+      "overall": 83,
+      "market_value": "8M€ – 15M€",
+      "age": 40,
+      "club": "Real Madrid"
+    },
+    {
+      "name": "Alisson",
+      "nationality": "BR",
+      "pos": "GK",
+      "overall": 89,
+      "market_value": "40M€ – 60M€",
+      "age": 32,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Harry Kane",
+      "nationality": "EN",
+      "pos": "ST",
+      "overall": 90,
+      "market_value": "80M€ – 100M€",
+      "age": 31,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Mohamed Salah",
+      "nationality": "EG",
+      "pos": "RW",
+      "overall": 88,
+      "market_value": "30M€ – 50M€",
+      "age": 33,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Federico Chiesa",
+      "nationality": "IT",
+      "pos": "RW",
+      "overall": 83,
+      "market_value": "25M€ – 40M€",
+      "age": 27,
+      "club": "Liverpool"
+    },
+    {
+      "name": "Nicolò Barella",
+      "nationality": "IT",
+      "pos": "CM",
+      "overall": 87,
+      "market_value": "70M€ – 90M€",
+      "age": 27,
+      "club": "Inter"
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "nationality": "AR",
+      "pos": "LW",
+      "overall": 84,
+      "market_value": "60M€ – 80M€",
+      "age": 20,
+      "club": "Manchester United"
+    },
+    {
+      "name": "Désiré Doué",
+      "nationality": "FR",
+      "pos": "LW",
+      "overall": 83,
+      "market_value": "50M€ – 70M€",
+      "age": 20,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "nationality": "FR",
+      "pos": "CM",
+      "overall": 82,
+      "market_value": "40M€ – 60M€",
+      "age": 19,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Michael Olise",
+      "nationality": "FR",
+      "pos": "RW",
+      "overall": 85,
+      "market_value": "60M€ – 80M€",
+      "age": 23,
+      "club": "Bayern München"
+    },
+    {
+      "name": "Rayan Cherki",
+      "nationality": "FR",
+      "pos": "CAM",
+      "overall": 82,
+      "market_value": "35M€ – 50M€",
+      "age": 21,
+      "club": "Paris Saint-Germain"
+    },
+    {
+      "name": "Olivier Giroud",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 80,
+      "market_value": "3M€ – 8M€"
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 81,
+      "market_value": "40M€ – 60M€"
+    },
+    {
+      "name": "Kingsley Coman",
+      "nationality": "FR",
+      "pos": "LW",
+      "overall": 83,
+      "market_value": "20M€ – 35M€"
+    },
+    {
+      "name": "Steve Mandanda",
+      "nationality": "FR",
+      "pos": "GK",
+      "overall": 76,
+      "market_value": "1M€ – 3M€"
+    },
+    {
+      "name": "Jordan Veretout",
+      "nationality": "FR",
+      "pos": "CM",
+      "overall": 78,
+      "market_value": "5M€ – 10M€"
+    },
+    {
+      "name": "Youssouf Fofana",
+      "nationality": "FR",
+      "pos": "CDM",
+      "overall": 82,
+      "market_value": "30M€ – 50M€"
+    },
+    {
+      "name": "Raphaël Varane",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 82,
+      "market_value": "5M€ – 10M€"
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "nationality": "FR",
+      "pos": "CM",
+      "overall": 84,
+      "market_value": "70M€ – 90M€"
+    },
+    {
+      "name": "Presnel Kimpembe",
+      "nationality": "FR",
+      "pos": "CB",
+      "overall": 80,
+      "market_value": "15M€ – 25M€"
+    },
+    {
+      "name": "Christopher Nkunku",
+      "nationality": "FR",
+      "pos": "CAM",
+      "overall": 85,
+      "market_value": "50M€ – 70M€"
+    },
+    {
+      "name": "Moussa Diaby",
+      "nationality": "FR",
+      "pos": "RW",
+      "overall": 83,
+      "market_value": "40M€ – 60M€"
+    },
+    {
+      "name": "Hugo Ekitike",
+      "nationality": "FR",
+      "pos": "ST",
+      "overall": 80,
+      "market_value": "25M€ – 40M€"
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "nationality": "ES",
+      "pos": "ST",
+      "overall": 83,
+      "market_value": "30M€ – 50M€"
+    },
+    {
+      "name": "Martín Zubimendi",
+      "nationality": "ES",
+      "pos": "CDM",
+      "overall": 85,
+      "market_value": "60M€ – 80M€"
+    },
+    {
+      "name": "Robin Le Normand",
+      "nationality": "ES",
+      "pos": "CB",
+      "overall": 82,
+      "market_value": "25M€ – 40M€"
+    },
+    {
+      "name": "Pau Torres",
+      "nationality": "ES",
+      "pos": "CB",
+      "overall": 83,
+      "market_value": "30M€ – 50M€"
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "nationality": "ES",
+      "pos": "LB",
+      "overall": 85,
+      "market_value": "40M€ – 60M€"
+    },
+    {
+      "name": "Alejandro Balde",
+      "nationality": "ES",
+      "pos": "LB",
+      "overall": 84,
+      "market_value": "50M€ – 70M€"
+    },
+    {
+      "name": "Odilon Kossonou",
+      "nationality": "CI",
+      "pos": "CB",
+      "overall": 79,
+      "market_value": "20M€ – 35M€"
+    },
+    {
+      "name": "Juan Bernat",
+      "nationality": "ES",
+      "pos": "LB",
+      "overall": 76,
+      "market_value": "5M€ – 10M€"
+    },
+    {
+      "name": "Victor Boniface",
+      "nationality": "NG",
+      "pos": "ST",
+      "overall": 82,
+      "market_value": "35M€ – 50M€"
+    },
+    {
+      "name": "Georges Mikautadze",
+      "nationality": "GE",
+      "pos": "ST",
+      "overall": 79,
+      "market_value": "20M€ – 35M€"
+    },
+    {
+      "name": "Breel Embolo",
+      "nationality": "CH",
+      "pos": "ST",
+      "overall": 79,
+      "market_value": "15M€ – 25M€"
+    },
+    {
+      "name": "Darwin Núñez",
+      "nationality": "UY",
+      "pos": "ST",
+      "overall": 84,
+      "market_value": "60M€ – 80M€"
+    },
+    {
+      "name": "Luka Jovic",
+      "nationality": "RS",
+      "pos": "ST",
+      "overall": 79,
+      "market_value": "10M€ – 20M€"
+    }
+  ]
+}
