@@ -1,7 +1,7 @@
 {
   "player_name": "Leandro Daniel Paredes",
   "matches_analyzed": 64,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 5.98,
   "xg_per90": 0.09,
   "shots_total": 68,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 78.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Ángel Martín Correa",
   "matches_analyzed": 39,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 4.13,
   "xg_per90": 0.11,
   "shots_total": 37,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 70.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Roque Mesa Quevedo",
   "matches_analyzed": 44,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.51,
   "xg_per90": 0.06,
   "shots_total": 45,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 76.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

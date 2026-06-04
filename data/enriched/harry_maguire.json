@@ -1,7 +1,7 @@
 {
   "player_name": "Harry Maguire",
   "matches_analyzed": 22,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 3.09,
   "xg_per90": 0.14,
   "shots_total": 32,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 97.2
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)"
 }

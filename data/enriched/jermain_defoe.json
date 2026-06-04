@@ -1,7 +1,7 @@
 {
   "player_name": "Jermain Defoe",
   "matches_analyzed": 39,
-  "goals": 0,
+  "goals": 12,
   "xg_total": 14.82,
   "xg_per90": 0.38,
   "shots_total": 99,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 97.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 33,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 4.26,
   "xg_per90": 0.13,
   "shots_total": 59,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 92.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

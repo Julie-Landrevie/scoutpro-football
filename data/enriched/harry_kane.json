@@ -1,7 +1,7 @@
 {
   "player_name": "Harry Kane",
   "matches_analyzed": 83,
-  "goals": 0,
+  "goals": 35,
   "xg_total": 45.31,
   "xg_per90": 0.55,
   "shots_total": 271,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 99.1
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Bastian Schweinsteiger",
   "matches_analyzed": 24,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.65,
   "xg_per90": 0.11,
   "shots_total": 19,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 67.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

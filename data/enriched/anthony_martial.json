@@ -1,7 +1,7 @@
 {
   "player_name": "Anthony Martial",
   "matches_analyzed": 38,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 8.24,
   "xg_per90": 0.22,
   "shots_total": 65,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 91.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

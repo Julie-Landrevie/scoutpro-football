@@ -1,7 +1,7 @@
 {
   "player_name": "Raúl García Escudero",
   "matches_analyzed": 56,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.69,
   "xg_per90": 0.14,
   "shots_total": 118,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 95.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

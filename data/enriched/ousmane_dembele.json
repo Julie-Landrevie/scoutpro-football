@@ -1,7 +1,7 @@
 {
   "player_name": "Ousmane Dembélé",
   "matches_analyzed": 164,
-  "goals": 0,
+  "goals": 20,
   "xg_total": 25.72,
   "xg_per90": 0.16,
   "shots_total": 257,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 65.5
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

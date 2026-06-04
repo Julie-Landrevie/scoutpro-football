@@ -1,7 +1,7 @@
 {
   "player_name": "Andrés Mateus Uribe Villa",
   "matches_analyzed": 14,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.31,
   "xg_per90": 0.17,
   "shots_total": 8,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 55.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

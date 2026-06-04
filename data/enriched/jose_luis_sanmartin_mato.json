@@ -1,7 +1,7 @@
 {
   "player_name": "José Luis Sanmartín Mato",
   "matches_analyzed": 35,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.73,
   "xg_per90": 0.11,
   "shots_total": 44,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 84.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Tanitoluwa Oluwaseyi",
   "matches_analyzed": 10,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.56,
   "xg_per90": 0.36,
   "shots_total": 18,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 92.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

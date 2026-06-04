@@ -1,7 +1,7 @@
 {
   "player_name": "Carlos Henrique Casimiro",
   "matches_analyzed": 49,
-  "goals": 0,
+  "goals": 4,
   "xg_total": 4.71,
   "xg_per90": 0.1,
   "shots_total": 59,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 81.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

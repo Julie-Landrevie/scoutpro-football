@@ -1,7 +1,7 @@
 {
   "player_name": "Lewis Grabban",
   "matches_analyzed": 25,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.38,
   "xg_per90": 0.14,
   "shots_total": 22,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 70.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

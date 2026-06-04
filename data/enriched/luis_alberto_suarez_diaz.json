@@ -1,7 +1,7 @@
 {
   "player_name": "Luis Alberto Suárez Díaz",
   "matches_analyzed": 198,
-  "goals": 0,
+  "goals": 88,
   "xg_total": 112.9,
   "xg_per90": 0.57,
   "shots_total": 638,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 99.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Luka Modrić",
   "matches_analyzed": 82,
-  "goals": 0,
+  "goals": 9,
   "xg_total": 11.54,
   "xg_per90": 0.14,
   "shots_total": 91,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 78.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

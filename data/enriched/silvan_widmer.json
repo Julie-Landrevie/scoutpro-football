@@ -1,7 +1,7 @@
 {
   "player_name": "Silvan Widmer",
   "matches_analyzed": 45,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.52,
   "xg_per90": 0.06,
   "shots_total": 28,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 73.6
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)"
 }

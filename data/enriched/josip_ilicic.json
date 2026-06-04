@@ -1,7 +1,7 @@
 {
   "player_name": "Josip Iličić",
   "matches_analyzed": 33,
-  "goals": 0,
+  "goals": 9,
   "xg_total": 10.96,
   "xg_per90": 0.33,
   "shots_total": 76,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 89.1
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

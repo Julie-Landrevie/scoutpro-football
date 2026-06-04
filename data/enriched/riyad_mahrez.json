@@ -1,7 +1,7 @@
 {
   "player_name": "Riyad Mahrez",
   "matches_analyzed": 46,
-  "goals": 0,
+  "goals": 11,
   "xg_total": 14.71,
   "xg_per90": 0.32,
   "shots_total": 100,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 96.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

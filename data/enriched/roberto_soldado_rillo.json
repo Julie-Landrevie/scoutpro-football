@@ -1,7 +1,7 @@
 {
   "player_name": "Roberto Soldado Rillo",
   "matches_analyzed": 44,
-  "goals": 0,
+  "goals": 7,
   "xg_total": 8.41,
   "xg_per90": 0.19,
   "shots_total": 66,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 88.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

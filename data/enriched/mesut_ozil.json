@@ -1,7 +1,7 @@
 {
   "player_name": "Mesut Özil",
   "matches_analyzed": 52,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.54,
   "xg_per90": 0.15,
   "shots_total": 61,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 81.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

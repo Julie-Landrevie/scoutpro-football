@@ -1,7 +1,7 @@
 {
   "player_name": "Federico Santiago Valverde Dipetta",
   "matches_analyzed": 23,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 5.4,
   "xg_per90": 0.23,
   "shots_total": 51,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 96.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

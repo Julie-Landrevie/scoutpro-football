@@ -1,7 +1,7 @@
 {
   "player_name": "Vinícius José Paixão de Oliveira Júnior",
   "matches_analyzed": 20,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.83,
   "xg_per90": 0.19,
   "shots_total": 38,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 93.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

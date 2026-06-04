@@ -1,7 +1,7 @@
 {
   "player_name": "Gareth Frank Bale",
   "matches_analyzed": 45,
-  "goals": 0,
+  "goals": 12,
   "xg_total": 15.41,
   "xg_per90": 0.34,
   "shots_total": 126,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 98.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

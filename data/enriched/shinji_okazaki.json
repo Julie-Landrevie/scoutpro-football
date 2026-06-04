@@ -1,7 +1,7 @@
 {
   "player_name": "Shinji Okazaki",
   "matches_analyzed": 45,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.69,
   "xg_per90": 0.17,
   "shots_total": 49,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 78.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

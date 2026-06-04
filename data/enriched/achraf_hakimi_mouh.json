@@ -1,7 +1,7 @@
 {
   "player_name": "Achraf Hakimi Mouh",
   "matches_analyzed": 94,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 9.72,
   "xg_per90": 0.1,
   "shots_total": 61,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 55.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

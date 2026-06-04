@@ -1,7 +1,7 @@
 {
   "player_name": "Cheikhou Kouyaté",
   "matches_analyzed": 41,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 5.52,
   "xg_per90": 0.13,
   "shots_total": 49,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 81.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

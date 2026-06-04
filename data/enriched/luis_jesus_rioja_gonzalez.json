@@ -1,7 +1,7 @@
 {
   "player_name": "Luis Jesús Rioja González",
   "matches_analyzed": 6,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.41,
   "xg_per90": 0.4,
   "shots_total": 5,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 67.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

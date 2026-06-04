@@ -1,7 +1,7 @@
 {
   "player_name": "Marco Asensio Willemsen",
   "matches_analyzed": 54,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.84,
   "xg_per90": 0.15,
   "shots_total": 83,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 88.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

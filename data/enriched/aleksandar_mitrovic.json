@@ -1,7 +1,7 @@
 {
   "player_name": "Aleksandar Mitrović",
   "matches_analyzed": 51,
-  "goals": 0,
+  "goals": 15,
   "xg_total": 18.74,
   "xg_per90": 0.37,
   "shots_total": 136,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 95.5
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

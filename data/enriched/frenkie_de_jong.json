@@ -1,7 +1,7 @@
 {
   "player_name": "Frenkie de Jong",
   "matches_analyzed": 105,
-  "goals": 0,
+  "goals": 8,
   "xg_total": 10.48,
   "xg_per90": 0.1,
   "shots_total": 37,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 39.5
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 81
+  "percentile_sample_size": 81,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

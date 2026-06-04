@@ -1,7 +1,7 @@
 {
   "player_name": "Cristiano Ronaldo dos Santos Aveiro",
   "matches_analyzed": 84,
-  "goals": 0,
+  "goals": 51,
   "xg_total": 65.19,
   "xg_per90": 0.78,
   "shots_total": 444,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 100.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

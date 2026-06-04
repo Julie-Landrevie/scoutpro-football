@@ -1,7 +1,7 @@
 {
   "player_name": "Nathan Aké",
   "matches_analyzed": 51,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.29,
   "xg_per90": 0.04,
   "shots_total": 25,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 67.4
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)"
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Ray Kendry Páez Andrade",
   "matches_analyzed": 8,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 3.32,
   "xg_per90": 0.41,
   "shots_total": 22,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 98.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

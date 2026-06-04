@@ -1,7 +1,7 @@
 {
   "player_name": "Lucas Tolentino Coelho de Lima",
   "matches_analyzed": 17,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 6.17,
   "xg_per90": 0.36,
   "shots_total": 33,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 93.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }
