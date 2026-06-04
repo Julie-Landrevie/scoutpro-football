@@ -48,7 +48,8 @@
     "competitions": [
       "Bundesliga 2023/24"
     ],
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Odilon Kossonou"
   },
   {
     "player": "Clément Lenglet",
@@ -153,7 +154,8 @@
     "competitions": [
       "Ligue 1 2022/23"
     ],
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Juan Bernat"
   },
   {
     "player": "Alejandro Grimaldo",
@@ -207,7 +209,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Alejandro Grimaldo"
   },
   {
     "player": "Óscar García",
@@ -1269,8 +1272,8 @@
     "team": "Paris Saint-Germain",
     "nationality": "BR",
     "pos": "CAM",
-    "overall": 92,
-    "market_value": "180M€ – 200M€",
+    "overall": 82,
+    "market_value": "15M€ – 30M€",
     "transfer_open": 41,
     "pace_score": 91,
     "shoot_score": 84,
@@ -1315,7 +1318,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.43,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Neymar"
   },
   {
     "player": "Lionel Messi",
@@ -2057,7 +2061,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.8,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Victor Boniface"
   },
   {
     "player": "Luis González",
@@ -2455,7 +2460,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Georges Mikautadze"
   },
   {
     "player": "Ricard Martí",
@@ -3932,7 +3938,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.75,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Breel Embolo"
   },
   {
     "player": "Morteza Pouraliganji",
@@ -4087,8 +4094,8 @@
     "team": "Barcelona",
     "nationality": "PT",
     "pos": "CB",
-    "overall": 88,
-    "market_value": "80M€ – 100M€",
+    "overall": 82,
+    "market_value": "15M€ – 25M€",
     "transfer_open": 23,
     "pace_score": 67,
     "shoot_score": 47,
@@ -4131,7 +4138,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.43,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Cristiano Ronaldo"
   },
   {
     "player": "Ramin Rezaeian",
@@ -4588,7 +4596,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Darwin Núñez"
   },
   {
     "player": "Luka Jovic",
@@ -4639,7 +4648,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Luka Jovic"
   },
   {
     "player": "Harry Maguire",
@@ -4842,7 +4852,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Hugo Ekitike"
   },
   {
     "player": "Hugo Magnetti",
@@ -9003,7 +9014,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Pau Torres"
   },
   {
     "player": "Mauricio Isla",
@@ -11463,7 +11475,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.8,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Pau Torres"
   },
   {
     "player": "Nahitan Acosta",
@@ -13196,7 +13209,8 @@
     "competitions": [
       "Ligue 1 2022/23"
     ],
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Presnel Kimpembe"
   },
   {
     "player": "Rémy Cabella",
@@ -13986,7 +14000,8 @@
     "competitions": [
       "Copa America 2024"
     ],
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Tim Ream",
@@ -14930,7 +14945,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.43,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Emir Karic",
@@ -15791,7 +15807,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Dani Olmo"
   },
   {
     "player": "Dayot Upamecano",
@@ -16689,7 +16706,7 @@
     "fbref_matched": true,
     "fbref_match_score": 0.6,
     "ref_matched": true,
-    "ref_name": "Lautaro Martínez"
+    "ref_name": "Alejandro Balde"
   },
   {
     "player": "Ibrahima Konaté",
@@ -19271,7 +19288,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Lautaro Martínez"
   },
   {
     "player": "Mateusz Wieteska",
@@ -19625,7 +19643,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Youssouf Fofana"
   },
   {
     "player": "Mickaël Barreto",
@@ -21722,7 +21741,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Mikel Oyarzabal"
   },
   {
     "player": "Mikkel Kaufmann",
@@ -23668,7 +23688,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.57,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Ruslan Malinovskiy",
@@ -24014,7 +24035,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Steve Mandanda"
   },
   {
     "player": "Steve Mounié",
@@ -24859,7 +24881,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Sergio Ramos"
   },
   {
     "player": "Víctor Cisneros",
@@ -26994,7 +27017,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Olivier Giroud"
   },
   {
     "player": "Olivier Deman",
@@ -28530,7 +28554,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.71,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Robin Le Normand"
   },
   {
     "player": "Robin Gosens",
@@ -28877,7 +28902,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Raphaël Varane"
   },
   {
     "player": "Rani Khedira",
@@ -28981,7 +29007,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Randal Kolo Muani"
   },
   {
     "player": "Philipp Lienhart",
@@ -29135,7 +29162,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Lautaro Martínez"
   },
   {
     "player": "Phillip Tietz",
@@ -30134,7 +30162,7 @@
     "team": "Brazil",
     "nationality": "PT",
     "pos": "RB",
-    "overall": 88,
+    "overall": 85,
     "market_value": "80M€ – 100M€",
     "transfer_open": 65,
     "pace_score": 47,
@@ -33026,7 +33054,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Pau Torres"
   },
   {
     "player": "Filip Kostić",
@@ -33528,7 +33557,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.43,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Diogo Costa",
@@ -34125,7 +34155,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Eduardo Camavinga"
   },
   {
     "player": "Eduardo Rojas",
@@ -35008,7 +35039,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Alisson"
   },
   {
     "player": "Alistair Johnston",
@@ -36605,7 +36637,8 @@
     "competitions": [
       "Copa America 2024"
     ],
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Alejandro Garnacho"
   },
   {
     "player": "Alejandro Lopera",
@@ -37360,10 +37393,10 @@
     "player": "Bernardo Silva",
     "player_id": 8960.0,
     "team": "Bochum",
-    "nationality": "BR",
+    "nationality": "PT",
     "pos": "LB",
-    "overall": 92,
-    "market_value": "180M€ – 200M€",
+    "overall": 88,
+    "market_value": "80M€ – 100M€",
     "transfer_open": 32,
     "pace_score": 42,
     "shoot_score": 40,
@@ -37406,7 +37439,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.43,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Brais Portela",
@@ -39956,7 +39990,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Kingsley Coman"
   },
   {
     "player": "Ko Itakura",
@@ -40508,7 +40543,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Lautaro Martínez"
   },
   {
     "player": "José Teixeira",
@@ -42201,7 +42237,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Lautaro Martínez"
   },
   {
     "player": "Mario Pašalić",
@@ -42450,7 +42487,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.6,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Martín Zubimendi"
   },
   {
     "player": "Marvin Ducksch",
@@ -44918,7 +44956,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Sergio Ramos"
   },
   {
     "player": "Giovanni Reyna",
@@ -46948,7 +46987,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 1.0,
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Jordan Veretout"
   },
   {
     "player": "Jorge Moreno",
@@ -48248,6 +48288,7 @@
     "nationality": "FR",
     "overall": 84,
     "market_value": "50M€ – 70M€",
-    "ref_matched": true
+    "ref_matched": true,
+    "ref_name": "Marcus Thuram"
   }
 ]
