@@ -1,7 +1,7 @@
 {
   "player_name": "Lautaro Javier Martínez",
   "matches_analyzed": 23,
-  "goals": 0,
+  "goals": 9,
   "xg_total": 11.43,
   "xg_per90": 0.5,
   "shots_total": 50,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 96.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

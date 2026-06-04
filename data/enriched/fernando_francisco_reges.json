@@ -1,7 +1,7 @@
 {
   "player_name": "Fernando Francisco Reges",
   "matches_analyzed": 32,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.85,
   "xg_per90": 0.09,
   "shots_total": 17,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 50.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

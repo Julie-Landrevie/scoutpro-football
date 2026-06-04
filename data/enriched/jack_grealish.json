@@ -1,7 +1,7 @@
 {
   "player_name": "Jack Grealish",
   "matches_analyzed": 35,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.17,
   "xg_per90": 0.06,
   "shots_total": 24,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 20.9
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

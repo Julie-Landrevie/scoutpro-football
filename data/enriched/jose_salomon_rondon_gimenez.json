@@ -1,7 +1,7 @@
 {
   "player_name": "José Salomón Rondón Giménez",
   "matches_analyzed": 51,
-  "goals": 0,
+  "goals": 13,
   "xg_total": 17.23,
   "xg_per90": 0.34,
   "shots_total": 136,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 98.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Takuma Asano",
   "matches_analyzed": 12,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.56,
   "xg_per90": 0.21,
   "shots_total": 18,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 61.8
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

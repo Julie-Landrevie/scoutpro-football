@@ -1,7 +1,7 @@
 {
   "player_name": "Romelu Lukaku Menama",
   "matches_analyzed": 61,
-  "goals": 0,
+  "goals": 23,
   "xg_total": 29.73,
   "xg_per90": 0.49,
   "shots_total": 175,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 98.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Pablo Sarabia García",
   "matches_analyzed": 67,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 8.93,
   "xg_per90": 0.13,
   "shots_total": 99,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 88.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

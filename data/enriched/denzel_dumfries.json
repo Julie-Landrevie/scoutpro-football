@@ -1,7 +1,7 @@
 {
   "player_name": "Denzel Dumfries",
   "matches_analyzed": 23,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.97,
   "xg_per90": 0.13,
   "shots_total": 17,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 79.8
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)"
 }

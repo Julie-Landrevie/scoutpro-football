@@ -1,7 +1,7 @@
 {
   "player_name": "Graziano Pellè",
   "matches_analyzed": 32,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 8.14,
   "xg_per90": 0.25,
   "shots_total": 87,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 98.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

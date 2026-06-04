@@ -1,7 +1,7 @@
 {
   "player_name": "Troy Deeney",
   "matches_analyzed": 42,
-  "goals": 0,
+  "goals": 11,
   "xg_total": 13.73,
   "xg_per90": 0.33,
   "shots_total": 105,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 97.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

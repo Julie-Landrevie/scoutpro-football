@@ -1,7 +1,7 @@
 {
   "player_name": "Cristian Tello Herrera",
   "matches_analyzed": 72,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.34,
   "xg_per90": 0.1,
   "shots_total": 91,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 84.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

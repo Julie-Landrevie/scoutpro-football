@@ -1,7 +1,7 @@
 {
   "player_name": "Mateo Kovačić",
   "matches_analyzed": 57,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.39,
   "xg_per90": 0.06,
   "shots_total": 38,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 62.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

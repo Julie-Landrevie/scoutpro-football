@@ -1,7 +1,7 @@
 {
   "player_name": "Kylian Mbappé Lottin",
   "matches_analyzed": 137,
-  "goals": 0,
+  "goals": 68,
   "xg_total": 87.5,
   "xg_per90": 0.64,
   "shots_total": 538,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 99.8
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

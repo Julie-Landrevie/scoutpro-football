@@ -1,7 +1,7 @@
 {
   "player_name": "Ismaïla Sarr",
   "matches_analyzed": 15,
-  "goals": 0,
+  "goals": 4,
   "xg_total": 4.97,
   "xg_per90": 0.33,
   "shots_total": 30,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 94.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

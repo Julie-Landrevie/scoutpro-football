@@ -1,7 +1,7 @@
 {
   "player_name": "Raphaël Adelino José Guerreiro",
   "matches_analyzed": 50,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.64,
   "xg_per90": 0.07,
   "shots_total": 55,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 78.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

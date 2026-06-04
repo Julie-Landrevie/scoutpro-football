@@ -1,7 +1,7 @@
 {
   "player_name": "Lionel Andrés Messi Cuccittini",
   "matches_analyzed": 673,
-  "goals": 0,
+  "goals": 318,
   "xg_total": 408.3,
   "xg_per90": 0.61,
   "shots_total": 3028,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 99.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

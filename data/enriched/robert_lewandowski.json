@@ -1,7 +1,7 @@
 {
   "player_name": "Robert Lewandowski",
   "matches_analyzed": 20,
-  "goals": 0,
+  "goals": 8,
   "xg_total": 10.77,
   "xg_per90": 0.54,
   "shots_total": 57,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 97.3
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

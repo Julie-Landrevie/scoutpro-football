@@ -1,7 +1,7 @@
 {
   "player_name": "Michael Gregoritsch",
   "matches_analyzed": 15,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.34,
   "xg_per90": 0.16,
   "shots_total": 14,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 29.1
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

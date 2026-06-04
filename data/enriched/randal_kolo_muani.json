@@ -1,7 +1,7 @@
 {
   "player_name": "Randal Kolo Muani",
   "matches_analyzed": 18,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 6.61,
   "xg_per90": 0.37,
   "shots_total": 22,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 47.3
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

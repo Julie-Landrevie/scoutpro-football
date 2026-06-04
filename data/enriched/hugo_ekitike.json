@@ -1,7 +1,7 @@
 {
   "player_name": "Hugo Ekitike",
   "matches_analyzed": 43,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 5.34,
   "xg_per90": 0.12,
   "shots_total": 43,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 40.9
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

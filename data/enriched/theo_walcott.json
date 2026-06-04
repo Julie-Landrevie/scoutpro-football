@@ -1,7 +1,7 @@
 {
   "player_name": "Theo Walcott",
   "matches_analyzed": 35,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.47,
   "xg_per90": 0.21,
   "shots_total": 56,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 90.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

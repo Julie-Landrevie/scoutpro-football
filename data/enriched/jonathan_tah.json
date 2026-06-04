@@ -1,7 +1,7 @@
 {
   "player_name": "Jonathan Tah",
   "matches_analyzed": 94,
-  "goals": 0,
+  "goals": 4,
   "xg_total": 4.86,
   "xg_per90": 0.05,
   "shots_total": 67,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 79.8
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

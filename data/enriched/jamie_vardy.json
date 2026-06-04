@@ -1,7 +1,7 @@
 {
   "player_name": "Jamie Vardy",
   "matches_analyzed": 46,
-  "goals": 0,
+  "goals": 8,
   "xg_total": 26.32,
   "xg_per90": 0.57,
   "shots_total": 142,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 99.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

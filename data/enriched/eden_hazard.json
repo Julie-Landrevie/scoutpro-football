@@ -1,7 +1,7 @@
 {
   "player_name": "Eden Hazard",
   "matches_analyzed": 51,
-  "goals": 0,
+  "goals": 5,
   "xg_total": 6.82,
   "xg_per90": 0.13,
   "shots_total": 73,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 86.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

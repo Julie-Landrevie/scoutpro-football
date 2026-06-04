@@ -1,7 +1,7 @@
 {
   "player_name": "Sergio Busquets i Burgos",
   "matches_analyzed": 442,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 9.6,
   "xg_per90": 0.02,
   "shots_total": 97,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 27.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Wahbi Khazri",
   "matches_analyzed": 42,
-  "goals": 0,
+  "goals": 7,
   "xg_total": 8.6,
   "xg_per90": 0.2,
   "shots_total": 89,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 81.8
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

@@ -1,7 +1,7 @@
 {
   "player_name": "Héctor Junior Firpo Adames",
   "matches_analyzed": 26,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.12,
   "xg_per90": 0.08,
   "shots_total": 7,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 36.8
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

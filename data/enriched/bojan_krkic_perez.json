@@ -1,7 +1,7 @@
 {
   "player_name": "Bojan Krkíc Pérez",
   "matches_analyzed": 112,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 19.46,
   "xg_per90": 0.17,
   "shots_total": 148,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 84.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

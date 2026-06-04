@@ -201,6 +201,7 @@ with st.sidebar:
     poste_besoin  = st.selectbox("Poste recherché en priorité", [
         "— Sélectionner —","GK","CB","LB","RB","CDM","CM","CAM","LW","RW","ST"
     ])
+    st.caption("Le matching calcule un score de compatibilité selon les attributs clés du style choisi (vitesse, passe, défense...). Les scores sont normalisés entre 0 et 100%.")
     match_btn = st.button("🔍 Trouver les meilleurs profils ↗", use_container_width=True)
 
 
@@ -242,7 +243,10 @@ if match_btn and style_jeu != "— Sélectionner —" and poste_besoin != "— S
     candidates['match_score'] = (candidates['match_score'] - candidates['match_score'].min()) / \
                                  (candidates['match_score'].max() - candidates['match_score'].min() + 1e-9) * 100
     top  = candidates.nlargest(5, 'match_score')
-    cols = st.columns(5)
+    if top.empty:
+        st.warning("Aucun joueur trouvé pour cette combinaison. Essaie un autre poste ou une autre formation.")
+        st.stop()
+    cols = st.columns(min(5, len(top)))
     for i,(_, p) in enumerate(top.iterrows()):
         with cols[i]:
             score_color = '#00c853' if p['match_score']>=70 else '#f59e0b' if p['match_score']>=50 else '#ef4444'
@@ -263,7 +267,7 @@ col_list, col_detail = st.columns([1, 2], gap="medium")
 
 with col_list:
     st.markdown(f"<div style='font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;border-bottom:1px solid #1e2d45;padding-bottom:8px;margin-bottom:16px'>🎯 {len(filtered)} joueurs</div>", unsafe_allow_html=True)
-    st.info("🔬 **Scout Report** disponible pour les joueurs de l’Équipe de France — sélectionne un joueur français pour accéder aux vraies stats StatsBomb (xG, pressing, passes progressives, percentiles).")
+    st.info("🔬 **Scout Report** disponible pour de nombreux joueurs — sélectionne un joueur et vérifie l’onglet 🔬 Scout Report pour ses vraies stats StatsBomb (xG, pressing, passes progressives, percentiles vs groupe de poste).")
     if filtered.empty:
         st.info("Aucun joueur ne correspond.")
     else:
@@ -317,9 +321,11 @@ for v,l in [(p['pace_score'],'PAC'),(p['shoot_score'],'TIR'),(p['pass_score'],'P
 <div style="background:#1a1a0a;border:1px solid #3a3a10;border-radius:8px;padding:8px 14px;margin-bottom:10px;font-size:11px;color:#a0a060">
 ⚠️ <strong>Données modélisées</strong> — Les notes et scores sont calculés à partir des actions StatsBomb open data.
 Ils reflètent l'activité dans les compétitions couvertes, pas le niveau réel du joueur.
-L'onglet <strong>🔬 Scout Report</strong> (joueurs France) contient les vraies stats avancées.
+L'onglet <strong>🔬 Scout Report</strong> contient les vraies stats avancées pour les joueurs couverts par StatsBomb.
 </div>
 """, unsafe_allow_html=True)
+
+    st.caption("📅 Données issues de StatsBomb open data — compétitions couvertes : La Liga 2005-2021, UCL 2008-2019, Premier League 2015/16, Ligue 1 2022/23, Bundesliga 2023/24, World Cup 2018 & 2022, Euro 2024. Le club affiché correspond à la période couverte, pas nécessairement au club actuel.")
 
     m1,m2,m3,m4,m5 = st.columns(5)
     m1.metric("Buts",      int(p['goals']))
@@ -463,7 +469,7 @@ L'onglet <strong>🔬 Scout Report</strong> (joueurs France) contient les vraies
 </div>
 <div style="font-size:12px;color:#8b97b0;line-height:1.7">
 Cet onglet enrichit la fiche joueur avec des <strong style="color:#c9d1e0">stats avancées calculées sur les vrais événements StatsBomb</strong> 
-(Coupe du Monde 2022 + UEFA Euro 2024) — {n_matches} matchs analysés.<br>
+— <strong style="color:#e8ecf4">{n_matches} matchs analysés</strong> issus des données StatsBomb open data.<br>
 Contrairement aux scores FIFA-like de l'onglet Attributs (modélisés), ces données sont <strong style="color:#c9d1e0">extraites action par action</strong> : 
 passes progressives, pressing, interceptions, xG réels, carries...<br>
 Disponible uniquement pour les joueurs de l'Équipe de France présents dans les données StatsBomb open data.

@@ -1,7 +1,7 @@
 {
   "player_name": "Karim Benzema",
   "matches_analyzed": 58,
-  "goals": 0,
+  "goals": 22,
   "xg_total": 28.42,
   "xg_per90": 0.49,
   "shots_total": 174,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 98.2
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

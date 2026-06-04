@@ -1,7 +1,7 @@
 {
   "player_name": "Joe Allen",
   "matches_analyzed": 29,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.34,
   "xg_per90": 0.08,
   "shots_total": 19,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 63.0
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 81
+  "percentile_sample_size": 81,
+  "goals_note": "estimé (bug conversion données source)"
 }

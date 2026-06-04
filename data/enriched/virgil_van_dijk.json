@@ -1,7 +1,7 @@
 {
   "player_name": "Virgil van Dijk",
   "matches_analyzed": 60,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 6.22,
   "xg_per90": 0.1,
   "shots_total": 50,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 85.4
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)"
 }

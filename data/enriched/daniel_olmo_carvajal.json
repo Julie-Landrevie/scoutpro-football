@@ -1,7 +1,7 @@
 {
   "player_name": "Daniel Olmo Carvajal",
   "matches_analyzed": 27,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.6,
   "xg_per90": 0.28,
   "shots_total": 80,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 99.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

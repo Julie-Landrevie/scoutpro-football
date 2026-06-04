@@ -1,7 +1,7 @@
 {
   "player_name": "Clément Lenglet",
   "matches_analyzed": 112,
-  "goals": 0,
+  "goals": 4,
   "xg_total": 4.55,
   "xg_per90": 0.04,
   "shots_total": 35,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 47.2
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 178
+  "percentile_sample_size": 178,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

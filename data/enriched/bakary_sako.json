@@ -1,7 +1,7 @@
 {
   "player_name": "Bakary Sako",
   "matches_analyzed": 22,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.21,
   "xg_per90": 0.1,
   "shots_total": 37,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 91.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

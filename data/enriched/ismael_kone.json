@@ -1,7 +1,7 @@
 {
   "player_name": "Ismael Koné",
   "matches_analyzed": 15,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 4.06,
   "xg_per90": 0.27,
   "shots_total": 14,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 75.3
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 81
+  "percentile_sample_size": 81,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

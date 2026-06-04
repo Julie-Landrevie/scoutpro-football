@@ -1,7 +1,7 @@
 {
   "player_name": "Sofiane Boufal",
   "matches_analyzed": 46,
-  "goals": 0,
+  "goals": 2,
   "xg_total": 6.15,
   "xg_per90": 0.13,
   "shots_total": 72,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 65.5
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)"
 }

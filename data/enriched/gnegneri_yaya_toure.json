@@ -1,7 +1,7 @@
 {
   "player_name": "Gnégnéri Yaya Touré",
   "matches_analyzed": 95,
-  "goals": 0,
+  "goals": 7,
   "xg_total": 8.52,
   "xg_per90": 0.09,
   "shots_total": 120,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 84.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

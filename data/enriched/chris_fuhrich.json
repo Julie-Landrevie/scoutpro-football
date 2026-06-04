@@ -1,7 +1,7 @@
 {
   "player_name": "Chris Führich",
   "matches_analyzed": 5,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 2.23,
   "xg_per90": 0.45,
   "shots_total": 13,
@@ -46,5 +46,6 @@
     "pct_shots_per90": 97.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3759,
+  "goals_note": "estimé (bug conversion données source)"
 }

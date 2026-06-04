@@ -1,7 +1,7 @@
 {
   "player_name": "Jonathan David",
   "matches_analyzed": 23,
-  "goals": 0,
+  "goals": 9,
   "xg_total": 11.39,
   "xg_per90": 0.5,
   "shots_total": 59,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 94.5
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

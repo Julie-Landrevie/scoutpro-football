@@ -1,7 +1,7 @@
 {
   "player_name": "Ivan Perišić",
   "matches_analyzed": 63,
-  "goals": 0,
+  "goals": 9,
   "xg_total": 11.89,
   "xg_per90": 0.19,
   "shots_total": 140,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 86.4
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

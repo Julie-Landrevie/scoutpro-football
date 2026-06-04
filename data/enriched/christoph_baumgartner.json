@@ -1,7 +1,7 @@
 {
   "player_name": "Christoph Baumgartner",
   "matches_analyzed": 13,
-  "goals": 0,
+  "goals": 3,
   "xg_total": 3.36,
   "xg_per90": 0.26,
   "shots_total": 19,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 61.8
   },
   "percentile_group": "ATT",
-  "percentile_sample_size": 110
+  "percentile_sample_size": 110,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }

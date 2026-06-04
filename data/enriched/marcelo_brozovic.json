@@ -1,7 +1,7 @@
 {
   "player_name": "Marcelo Brozović",
   "matches_analyzed": 59,
-  "goals": 0,
+  "goals": 6,
   "xg_total": 7.06,
   "xg_per90": 0.12,
   "shots_total": 77,
@@ -46,5 +46,7 @@
     "pct_shots_per90": 92.6
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 81
+  "percentile_sample_size": 81,
+  "goals_note": "estimé (bug conversion données source)",
+  "goals_estimated": true
 }
