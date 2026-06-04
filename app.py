@@ -263,6 +263,7 @@ col_list, col_detail = st.columns([1, 2], gap="medium")
 
 with col_list:
     st.markdown(f"<div style='font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;border-bottom:1px solid #1e2d45;padding-bottom:8px;margin-bottom:16px'>🎯 {len(filtered)} joueurs</div>", unsafe_allow_html=True)
+    st.info("🔬 **Scout Report** disponible pour les joueurs de l’Équipe de France — sélectionne un joueur français pour accéder aux vraies stats StatsBomb (xG, pressing, passes progressives, percentiles).")
     if filtered.empty:
         st.info("Aucun joueur ne correspond.")
     else:
@@ -559,18 +560,23 @@ Disponible uniquement pour les joueurs de l'Équipe de France présents dans les
 
             with col_off:
                 st.markdown("##### Profil offensif")
+                def fmt(v, dec=2):
+                    if v is None: return "—"
+                    if isinstance(v, float): return round(v, dec)
+                    return v
+
                 off_data = {
-                    "Buts":              e.get("goals"),
-                    "xG total":          e.get("xg_total"),
-                    "xG/90":             e.get("xg_per90"),
-                    "Tirs total":        e.get("shots_total"),
-                    "Tirs/90":           e.get("shots_per90"),
-                    "xA/90":             e.get("xA_per90"),
-                    "Passes clés/90":    e.get("key_passes_per90"),
-                    "Passes tiers off.": e.get("passes_final_third"),
-                    "Passes prog.":      e.get("progressive_passes"),
-                    "Carries prog.":     e.get("progressive_carries"),
-                    "Distance portée":   f"{e.get('carry_distance_total', 0):.0f} m",
+                    "Buts":              fmt(e.get("goals"), 0),
+                    "xG total":          fmt(e.get("xg_total")),
+                    "xG/90":             fmt(e.get("xg_per90")),
+                    "Tirs total":        fmt(e.get("shots_total"), 0),
+                    "Tirs/90":           fmt(e.get("shots_per90"), 1),
+                    "xA/90":             fmt(e.get("xA_per90")),
+                    "Passes clés/90":    fmt(e.get("key_passes_per90"), 1),
+                    "Passes tiers off.": fmt(e.get("passes_final_third"), 0),
+                    "Passes prog.":      fmt(e.get("progressive_passes"), 0),
+                    "Carries prog.":     fmt(e.get("progressive_carries"), 0),
+                    "Distance portée":   f"{round(e.get('carry_distance_total', 0))} m",
                 }
                 for k, v in off_data.items():
                     st.markdown(f"""<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2235;font-size:12px">
@@ -579,18 +585,18 @@ Disponible uniquement pour les joueurs de l'Équipe de France présents dans les
             with col_def:
                 st.markdown("##### Profil défensif")
                 def_data = {
-                    "Pressings":          e.get("pressures"),
-                    "Pressings/90":       e.get("pressures_per90"),
-                    "Duels total":        e.get("duels_total"),
-                    "Duels gagnés":       e.get("duels_won"),
-                    "Duels gagnés %":     f"{e.get('duel_win_pct', 0)}%",
-                    "Interceptions":      e.get("interceptions"),
-                    "Interceptions/90":   e.get("interceptions_per90"),
-                    "Interc. gagnées":    e.get("interceptions_won"),
-                    "Tacles":             e.get("tackles"),
-                    "Tacles/90":          e.get("tackles_per90"),
-                    "Récupérations":      e.get("ball_recoveries"),
-                    "Récupérations/90":   e.get("ball_recoveries_per90"),
+                    "Pressings":          fmt(e.get("pressures"), 0),
+                    "Pressings/90":       fmt(e.get("pressures_per90"), 1),
+                    "Duels total":        fmt(e.get("duels_total"), 0),
+                    "Duels gagnés":       fmt(e.get("duels_won"), 0),
+                    "Duels gagnés %":     f"{round(e.get('duel_win_pct', 0), 1)}%",
+                    "Interceptions":      fmt(e.get("interceptions"), 0),
+                    "Interceptions/90":   fmt(e.get("interceptions_per90"), 1),
+                    "Interc. gagnées":    fmt(e.get("interceptions_won"), 0),
+                    "Tacles":             fmt(e.get("tackles"), 0),
+                    "Tacles/90":          fmt(e.get("tackles_per90"), 1),
+                    "Récupérations":      fmt(e.get("ball_recoveries"), 0),
+                    "Récupérations/90":   fmt(e.get("ball_recoveries_per90"), 1),
                 }
                 for k, v in def_data.items():
                     st.markdown(f"""<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2235;font-size:12px">

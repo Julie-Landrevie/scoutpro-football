@@ -1264,7 +1264,7 @@
     ]
   },
   {
-    "player": "Neymar Junior",
+    "player": "Neymar",
     "player_id": 4320.0,
     "team": "Paris Saint-Germain",
     "nationality": "BR",
@@ -4082,7 +4082,7 @@
     "fbref_match_score": 1.0
   },
   {
-    "player": "Ronald da Silva",
+    "player": "Ronaldo",
     "player_id": 32480.0,
     "team": "Barcelona",
     "nationality": "PT",
@@ -9995,12 +9995,12 @@
     ]
   },
   {
-    "player": "Emerson Junior",
+    "player": "Emerson Royal",
     "player_id": 23522.0,
     "team": "Real Betis",
     "nationality": "BR",
     "pos": "RB",
-    "overall": 92,
+    "overall": 81,
     "market_value": "180M€ – 200M€",
     "transfer_open": 10,
     "pace_score": 52,
@@ -12002,7 +12002,7 @@
     "fbref_match_score": 0.6
   },
   {
-    "player": "Vinícius Júnior",
+    "player": "Vinícius Jr.",
     "player_id": 18395.0,
     "team": "Real Madrid",
     "nationality": "BR",
@@ -30129,7 +30129,7 @@
     "fbref_match_score": 1.0
   },
   {
-    "player": "Danilo da Silva",
+    "player": "Danilo",
     "player_id": 3063.0,
     "team": "Brazil",
     "nationality": "PT",
@@ -34370,7 +34370,7 @@
     ]
   },
   {
-    "player": "Carlos Martínez",
+    "player": "Lautaro Martínez",
     "player_id": 23948.0,
     "team": "Levante UD",
     "nationality": "AR",
@@ -37357,7 +37357,7 @@
     "fbref_match_score": 1.0
   },
   {
-    "player": "Bernardo Junior",
+    "player": "Bernardo Silva",
     "player_id": 8960.0,
     "team": "Bochum",
     "nationality": "BR",
@@ -45909,7 +45909,7 @@
     "fbref_match_score": 1.0
   },
   {
-    "player": "Ibrahim Salah",
+    "player": "Mohamed Salah",
     "player_id": 282381.0,
     "team": "Rennes",
     "nationality": "EG",
