@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.0,
   "player_name": "Ozan Tufan",
   "percentiles": {
-    "pct_xg_per90": 41.0,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 50.2,
-    "pct_progressive_passes_per90": 26.6,
-    "pct_progressive_carries_per90": 69.4,
-    "pct_pressures_per90": 79.5,
+    "pct_xg_per90": 40.1,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 49.7,
+    "pct_progressive_passes_per90": 25.2,
+    "pct_progressive_carries_per90": 68.5,
+    "pct_pressures_per90": 79.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 95.2,
-    "pct_ball_recoveries_per90": 47.7,
-    "pct_passes_final_third_per90": 27.6,
-    "pct_carry_distance_per90": 52.6,
-    "pct_pass_completion_pct": 96.9,
-    "pct_shots_per90": 62.0
+    "pct_interceptions_per90": 95.4,
+    "pct_ball_recoveries_per90": 46.6,
+    "pct_passes_final_third_per90": 26.9,
+    "pct_carry_distance_per90": 51.0,
+    "pct_pass_completion_pct": 97.3,
+    "pct_shots_per90": 61.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

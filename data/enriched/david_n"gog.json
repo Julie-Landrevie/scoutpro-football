@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 15,
-  "goals": 1,
+  "goals": 0,
   "xg_total": 3.3,
   "xg_per90": 0.22,
   "shots_total": 20,
@@ -32,20 +32,19 @@
   "player_name": "David N\"Gog",
   "percentiles": {
     "pct_xg_per90": 92.2,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 12.7,
-    "pct_progressive_carries_per90": 21.8,
-    "pct_pressures_per90": 48.7,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 11.6,
+    "pct_progressive_carries_per90": 20.8,
+    "pct_pressures_per90": 48.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 20.2,
-    "pct_ball_recoveries_per90": 15.4,
-    "pct_passes_final_third_per90": 57.7,
-    "pct_carry_distance_per90": 28.5,
-    "pct_pass_completion_pct": 16.6,
-    "pct_shots_per90": 84.4
+    "pct_interceptions_per90": 18.8,
+    "pct_ball_recoveries_per90": 13.5,
+    "pct_passes_final_third_per90": 56.3,
+    "pct_carry_distance_per90": 27.0,
+    "pct_pass_completion_pct": 16.3,
+    "pct_shots_per90": 84.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

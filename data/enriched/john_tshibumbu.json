@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 22,
-  "goals": 3,
+  "goals": 0,
   "xg_total": 3.79,
   "xg_per90": 0.17,
   "shots_total": 32,
@@ -31,22 +31,20 @@
   "ball_recoveries_per90": 2.2,
   "player_name": "John Tshibumbu",
   "percentiles": {
-    "pct_xg_per90": 88.0,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 50.2,
-    "pct_progressive_passes_per90": 17.6,
-    "pct_progressive_carries_per90": 20.5,
-    "pct_pressures_per90": 49.6,
+    "pct_xg_per90": 87.8,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 49.7,
+    "pct_progressive_passes_per90": 16.4,
+    "pct_progressive_carries_per90": 19.2,
+    "pct_pressures_per90": 48.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 34.1,
-    "pct_ball_recoveries_per90": 28.1,
-    "pct_passes_final_third_per90": 54.3,
-    "pct_carry_distance_per90": 15.4,
-    "pct_pass_completion_pct": 15.7,
-    "pct_shots_per90": 88.5
+    "pct_interceptions_per90": 33.2,
+    "pct_ball_recoveries_per90": 26.6,
+    "pct_passes_final_third_per90": 53.2,
+    "pct_carry_distance_per90": 14.0,
+    "pct_pass_completion_pct": 15.4,
+    "pct_shots_per90": 88.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)",
-  "goals_estimated": true
+  "percentile_sample_size": 3566
 }

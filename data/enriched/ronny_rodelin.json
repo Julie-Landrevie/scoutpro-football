@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 35,
-  "goals": 2,
+  "goals": 0,
   "xg_total": 5.49,
   "xg_per90": 0.16,
   "shots_total": 76,
@@ -31,21 +31,20 @@
   "ball_recoveries_per90": 4.6,
   "player_name": "Ronny Rodelin",
   "percentiles": {
-    "pct_xg_per90": 86.6,
-    "pct_xA_per90": 76.1,
-    "pct_key_passes_per90": 90.5,
-    "pct_progressive_passes_per90": 67.9,
-    "pct_progressive_carries_per90": 55.7,
-    "pct_pressures_per90": 54.3,
+    "pct_xg_per90": 86.4,
+    "pct_xA_per90": 74.6,
+    "pct_key_passes_per90": 90.2,
+    "pct_progressive_passes_per90": 67.0,
+    "pct_progressive_carries_per90": 54.7,
+    "pct_pressures_per90": 53.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 59.4,
-    "pct_ball_recoveries_per90": 81.6,
-    "pct_passes_final_third_per90": 87.5,
-    "pct_carry_distance_per90": 56.6,
-    "pct_pass_completion_pct": 9.7,
+    "pct_interceptions_per90": 58.8,
+    "pct_ball_recoveries_per90": 81.2,
+    "pct_passes_final_third_per90": 86.8,
+    "pct_carry_distance_per90": 54.8,
+    "pct_pass_completion_pct": 9.3,
     "pct_shots_per90": 96.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

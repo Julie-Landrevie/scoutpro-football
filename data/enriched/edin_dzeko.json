@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 31,
-  "goals": 11,
+  "goals": 0,
   "xg_total": 13.47,
   "xg_per90": 0.43,
   "shots_total": 88,
@@ -32,21 +32,19 @@
   "player_name": "Edin Džeko",
   "percentiles": {
     "pct_xg_per90": 98.7,
-    "pct_xA_per90": 88.5,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 19.4,
-    "pct_progressive_carries_per90": 24.6,
-    "pct_pressures_per90": 43.8,
+    "pct_xA_per90": 87.4,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 18.0,
+    "pct_progressive_carries_per90": 23.2,
+    "pct_pressures_per90": 42.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 20.2,
-    "pct_ball_recoveries_per90": 24.6,
-    "pct_passes_final_third_per90": 67.9,
-    "pct_carry_distance_per90": 39.8,
-    "pct_pass_completion_pct": 12.1,
+    "pct_interceptions_per90": 18.8,
+    "pct_ball_recoveries_per90": 23.0,
+    "pct_passes_final_third_per90": 66.8,
+    "pct_carry_distance_per90": 38.0,
+    "pct_pass_completion_pct": 12.0,
     "pct_shots_per90": 98.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)",
-  "goals_estimated": true
+  "percentile_sample_size": 3566
 }

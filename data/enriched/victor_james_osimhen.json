@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 7,
-  "goals": 1,
+  "goals": 0,
   "xg_total": 3.11,
   "xg_per90": 0.44,
   "shots_total": 24,
@@ -32,20 +32,19 @@
   "player_name": "Victor James Osimhen",
   "percentiles": {
     "pct_xg_per90": 98.8,
-    "pct_xA_per90": 90.2,
-    "pct_key_passes_per90": 72.0,
-    "pct_progressive_passes_per90": 12.1,
-    "pct_progressive_carries_per90": 29.8,
-    "pct_pressures_per90": 67.7,
+    "pct_xA_per90": 89.5,
+    "pct_key_passes_per90": 71.1,
+    "pct_progressive_passes_per90": 11.3,
+    "pct_progressive_carries_per90": 28.6,
+    "pct_pressures_per90": 67.2,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 20.2,
-    "pct_ball_recoveries_per90": 54.4,
-    "pct_passes_final_third_per90": 51.6,
-    "pct_carry_distance_per90": 34.3,
-    "pct_pass_completion_pct": 9.2,
+    "pct_interceptions_per90": 18.8,
+    "pct_ball_recoveries_per90": 53.7,
+    "pct_passes_final_third_per90": 51.0,
+    "pct_carry_distance_per90": 32.7,
+    "pct_pass_completion_pct": 8.9,
     "pct_shots_per90": 99.6
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

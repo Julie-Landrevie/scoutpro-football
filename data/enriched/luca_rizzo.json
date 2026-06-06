@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.0,
   "player_name": "Luca Rizzo",
   "percentiles": {
-    "pct_xg_per90": 64.5,
-    "pct_xA_per90": 82.8,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 39.7,
-    "pct_progressive_carries_per90": 78.0,
-    "pct_pressures_per90": 85.5,
+    "pct_xg_per90": 63.9,
+    "pct_xA_per90": 81.3,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 38.7,
+    "pct_progressive_carries_per90": 77.0,
+    "pct_pressures_per90": 85.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 72.9,
-    "pct_ball_recoveries_per90": 71.2,
-    "pct_passes_final_third_per90": 70.1,
-    "pct_carry_distance_per90": 79.5,
+    "pct_interceptions_per90": 72.5,
+    "pct_ball_recoveries_per90": 71.1,
+    "pct_passes_final_third_per90": 69.0,
+    "pct_carry_distance_per90": 78.5,
     "pct_pass_completion_pct": 33.1,
-    "pct_shots_per90": 67.2
+    "pct_shots_per90": 66.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

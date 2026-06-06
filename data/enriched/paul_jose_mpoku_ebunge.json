@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.2,
   "player_name": "Paul-José M''Poku Ebunge",
   "percentiles": {
-    "pct_xg_per90": 60.4,
-    "pct_xA_per90": 64.6,
+    "pct_xg_per90": 59.6,
+    "pct_xA_per90": 62.7,
     "pct_key_passes_per90": 85.8,
-    "pct_progressive_passes_per90": 33.1,
-    "pct_progressive_carries_per90": 69.4,
-    "pct_pressures_per90": 25.6,
+    "pct_progressive_passes_per90": 31.8,
+    "pct_progressive_carries_per90": 68.5,
+    "pct_pressures_per90": 24.4,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 27.4,
-    "pct_ball_recoveries_per90": 52.0,
-    "pct_passes_final_third_per90": 61.0,
-    "pct_carry_distance_per90": 58.1,
-    "pct_pass_completion_pct": 34.3,
-    "pct_shots_per90": 70.2
+    "pct_interceptions_per90": 26.4,
+    "pct_ball_recoveries_per90": 51.1,
+    "pct_passes_final_third_per90": 59.8,
+    "pct_carry_distance_per90": 56.3,
+    "pct_pass_completion_pct": 34.2,
+    "pct_shots_per90": 69.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 25,
-  "goals": 3,
+  "goals": 0,
   "xg_total": 3.9,
   "xg_per90": 0.16,
   "shots_total": 46,
@@ -31,22 +31,20 @@
   "ball_recoveries_per90": 3.1,
   "player_name": "Sergio Floccari",
   "percentiles": {
-    "pct_xg_per90": 86.6,
-    "pct_xA_per90": 71.6,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 13.2,
-    "pct_progressive_carries_per90": 28.9,
-    "pct_pressures_per90": 76.3,
+    "pct_xg_per90": 86.4,
+    "pct_xA_per90": 70.0,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 12.3,
+    "pct_progressive_carries_per90": 27.7,
+    "pct_pressures_per90": 76.4,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 27.4,
-    "pct_ball_recoveries_per90": 49.6,
-    "pct_passes_final_third_per90": 68.3,
-    "pct_carry_distance_per90": 50.5,
-    "pct_pass_completion_pct": 47.8,
-    "pct_shots_per90": 92.7
+    "pct_interceptions_per90": 26.4,
+    "pct_ball_recoveries_per90": 48.5,
+    "pct_passes_final_third_per90": 67.3,
+    "pct_carry_distance_per90": 48.9,
+    "pct_pass_completion_pct": 48.3,
+    "pct_shots_per90": 92.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)",
-  "goals_estimated": true
+  "percentile_sample_size": 3566
 }
