@@ -116,7 +116,8 @@ def extract_stats(pev, n_matches):
         xg = 0.0
     try:
         goals_series = shots["shot_outcome"].apply(
-            lambda x: 1 if isinstance(x, dict) and x.get("name") == "Goal" else 0
+            lambda x: 1 if (isinstance(x, dict) and x.get("name") == "Goal")
+                        or (isinstance(x, str) and x == "Goal") else 0
         ) if "shot_outcome" in shots.columns else pd.Series([0])
         goals = int(float(goals_series.sum()))
     except Exception:
@@ -259,19 +260,23 @@ def run():
         print(f"\n→ {label}")
         try:
             matches = sb.matches(competition_id=comp_id, season_id=season_id)
-            match_ids = matches["match_id"].tolist()
+            all_ids = matches["match_id"].tolist()
+            # Limiter à 100 matchs pour les très grandes compétitions
+            match_ids = all_ids[:100] if len(all_ids) > 150 else all_ids
             print(f"  {len(match_ids)} matchs")
         except Exception as e:
             print(f"  ⚠️  {e}")
             continue
 
-        # Charger les events par batch de 50 pour éviter les timeouts
+        # Chargement par batch avec progression
         frames = []
         for i, mid in enumerate(match_ids):
             try:
                 ev = sb.events(match_id=mid)
                 ev["match_id"] = mid
                 frames.append(ev)
+                if (i+1) % 50 == 0:
+                    print(f"    {i+1}/{len(match_ids)} matchs chargés...")
             except Exception:
                 pass
 

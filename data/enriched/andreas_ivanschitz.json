@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.0,
   "player_name": "Andreas Ivanschitz",
   "percentiles": {
-    "pct_xg_per90": 63.9,
-    "pct_xA_per90": 99.1,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 25.2,
-    "pct_progressive_carries_per90": 26.2,
-    "pct_pressures_per90": 19.6,
+    "pct_xg_per90": 63.8,
+    "pct_xA_per90": 98.6,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 24.7,
+    "pct_progressive_carries_per90": 26.1,
+    "pct_pressures_per90": 19.7,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 68.7,
-    "pct_ball_recoveries_per90": 46.6,
-    "pct_passes_final_third_per90": 44.6,
-    "pct_carry_distance_per90": 33.1,
+    "pct_interceptions_per90": 71.5,
+    "pct_ball_recoveries_per90": 47.0,
+    "pct_passes_final_third_per90": 44.5,
+    "pct_carry_distance_per90": 32.4,
     "pct_pass_completion_pct": 4.0,
-    "pct_shots_per90": 75.5
+    "pct_shots_per90": 75.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

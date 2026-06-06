@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 4,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 0.36,
   "xg_per90": 0.09,
   "shots_total": 3,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.5,
   "player_name": "Žan Karničnik",
   "percentiles": {
-    "pct_xg_per90": 88.8,
-    "pct_xA_per90": 69.2,
-    "pct_key_passes_per90": 21.7,
-    "pct_progressive_passes_per90": 65.0,
-    "pct_progressive_carries_per90": 70.6,
+    "pct_xg_per90": 86.6,
+    "pct_xA_per90": 72.5,
+    "pct_key_passes_per90": 21.8,
+    "pct_progressive_passes_per90": 64.1,
+    "pct_progressive_carries_per90": 71.1,
     "pct_pressures_per90": 95.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 89.5,
-    "pct_ball_recoveries_per90": 90.2,
-    "pct_passes_final_third_per90": 71.3,
-    "pct_carry_distance_per90": 64.3,
-    "pct_pass_completion_pct": 30.8,
-    "pct_shots_per90": 83.2
+    "pct_interceptions_per90": 90.8,
+    "pct_ball_recoveries_per90": 91.5,
+    "pct_passes_final_third_per90": 72.5,
+    "pct_carry_distance_per90": 64.1,
+    "pct_pass_completion_pct": 30.3,
+    "pct_shots_per90": 84.5
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 143
+  "percentile_sample_size": 142
 }

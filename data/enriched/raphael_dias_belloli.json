@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 9,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 1.76,
   "xg_per90": 0.2,
   "shots_total": 16.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.0,
   "player_name": "Raphael Dias Belloli",
   "percentiles": {
-    "pct_xg_per90": 90.6,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 95.3,
-    "pct_progressive_passes_per90": 48.7,
-    "pct_progressive_carries_per90": 79.9,
-    "pct_pressures_per90": 45.5,
+    "pct_xg_per90": 89.3,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 94.1,
+    "pct_progressive_passes_per90": 49.5,
+    "pct_progressive_carries_per90": 78.5,
+    "pct_pressures_per90": 43.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 38.2,
-    "pct_ball_recoveries_per90": 46.6,
-    "pct_passes_final_third_per90": 96.0,
-    "pct_carry_distance_per90": 78.9,
-    "pct_pass_completion_pct": 33.7,
-    "pct_shots_per90": 92.9
+    "pct_interceptions_per90": 39.6,
+    "pct_ball_recoveries_per90": 47.0,
+    "pct_passes_final_third_per90": 95.5,
+    "pct_carry_distance_per90": 77.5,
+    "pct_pass_completion_pct": 33.4,
+    "pct_shots_per90": 92.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

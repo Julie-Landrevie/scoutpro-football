@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.7,
   "player_name": "Mahdi Camara",
   "percentiles": {
-    "pct_xg_per90": 53.9,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 15.3,
-    "pct_progressive_carries_per90": 41.6,
-    "pct_pressures_per90": 98.0,
+    "pct_xg_per90": 56.0,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 15.0,
+    "pct_progressive_carries_per90": 41.0,
+    "pct_pressures_per90": 97.3,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 53.6,
-    "pct_ball_recoveries_per90": 62.7,
-    "pct_passes_final_third_per90": 46.7,
-    "pct_carry_distance_per90": 44.3,
-    "pct_pass_completion_pct": 97.1,
-    "pct_shots_per90": 61.0
+    "pct_interceptions_per90": 55.6,
+    "pct_ball_recoveries_per90": 63.0,
+    "pct_passes_final_third_per90": 47.0,
+    "pct_carry_distance_per90": 44.0,
+    "pct_pass_completion_pct": 96.8,
+    "pct_shots_per90": 60.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

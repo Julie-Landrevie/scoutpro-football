@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.9,
   "player_name": "Luis Amaranto Perea Mosquera",
   "percentiles": {
-    "pct_xg_per90": 19.4,
-    "pct_xA_per90": 89.5,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 64.8,
-    "pct_progressive_carries_per90": 26.2,
-    "pct_pressures_per90": 78.1,
+    "pct_xg_per90": 20.8,
+    "pct_xA_per90": 87.1,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 65.7,
+    "pct_progressive_carries_per90": 26.1,
+    "pct_pressures_per90": 75.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 80.9,
-    "pct_ball_recoveries_per90": 67.7,
-    "pct_passes_final_third_per90": 26.9,
-    "pct_carry_distance_per90": 32.1,
-    "pct_pass_completion_pct": 34.7,
-    "pct_shots_per90": 15.4
+    "pct_interceptions_per90": 81.8,
+    "pct_ball_recoveries_per90": 67.4,
+    "pct_passes_final_third_per90": 26.6,
+    "pct_carry_distance_per90": 31.6,
+    "pct_pass_completion_pct": 34.1,
+    "pct_shots_per90": 17.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

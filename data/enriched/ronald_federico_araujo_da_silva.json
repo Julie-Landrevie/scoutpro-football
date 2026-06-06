@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 31,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 2.12,
   "xg_per90": 0.07,
   "shots_total": 14.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.1,
   "player_name": "Ronald Federico Araújo da Silva",
   "percentiles": {
-    "pct_xg_per90": 68.0,
-    "pct_xA_per90": 67.4,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 43.0,
-    "pct_progressive_carries_per90": 70.1,
-    "pct_pressures_per90": 15.2,
+    "pct_xg_per90": 67.4,
+    "pct_xA_per90": 73.4,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 43.1,
+    "pct_progressive_carries_per90": 69.4,
+    "pct_pressures_per90": 15.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 38.2,
-    "pct_ball_recoveries_per90": 24.3,
-    "pct_passes_final_third_per90": 18.2,
-    "pct_carry_distance_per90": 64.7,
-    "pct_pass_completion_pct": 97.6,
-    "pct_shots_per90": 49.2
+    "pct_interceptions_per90": 39.6,
+    "pct_ball_recoveries_per90": 24.5,
+    "pct_passes_final_third_per90": 17.6,
+    "pct_carry_distance_per90": 63.7,
+    "pct_pass_completion_pct": 97.3,
+    "pct_shots_per90": 49.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

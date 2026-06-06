@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.3,
   "player_name": "Deroy Duarte",
   "percentiles": {
-    "pct_xg_per90": 71.3,
-    "pct_xA_per90": 99.1,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 21.3,
-    "pct_progressive_carries_per90": 35.8,
-    "pct_pressures_per90": 47.4,
+    "pct_xg_per90": 70.2,
+    "pct_xA_per90": 98.6,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 20.9,
+    "pct_progressive_carries_per90": 35.7,
+    "pct_pressures_per90": 45.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 68.7,
+    "pct_interceptions_per90": 71.5,
     "pct_ball_recoveries_per90": 29.5,
-    "pct_passes_final_third_per90": 32.9,
-    "pct_carry_distance_per90": 32.4,
-    "pct_pass_completion_pct": 95.2,
-    "pct_shots_per90": 91.3
+    "pct_passes_final_third_per90": 32.7,
+    "pct_carry_distance_per90": 31.9,
+    "pct_pass_completion_pct": 94.5,
+    "pct_shots_per90": 90.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

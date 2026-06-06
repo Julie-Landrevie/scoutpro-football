@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 8,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 1.38,
   "xg_per90": 0.17,
   "shots_total": 8.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.1,
   "player_name": "Valmiro Lópes Rocha",
   "percentiles": {
-    "pct_xg_per90": 87.8,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 64.8,
-    "pct_progressive_passes_per90": 38.7,
-    "pct_progressive_carries_per90": 54.7,
-    "pct_pressures_per90": 65.9,
+    "pct_xg_per90": 86.0,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 64.1,
+    "pct_progressive_passes_per90": 38.4,
+    "pct_progressive_carries_per90": 54.3,
+    "pct_pressures_per90": 63.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 18.8,
-    "pct_ball_recoveries_per90": 72.7,
-    "pct_passes_final_third_per90": 70.9,
-    "pct_carry_distance_per90": 63.1,
+    "pct_interceptions_per90": 20.2,
+    "pct_ball_recoveries_per90": 72.6,
+    "pct_passes_final_third_per90": 70.1,
+    "pct_carry_distance_per90": 62.3,
     "pct_pass_completion_pct": 15.8,
-    "pct_shots_per90": 75.5
+    "pct_shots_per90": 75.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

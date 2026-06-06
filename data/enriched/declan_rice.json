@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.2,
   "player_name": "Declan Rice",
   "percentiles": {
-    "pct_xg_per90": 33.3,
-    "pct_xA_per90": 71.4,
-    "pct_key_passes_per90": 38.1,
-    "pct_progressive_passes_per90": 63.5,
-    "pct_progressive_carries_per90": 73.0,
-    "pct_pressures_per90": 44.4,
+    "pct_xg_per90": 38.7,
+    "pct_xA_per90": 74.2,
+    "pct_key_passes_per90": 41.9,
+    "pct_progressive_passes_per90": 64.5,
+    "pct_progressive_carries_per90": 72.6,
+    "pct_pressures_per90": 46.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 95.2,
-    "pct_ball_recoveries_per90": 60.3,
-    "pct_passes_final_third_per90": 73.0,
-    "pct_carry_distance_per90": 93.7,
-    "pct_pass_completion_pct": 90.5,
-    "pct_shots_per90": 38.1
+    "pct_interceptions_per90": 93.5,
+    "pct_ball_recoveries_per90": 66.1,
+    "pct_passes_final_third_per90": 71.0,
+    "pct_carry_distance_per90": 95.2,
+    "pct_pass_completion_pct": 90.3,
+    "pct_shots_per90": 46.8
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 63
+  "percentile_sample_size": 62
 }

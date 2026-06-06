@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.2,
   "player_name": "Adam Gnezda Čerin",
   "percentiles": {
-    "pct_xg_per90": 68.0,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 64.8,
-    "pct_progressive_passes_per90": 68.7,
-    "pct_progressive_carries_per90": 66.6,
-    "pct_pressures_per90": 99.6,
+    "pct_xg_per90": 67.4,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 64.1,
+    "pct_progressive_passes_per90": 69.2,
+    "pct_progressive_carries_per90": 66.1,
+    "pct_pressures_per90": 99.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 85.9,
-    "pct_ball_recoveries_per90": 75.2,
-    "pct_passes_final_third_per90": 75.9,
-    "pct_carry_distance_per90": 62.5,
-    "pct_pass_completion_pct": 61.1,
-    "pct_shots_per90": 75.5
+    "pct_interceptions_per90": 85.6,
+    "pct_ball_recoveries_per90": 74.7,
+    "pct_passes_final_third_per90": 75.3,
+    "pct_carry_distance_per90": 61.8,
+    "pct_pass_completion_pct": 60.0,
+    "pct_shots_per90": 75.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

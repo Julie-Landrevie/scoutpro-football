@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 5,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 1.08,
   "xg_per90": 0.22,
   "shots_total": 7.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.4,
   "player_name": "Mario Bermejo Castanedo",
   "percentiles": {
-    "pct_xg_per90": 92.2,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 56.9,
-    "pct_progressive_passes_per90": 18.5,
-    "pct_progressive_carries_per90": 19.2,
-    "pct_pressures_per90": 48.1,
+    "pct_xg_per90": 91.0,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 57.3,
+    "pct_progressive_passes_per90": 18.2,
+    "pct_progressive_carries_per90": 18.9,
+    "pct_pressures_per90": 46.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 26.4,
-    "pct_ball_recoveries_per90": 55.9,
-    "pct_passes_final_third_per90": 43.0,
-    "pct_carry_distance_per90": 29.2,
-    "pct_pass_completion_pct": 19.2,
-    "pct_shots_per90": 85.8
+    "pct_interceptions_per90": 27.9,
+    "pct_ball_recoveries_per90": 56.3,
+    "pct_passes_final_third_per90": 42.5,
+    "pct_carry_distance_per90": 28.8,
+    "pct_pass_completion_pct": 19.0,
+    "pct_shots_per90": 84.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

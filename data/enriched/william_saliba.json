@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.1,
   "player_name": "William Saliba",
   "percentiles": {
-    "pct_xg_per90": 32.9,
-    "pct_xA_per90": 69.2,
-    "pct_key_passes_per90": 46.2,
-    "pct_progressive_passes_per90": 51.0,
-    "pct_progressive_carries_per90": 72.0,
-    "pct_pressures_per90": 32.2,
+    "pct_xg_per90": 33.8,
+    "pct_xA_per90": 72.5,
+    "pct_key_passes_per90": 47.2,
+    "pct_progressive_passes_per90": 52.1,
+    "pct_progressive_carries_per90": 72.5,
+    "pct_pressures_per90": 31.0,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 67.8,
-    "pct_ball_recoveries_per90": 55.9,
-    "pct_passes_final_third_per90": 33.6,
-    "pct_carry_distance_per90": 82.5,
+    "pct_interceptions_per90": 68.3,
+    "pct_ball_recoveries_per90": 60.6,
+    "pct_passes_final_third_per90": 33.8,
+    "pct_carry_distance_per90": 83.8,
     "pct_pass_completion_pct": 99.3,
-    "pct_shots_per90": 47.6
+    "pct_shots_per90": 49.3
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 143
+  "percentile_sample_size": 142
 }

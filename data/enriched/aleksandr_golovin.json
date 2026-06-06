@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 9,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 1.55,
   "xg_per90": 0.17,
   "shots_total": 12.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 5.4,
   "player_name": "Aleksandr Golovin",
   "percentiles": {
-    "pct_xg_per90": 87.8,
-    "pct_xA_per90": 99.1,
-    "pct_key_passes_per90": 91.6,
-    "pct_progressive_passes_per90": 56.4,
-    "pct_progressive_carries_per90": 91.5,
-    "pct_pressures_per90": 99.5,
+    "pct_xg_per90": 86.0,
+    "pct_xA_per90": 98.6,
+    "pct_key_passes_per90": 90.3,
+    "pct_progressive_passes_per90": 57.0,
+    "pct_progressive_carries_per90": 90.7,
+    "pct_pressures_per90": 99.2,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 53.6,
-    "pct_ball_recoveries_per90": 91.5,
-    "pct_passes_final_third_per90": 96.8,
-    "pct_carry_distance_per90": 95.3,
-    "pct_pass_completion_pct": 37.9,
-    "pct_shots_per90": 84.0
+    "pct_interceptions_per90": 55.6,
+    "pct_ball_recoveries_per90": 90.7,
+    "pct_passes_final_third_per90": 96.2,
+    "pct_carry_distance_per90": 94.7,
+    "pct_pass_completion_pct": 37.2,
+    "pct_shots_per90": 83.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

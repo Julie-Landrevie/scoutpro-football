@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 7,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 1.04,
   "xg_per90": 0.15,
   "shots_total": 7.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 1.6,
   "player_name": "Enes Ünal",
   "percentiles": {
-    "pct_xg_per90": 85.4,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 27.3,
-    "pct_progressive_passes_per90": 9.3,
-    "pct_progressive_carries_per90": 35.8,
-    "pct_pressures_per90": 26.5,
+    "pct_xg_per90": 83.7,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 28.3,
+    "pct_progressive_passes_per90": 9.1,
+    "pct_progressive_carries_per90": 35.7,
+    "pct_pressures_per90": 25.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 33.2,
-    "pct_ball_recoveries_per90": 13.5,
-    "pct_passes_final_third_per90": 35.2,
-    "pct_carry_distance_per90": 27.9,
-    "pct_pass_completion_pct": 59.6,
-    "pct_shots_per90": 75.5
+    "pct_interceptions_per90": 35.1,
+    "pct_ball_recoveries_per90": 13.8,
+    "pct_passes_final_third_per90": 34.9,
+    "pct_carry_distance_per90": 27.3,
+    "pct_pass_completion_pct": 58.8,
+    "pct_shots_per90": 75.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }
