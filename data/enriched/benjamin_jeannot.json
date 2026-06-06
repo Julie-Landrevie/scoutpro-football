@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 29,
-  "goals": 2,
+  "goals": 0,
   "xg_total": 6.62,
   "xg_per90": 0.23,
   "shots_total": 64,
@@ -31,21 +31,20 @@
   "ball_recoveries_per90": 2.3,
   "player_name": "Benjamin Jeannot",
   "percentiles": {
-    "pct_xg_per90": 92.8,
-    "pct_xA_per90": 69.1,
-    "pct_key_passes_per90": 72.0,
-    "pct_progressive_passes_per90": 20.5,
-    "pct_progressive_carries_per90": 32.4,
-    "pct_pressures_per90": 78.3,
+    "pct_xg_per90": 92.9,
+    "pct_xA_per90": 67.4,
+    "pct_key_passes_per90": 71.1,
+    "pct_progressive_passes_per90": 19.1,
+    "pct_progressive_carries_per90": 31.1,
+    "pct_pressures_per90": 78.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 34.1,
-    "pct_ball_recoveries_per90": 31.0,
-    "pct_passes_final_third_per90": 63.2,
-    "pct_carry_distance_per90": 39.8,
+    "pct_interceptions_per90": 33.2,
+    "pct_ball_recoveries_per90": 29.5,
+    "pct_passes_final_third_per90": 62.1,
+    "pct_carry_distance_per90": 38.0,
     "pct_pass_completion_pct": 38.6,
     "pct_shots_per90": 96.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.1,
   "player_name": "Aderllan Leandro de Jesus Santos",
   "percentiles": {
-    "pct_xg_per90": 64.5,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 29.3,
-    "pct_progressive_passes_per90": 68.9,
-    "pct_progressive_carries_per90": 50.5,
-    "pct_pressures_per90": 45.8,
+    "pct_xg_per90": 63.9,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 27.3,
+    "pct_progressive_passes_per90": 68.2,
+    "pct_progressive_carries_per90": 49.3,
+    "pct_pressures_per90": 44.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 98.2,
-    "pct_ball_recoveries_per90": 49.6,
-    "pct_passes_final_third_per90": 8.9,
-    "pct_carry_distance_per90": 50.9,
-    "pct_pass_completion_pct": 77.7,
-    "pct_shots_per90": 50.6
+    "pct_interceptions_per90": 98.3,
+    "pct_ball_recoveries_per90": 48.5,
+    "pct_passes_final_third_per90": 8.7,
+    "pct_carry_distance_per90": 49.2,
+    "pct_pass_completion_pct": 78.6,
+    "pct_shots_per90": 49.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

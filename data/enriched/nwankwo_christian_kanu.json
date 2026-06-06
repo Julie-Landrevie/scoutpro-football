@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.7,
   "player_name": "Nwankwo Christian Kanu",
   "percentiles": {
-    "pct_xg_per90": 77.2,
+    "pct_xg_per90": 76.9,
     "pct_xA_per90": 94.1,
-    "pct_key_passes_per90": 72.0,
-    "pct_progressive_passes_per90": 21.4,
-    "pct_progressive_carries_per90": 38.1,
-    "pct_pressures_per90": 12.0,
+    "pct_key_passes_per90": 71.1,
+    "pct_progressive_passes_per90": 20.2,
+    "pct_progressive_carries_per90": 37.1,
+    "pct_pressures_per90": 11.3,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 20.2,
-    "pct_ball_recoveries_per90": 40.0,
-    "pct_passes_final_third_per90": 64.6,
-    "pct_carry_distance_per90": 41.5,
-    "pct_pass_completion_pct": 49.5,
-    "pct_shots_per90": 76.3
+    "pct_interceptions_per90": 18.8,
+    "pct_ball_recoveries_per90": 38.4,
+    "pct_passes_final_third_per90": 63.6,
+    "pct_carry_distance_per90": 39.9,
+    "pct_pass_completion_pct": 49.8,
+    "pct_shots_per90": 75.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

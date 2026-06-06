@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.7,
   "player_name": "Santiago Vergini",
   "percentiles": {
-    "pct_xg_per90": 48.9,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 22.9,
-    "pct_progressive_passes_per90": 63.1,
-    "pct_progressive_carries_per90": 62.2,
-    "pct_pressures_per90": 27.9,
+    "pct_xg_per90": 47.7,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 20.7,
+    "pct_progressive_passes_per90": 61.9,
+    "pct_progressive_carries_per90": 61.0,
+    "pct_pressures_per90": 26.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 99.0,
-    "pct_ball_recoveries_per90": 83.3,
-    "pct_passes_final_third_per90": 11.0,
-    "pct_carry_distance_per90": 68.9,
-    "pct_pass_completion_pct": 78.0,
-    "pct_shots_per90": 36.8
+    "pct_interceptions_per90": 99.3,
+    "pct_ball_recoveries_per90": 83.1,
+    "pct_passes_final_third_per90": 10.7,
+    "pct_carry_distance_per90": 67.2,
+    "pct_pass_completion_pct": 79.0,
+    "pct_shots_per90": 36.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

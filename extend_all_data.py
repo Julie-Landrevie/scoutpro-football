@@ -115,9 +115,10 @@ def extract_stats(pev, n_matches):
     except Exception:
         xg = 0.0
     try:
-        goals = int(shots["shot_outcome"].apply(
+        goals_series = shots["shot_outcome"].apply(
             lambda x: 1 if isinstance(x, dict) and x.get("name") == "Goal" else 0
-        ).sum()) if "shot_outcome" in shots.columns else 0
+        ) if "shot_outcome" in shots.columns else pd.Series([0])
+        goals = int(float(goals_series.sum()))
     except Exception:
         goals = 0
 
@@ -215,7 +216,12 @@ def merge_stats(existing, new_stats):
     ]
 
     for k in additive:
-        merged[k] = round(existing.get(k, 0) + new_stats.get(k, 0), 2)
+        v1 = existing.get(k, 0) or 0
+        v2 = new_stats.get(k, 0) or 0
+        try:
+            merged[k] = round(float(v1) + float(v2), 2)
+        except (TypeError, ValueError):
+            merged[k] = 0
 
     merged["matches_analyzed"] = total_matches
     per90 = 1.0 / max(total_matches, 1)

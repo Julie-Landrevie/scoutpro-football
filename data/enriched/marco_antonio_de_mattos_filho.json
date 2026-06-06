@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.8,
   "player_name": "Marco Antônio De Mattos Filho",
   "percentiles": {
-    "pct_xg_per90": 55.3,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 33.1,
-    "pct_progressive_carries_per90": 39.9,
-    "pct_pressures_per90": 64.3,
+    "pct_xg_per90": 53.9,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 31.8,
+    "pct_progressive_carries_per90": 38.7,
+    "pct_pressures_per90": 63.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 59.4,
-    "pct_ball_recoveries_per90": 42.3,
-    "pct_passes_final_third_per90": 43.1,
-    "pct_carry_distance_per90": 31.4,
+    "pct_interceptions_per90": 58.8,
+    "pct_ball_recoveries_per90": 41.0,
+    "pct_passes_final_third_per90": 42.2,
+    "pct_carry_distance_per90": 29.8,
     "pct_pass_completion_pct": 41.2,
-    "pct_shots_per90": 67.2
+    "pct_shots_per90": 66.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

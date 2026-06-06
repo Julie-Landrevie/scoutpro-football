@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 32,
-  "goals": 1,
+  "goals": 0,
   "xg_total": 2.54,
   "xg_per90": 0.08,
   "shots_total": 41,
@@ -31,21 +31,20 @@
   "ball_recoveries_per90": 3.3,
   "player_name": "Jasmin Kurtič",
   "percentiles": {
-    "pct_xg_per90": 71.9,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 57.7,
-    "pct_progressive_passes_per90": 48.0,
-    "pct_progressive_carries_per90": 52.2,
-    "pct_pressures_per90": 92.2,
+    "pct_xg_per90": 71.3,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 56.9,
+    "pct_progressive_passes_per90": 47.1,
+    "pct_progressive_carries_per90": 51.0,
+    "pct_pressures_per90": 92.7,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 54.4,
-    "pct_ball_recoveries_per90": 54.4,
-    "pct_passes_final_third_per90": 75.0,
-    "pct_carry_distance_per90": 62.3,
-    "pct_pass_completion_pct": 37.7,
-    "pct_shots_per90": 84.4
+    "pct_interceptions_per90": 53.6,
+    "pct_ball_recoveries_per90": 53.7,
+    "pct_passes_final_third_per90": 73.9,
+    "pct_carry_distance_per90": 60.8,
+    "pct_pass_completion_pct": 37.9,
+    "pct_shots_per90": 84.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

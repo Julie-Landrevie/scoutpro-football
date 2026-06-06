@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.2,
   "player_name": "Romain Genevois",
   "percentiles": {
-    "pct_xg_per90": 64.5,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 40.3,
-    "pct_progressive_passes_per90": 87.4,
-    "pct_progressive_carries_per90": 83.4,
-    "pct_pressures_per90": 62.4,
+    "pct_xg_per90": 63.9,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 38.8,
+    "pct_progressive_passes_per90": 87.0,
+    "pct_progressive_carries_per90": 83.3,
+    "pct_pressures_per90": 61.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 92.4,
-    "pct_ball_recoveries_per90": 52.0,
-    "pct_passes_final_third_per90": 22.1,
-    "pct_carry_distance_per90": 83.7,
-    "pct_pass_completion_pct": 87.0,
-    "pct_shots_per90": 20.1
+    "pct_interceptions_per90": 92.8,
+    "pct_ball_recoveries_per90": 51.1,
+    "pct_passes_final_third_per90": 21.5,
+    "pct_carry_distance_per90": 82.8,
+    "pct_pass_completion_pct": 88.0,
+    "pct_shots_per90": 18.5
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

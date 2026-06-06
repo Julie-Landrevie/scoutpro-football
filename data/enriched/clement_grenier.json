@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.3,
   "player_name": "Clément Grenier",
   "percentiles": {
-    "pct_xg_per90": 60.4,
-    "pct_xA_per90": 92.3,
+    "pct_xg_per90": 59.6,
+    "pct_xA_per90": 91.8,
     "pct_key_passes_per90": 85.8,
-    "pct_progressive_passes_per90": 68.9,
-    "pct_progressive_carries_per90": 64.4,
-    "pct_pressures_per90": 58.5,
+    "pct_progressive_passes_per90": 68.2,
+    "pct_progressive_carries_per90": 63.3,
+    "pct_pressures_per90": 57.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 48.9,
-    "pct_ball_recoveries_per90": 54.4,
-    "pct_passes_final_third_per90": 82.6,
-    "pct_carry_distance_per90": 65.3,
-    "pct_pass_completion_pct": 42.4,
-    "pct_shots_per90": 67.2
+    "pct_interceptions_per90": 47.3,
+    "pct_ball_recoveries_per90": 53.7,
+    "pct_passes_final_third_per90": 81.8,
+    "pct_carry_distance_per90": 63.5,
+    "pct_pass_completion_pct": 42.8,
+    "pct_shots_per90": 66.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

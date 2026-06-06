@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.0,
   "player_name": "Dylan Batubinsika",
   "percentiles": {
-    "pct_xg_per90": 20.9,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 22.9,
-    "pct_progressive_passes_per90": 53.9,
-    "pct_progressive_carries_per90": 95.6,
-    "pct_pressures_per90": 11.6,
+    "pct_xg_per90": 19.4,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 20.7,
+    "pct_progressive_passes_per90": 52.5,
+    "pct_progressive_carries_per90": 95.8,
+    "pct_pressures_per90": 10.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 69.5,
-    "pct_ball_recoveries_per90": 47.7,
-    "pct_passes_final_third_per90": 8.9,
-    "pct_carry_distance_per90": 92.7,
-    "pct_pass_completion_pct": 98.6,
-    "pct_shots_per90": 17.0
+    "pct_interceptions_per90": 68.7,
+    "pct_ball_recoveries_per90": 46.6,
+    "pct_passes_final_third_per90": 8.7,
+    "pct_carry_distance_per90": 92.0,
+    "pct_pass_completion_pct": 98.9,
+    "pct_shots_per90": 15.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }

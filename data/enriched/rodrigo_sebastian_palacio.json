@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 27,
-  "goals": 1,
+  "goals": 0,
   "xg_total": 3.28,
   "xg_per90": 0.12,
   "shots_total": 17,
@@ -32,20 +32,19 @@
   "player_name": "Rodrigo Sebastián Palacio",
   "percentiles": {
     "pct_xg_per90": 80.8,
-    "pct_xA_per90": 91.0,
+    "pct_xA_per90": 90.3,
     "pct_key_passes_per90": 85.8,
-    "pct_progressive_passes_per90": 25.8,
-    "pct_progressive_carries_per90": 58.9,
-    "pct_pressures_per90": 67.2,
+    "pct_progressive_passes_per90": 24.5,
+    "pct_progressive_carries_per90": 58.0,
+    "pct_pressures_per90": 66.7,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 27.4,
-    "pct_ball_recoveries_per90": 32.8,
-    "pct_passes_final_third_per90": 83.4,
-    "pct_carry_distance_per90": 65.3,
-    "pct_pass_completion_pct": 40.0,
-    "pct_shots_per90": 55.9
+    "pct_interceptions_per90": 26.4,
+    "pct_ball_recoveries_per90": 31.3,
+    "pct_passes_final_third_per90": 82.5,
+    "pct_carry_distance_per90": 63.5,
+    "pct_pass_completion_pct": 40.1,
+    "pct_shots_per90": 54.4
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759,
-  "goals_note": "estimé (bug conversion données source)"
+  "percentile_sample_size": 3566
 }

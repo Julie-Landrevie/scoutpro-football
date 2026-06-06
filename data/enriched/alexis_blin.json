@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.9,
   "player_name": "Alexis Blin",
   "percentiles": {
-    "pct_xg_per90": 41.0,
-    "pct_xA_per90": 64.6,
-    "pct_key_passes_per90": 66.1,
-    "pct_progressive_passes_per90": 54.7,
-    "pct_progressive_carries_per90": 44.6,
-    "pct_pressures_per90": 87.5,
+    "pct_xg_per90": 40.1,
+    "pct_xA_per90": 62.7,
+    "pct_key_passes_per90": 64.8,
+    "pct_progressive_passes_per90": 53.4,
+    "pct_progressive_carries_per90": 43.4,
+    "pct_pressures_per90": 87.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 48.9,
-    "pct_ball_recoveries_per90": 85.9,
-    "pct_passes_final_third_per90": 43.1,
-    "pct_carry_distance_per90": 41.4,
-    "pct_pass_completion_pct": 62.0,
-    "pct_shots_per90": 50.6
+    "pct_interceptions_per90": 47.3,
+    "pct_ball_recoveries_per90": 86.0,
+    "pct_passes_final_third_per90": 42.2,
+    "pct_carry_distance_per90": 39.8,
+    "pct_pass_completion_pct": 62.2,
+    "pct_shots_per90": 49.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3759
+  "percentile_sample_size": 3566
 }
