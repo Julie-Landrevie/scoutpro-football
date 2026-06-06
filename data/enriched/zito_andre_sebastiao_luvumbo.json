@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 1.6,
   "player_name": "Zito André Sebastião Luvumbo",
   "percentiles": {
-    "pct_xg_per90": 47.7,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 71.1,
-    "pct_progressive_passes_per90": 17.6,
-    "pct_progressive_carries_per90": 52.2,
-    "pct_pressures_per90": 20.9,
+    "pct_xg_per90": 49.4,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 69.7,
+    "pct_progressive_passes_per90": 17.1,
+    "pct_progressive_carries_per90": 52.1,
+    "pct_pressures_per90": 20.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 26.4,
-    "pct_ball_recoveries_per90": 13.5,
-    "pct_passes_final_third_per90": 54.6,
-    "pct_carry_distance_per90": 36.8,
-    "pct_pass_completion_pct": 19.0,
-    "pct_shots_per90": 54.4
+    "pct_interceptions_per90": 27.9,
+    "pct_ball_recoveries_per90": 13.8,
+    "pct_passes_final_third_per90": 54.8,
+    "pct_carry_distance_per90": 36.3,
+    "pct_pass_completion_pct": 18.8,
+    "pct_shots_per90": 53.8
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

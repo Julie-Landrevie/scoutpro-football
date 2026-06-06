@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.2,
   "player_name": "Naïm Sliti",
   "percentiles": {
-    "pct_xg_per90": 76.9,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 90.2,
+    "pct_xg_per90": 75.9,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 88.8,
     "pct_progressive_passes_per90": 36.9,
-    "pct_progressive_carries_per90": 64.6,
-    "pct_pressures_per90": 69.4,
+    "pct_progressive_carries_per90": 63.9,
+    "pct_pressures_per90": 67.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 43.2,
-    "pct_ball_recoveries_per90": 26.6,
-    "pct_passes_final_third_per90": 82.2,
-    "pct_carry_distance_per90": 75.3,
-    "pct_pass_completion_pct": 13.2,
-    "pct_shots_per90": 84.0
+    "pct_interceptions_per90": 44.9,
+    "pct_ball_recoveries_per90": 26.9,
+    "pct_passes_final_third_per90": 82.0,
+    "pct_carry_distance_per90": 73.8,
+    "pct_pass_completion_pct": 13.3,
+    "pct_shots_per90": 83.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

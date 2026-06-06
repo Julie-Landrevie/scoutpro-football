@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 5,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 0.87,
   "xg_per90": 0.17,
   "shots_total": 11.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.6,
   "player_name": "Hélder Manuel Marques Postiga",
   "percentiles": {
-    "pct_xg_per90": 87.8,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 20.7,
+    "pct_xg_per90": 86.0,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 22.8,
     "pct_progressive_passes_per90": 4.1,
-    "pct_progressive_carries_per90": 27.7,
-    "pct_pressures_per90": 58.5,
+    "pct_progressive_carries_per90": 28.2,
+    "pct_pressures_per90": 56.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 47.3,
-    "pct_ball_recoveries_per90": 60.1,
-    "pct_passes_final_third_per90": 38.6,
-    "pct_carry_distance_per90": 35.8,
-    "pct_pass_completion_pct": 49.0,
-    "pct_shots_per90": 96.3
+    "pct_interceptions_per90": 49.1,
+    "pct_ball_recoveries_per90": 60.5,
+    "pct_passes_final_third_per90": 38.3,
+    "pct_carry_distance_per90": 35.3,
+    "pct_pass_completion_pct": 48.1,
+    "pct_shots_per90": 95.7
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

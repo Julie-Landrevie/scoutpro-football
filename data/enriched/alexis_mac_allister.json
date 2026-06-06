@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 11,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 1.91,
   "xg_per90": 0.17,
   "shots_total": 14.0,
@@ -32,19 +32,19 @@
   "player_name": "Alexis Mac Allister",
   "percentiles": {
     "pct_xg_per90": 95.2,
-    "pct_xA_per90": 98.4,
-    "pct_key_passes_per90": 81.0,
-    "pct_progressive_passes_per90": 25.4,
-    "pct_progressive_carries_per90": 73.0,
-    "pct_pressures_per90": 55.6,
+    "pct_xA_per90": 100.0,
+    "pct_key_passes_per90": 82.3,
+    "pct_progressive_passes_per90": 24.2,
+    "pct_progressive_carries_per90": 72.6,
+    "pct_pressures_per90": 58.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 36.5,
-    "pct_ball_recoveries_per90": 69.8,
-    "pct_passes_final_third_per90": 92.1,
-    "pct_carry_distance_per90": 69.8,
-    "pct_pass_completion_pct": 76.2,
-    "pct_shots_per90": 90.5
+    "pct_interceptions_per90": 37.1,
+    "pct_ball_recoveries_per90": 77.4,
+    "pct_passes_final_third_per90": 93.5,
+    "pct_carry_distance_per90": 72.6,
+    "pct_pass_completion_pct": 75.8,
+    "pct_shots_per90": 96.8
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 63
+  "percentile_sample_size": 62
 }

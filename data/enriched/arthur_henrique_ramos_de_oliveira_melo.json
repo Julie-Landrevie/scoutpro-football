@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 41,
-  "goals": 0.0,
+  "goals": 2.0,
   "xg_total": 1.42,
   "xg_per90": 0.03,
   "shots_total": 9.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.7,
   "player_name": "Arthur Henrique Ramos de Oliveira Melo",
   "percentiles": {
-    "pct_xg_per90": 47.7,
-    "pct_xA_per90": 72.3,
-    "pct_key_passes_per90": 64.8,
-    "pct_progressive_passes_per90": 35.5,
-    "pct_progressive_carries_per90": 83.3,
-    "pct_pressures_per90": 46.5,
+    "pct_xg_per90": 49.4,
+    "pct_xA_per90": 74.7,
+    "pct_key_passes_per90": 64.1,
+    "pct_progressive_passes_per90": 35.6,
+    "pct_progressive_carries_per90": 81.7,
+    "pct_pressures_per90": 44.8,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 38.2,
-    "pct_ball_recoveries_per90": 38.4,
-    "pct_passes_final_third_per90": 83.8,
-    "pct_carry_distance_per90": 93.2,
-    "pct_pass_completion_pct": 98.1,
-    "pct_shots_per90": 26.5
+    "pct_interceptions_per90": 39.6,
+    "pct_ball_recoveries_per90": 38.7,
+    "pct_passes_final_third_per90": 83.5,
+    "pct_carry_distance_per90": 92.6,
+    "pct_pass_completion_pct": 97.8,
+    "pct_shots_per90": 28.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

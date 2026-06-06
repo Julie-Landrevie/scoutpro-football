@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 4.0,
   "player_name": "Magomed Ozdoev",
   "percentiles": {
-    "pct_xg_per90": 80.8,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 49.7,
-    "pct_progressive_passes_per90": 51.0,
+    "pct_xg_per90": 79.6,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 50.3,
+    "pct_progressive_passes_per90": 51.5,
     "pct_progressive_carries_per90": 46.7,
-    "pct_pressures_per90": 89.1,
+    "pct_pressures_per90": 87.1,
     "pct_duel_win_pct": 100.0,
     "pct_interceptions_per90": 97.7,
-    "pct_ball_recoveries_per90": 71.1,
-    "pct_passes_final_third_per90": 82.9,
-    "pct_carry_distance_per90": 63.7,
-    "pct_pass_completion_pct": 49.8,
-    "pct_shots_per90": 84.0
+    "pct_ball_recoveries_per90": 70.9,
+    "pct_passes_final_third_per90": 82.6,
+    "pct_carry_distance_per90": 62.8,
+    "pct_pass_completion_pct": 48.9,
+    "pct_shots_per90": 83.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

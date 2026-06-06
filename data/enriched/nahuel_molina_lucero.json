@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 12,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 0.64,
   "xg_per90": 0.05,
   "shots_total": 3.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.3,
   "player_name": "Nahuel Molina Lucero",
   "percentiles": {
-    "pct_xg_per90": 59.6,
-    "pct_xA_per90": 79.4,
-    "pct_key_passes_per90": 49.7,
-    "pct_progressive_passes_per90": 66.0,
+    "pct_xg_per90": 60.5,
+    "pct_xA_per90": 78.4,
+    "pct_key_passes_per90": 50.3,
+    "pct_progressive_passes_per90": 66.9,
     "pct_progressive_carries_per90": 46.7,
-    "pct_pressures_per90": 37.7,
+    "pct_pressures_per90": 36.4,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 72.5,
+    "pct_interceptions_per90": 74.0,
     "pct_ball_recoveries_per90": 29.5,
-    "pct_passes_final_third_per90": 83.3,
-    "pct_carry_distance_per90": 53.8,
-    "pct_pass_completion_pct": 70.7,
-    "pct_shots_per90": 26.5
+    "pct_passes_final_third_per90": 83.1,
+    "pct_carry_distance_per90": 53.2,
+    "pct_pass_completion_pct": 69.3,
+    "pct_shots_per90": 28.0
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

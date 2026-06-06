@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.3,
   "player_name": "Milos Kerkez",
   "percentiles": {
-    "pct_xg_per90": 18.9,
-    "pct_xA_per90": 69.2,
-    "pct_key_passes_per90": 59.4,
-    "pct_progressive_passes_per90": 23.8,
-    "pct_progressive_carries_per90": 36.4,
-    "pct_pressures_per90": 55.2,
+    "pct_xg_per90": 18.3,
+    "pct_xA_per90": 72.5,
+    "pct_key_passes_per90": 61.3,
+    "pct_progressive_passes_per90": 22.5,
+    "pct_progressive_carries_per90": 35.2,
+    "pct_pressures_per90": 57.7,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 15.4,
-    "pct_ball_recoveries_per90": 65.7,
-    "pct_passes_final_third_per90": 68.5,
-    "pct_carry_distance_per90": 51.0,
+    "pct_interceptions_per90": 15.5,
+    "pct_ball_recoveries_per90": 68.3,
+    "pct_passes_final_third_per90": 69.7,
+    "pct_carry_distance_per90": 49.3,
     "pct_pass_completion_pct": 0.7,
-    "pct_shots_per90": 14.7
+    "pct_shots_per90": 14.1
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 143
+  "percentile_sample_size": 142
 }

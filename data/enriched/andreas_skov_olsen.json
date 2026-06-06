@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 0.7,
   "player_name": "Andreas Skov Olsen",
   "percentiles": {
-    "pct_xg_per90": 59.6,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 56.9,
-    "pct_progressive_passes_per90": 19.1,
-    "pct_progressive_carries_per90": 35.8,
-    "pct_pressures_per90": 15.5,
+    "pct_xg_per90": 60.5,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 57.3,
+    "pct_progressive_passes_per90": 18.9,
+    "pct_progressive_carries_per90": 35.7,
+    "pct_pressures_per90": 15.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 18.8,
-    "pct_ball_recoveries_per90": 3.0,
-    "pct_passes_final_third_per90": 72.5,
-    "pct_carry_distance_per90": 32.4,
-    "pct_pass_completion_pct": 41.8,
-    "pct_shots_per90": 61.0
+    "pct_interceptions_per90": 20.2,
+    "pct_ball_recoveries_per90": 3.2,
+    "pct_passes_final_third_per90": 72.0,
+    "pct_carry_distance_per90": 31.9,
+    "pct_pass_completion_pct": 40.8,
+    "pct_shots_per90": 60.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

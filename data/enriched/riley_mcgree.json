@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.5,
   "player_name": "Riley McGree",
   "percentiles": {
-    "pct_xg_per90": 40.1,
-    "pct_xA_per90": 96.5,
-    "pct_key_passes_per90": 82.9,
-    "pct_progressive_passes_per90": 19.7,
+    "pct_xg_per90": 41.7,
+    "pct_xA_per90": 95.2,
+    "pct_key_passes_per90": 81.4,
+    "pct_progressive_passes_per90": 19.5,
     "pct_progressive_carries_per90": 9.5,
-    "pct_pressures_per90": 65.3,
+    "pct_pressures_per90": 63.0,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 85.9,
+    "pct_interceptions_per90": 85.6,
     "pct_ball_recoveries_per90": 33.4,
-    "pct_passes_final_third_per90": 70.9,
-    "pct_carry_distance_per90": 15.8,
-    "pct_pass_completion_pct": 57.9,
-    "pct_shots_per90": 66.7
+    "pct_passes_final_third_per90": 70.1,
+    "pct_carry_distance_per90": 15.1,
+    "pct_pass_completion_pct": 57.0,
+    "pct_shots_per90": 66.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

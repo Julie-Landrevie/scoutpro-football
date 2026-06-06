@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 12,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 0.63,
   "xg_per90": 0.05,
   "shots_total": 9.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 3.8,
   "player_name": "Mikel Merino Zazón",
   "percentiles": {
-    "pct_xg_per90": 59.6,
-    "pct_xA_per90": 79.4,
-    "pct_key_passes_per90": 82.9,
+    "pct_xg_per90": 60.5,
+    "pct_xA_per90": 78.4,
+    "pct_key_passes_per90": 81.4,
     "pct_progressive_passes_per90": 43.8,
-    "pct_progressive_carries_per90": 39.9,
-    "pct_pressures_per90": 87.7,
+    "pct_progressive_carries_per90": 39.3,
+    "pct_pressures_per90": 85.4,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 47.3,
-    "pct_ball_recoveries_per90": 65.9,
-    "pct_passes_final_third_per90": 69.6,
-    "pct_carry_distance_per90": 56.0,
-    "pct_pass_completion_pct": 82.4,
-    "pct_shots_per90": 66.7
+    "pct_interceptions_per90": 49.1,
+    "pct_ball_recoveries_per90": 65.7,
+    "pct_passes_final_third_per90": 69.0,
+    "pct_carry_distance_per90": 54.9,
+    "pct_pass_completion_pct": 81.2,
+    "pct_shots_per90": 66.2
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

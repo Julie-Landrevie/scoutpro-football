@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 10,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 0.91,
   "xg_per90": 0.09,
   "shots_total": 6.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 1.9,
   "player_name": "Lisandro Martínez",
   "percentiles": {
-    "pct_xg_per90": 88.8,
-    "pct_xA_per90": 69.2,
-    "pct_key_passes_per90": 59.4,
-    "pct_progressive_passes_per90": 40.6,
-    "pct_progressive_carries_per90": 86.0,
-    "pct_pressures_per90": 10.5,
+    "pct_xg_per90": 86.6,
+    "pct_xA_per90": 72.5,
+    "pct_key_passes_per90": 61.3,
+    "pct_progressive_passes_per90": 42.3,
+    "pct_progressive_carries_per90": 85.9,
+    "pct_pressures_per90": 9.9,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 53.8,
-    "pct_ball_recoveries_per90": 18.2,
-    "pct_passes_final_third_per90": 22.4,
-    "pct_carry_distance_per90": 69.9,
-    "pct_pass_completion_pct": 89.5,
-    "pct_shots_per90": 71.3
+    "pct_interceptions_per90": 56.3,
+    "pct_ball_recoveries_per90": 19.0,
+    "pct_passes_final_third_per90": 22.5,
+    "pct_carry_distance_per90": 69.7,
+    "pct_pass_completion_pct": 88.0,
+    "pct_shots_per90": 73.9
   },
   "percentile_group": "DEF",
-  "percentile_sample_size": 143
+  "percentile_sample_size": 142
 }

@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 6.3,
   "player_name": "David Olatukunbo Alaba",
   "percentiles": {
-    "pct_xg_per90": 40.1,
-    "pct_xA_per90": 97.0,
-    "pct_key_passes_per90": 97.2,
-    "pct_progressive_passes_per90": 97.3,
-    "pct_progressive_carries_per90": 98.9,
-    "pct_pressures_per90": 55.0,
+    "pct_xg_per90": 41.7,
+    "pct_xA_per90": 95.8,
+    "pct_key_passes_per90": 96.6,
+    "pct_progressive_passes_per90": 97.4,
+    "pct_progressive_carries_per90": 98.5,
+    "pct_pressures_per90": 53.5,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 87.9,
-    "pct_ball_recoveries_per90": 97.5,
-    "pct_passes_final_third_per90": 95.0,
-    "pct_carry_distance_per90": 99.5,
-    "pct_pass_completion_pct": 79.2,
-    "pct_shots_per90": 42.8
+    "pct_interceptions_per90": 87.7,
+    "pct_ball_recoveries_per90": 96.6,
+    "pct_passes_final_third_per90": 94.5,
+    "pct_carry_distance_per90": 99.2,
+    "pct_pass_completion_pct": 77.8,
+    "pct_shots_per90": 42.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

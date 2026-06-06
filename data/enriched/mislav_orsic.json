@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 7,
-  "goals": 0.0,
+  "goals": 3.0,
   "xg_total": 2.09,
   "xg_per90": 0.3,
   "shots_total": 12.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 1.0,
   "player_name": "Mislav Oršić",
   "percentiles": {
-    "pct_xg_per90": 96.4,
-    "pct_xA_per90": 99.6,
-    "pct_key_passes_per90": 71.1,
-    "pct_progressive_passes_per90": 17.1,
-    "pct_progressive_carries_per90": 44.5,
-    "pct_pressures_per90": 16.9,
+    "pct_xg_per90": 95.5,
+    "pct_xA_per90": 99.2,
+    "pct_key_passes_per90": 69.7,
+    "pct_progressive_passes_per90": 16.7,
+    "pct_progressive_carries_per90": 43.7,
+    "pct_pressures_per90": 17.3,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 18.8,
-    "pct_ball_recoveries_per90": 6.4,
-    "pct_passes_final_third_per90": 58.7,
-    "pct_carry_distance_per90": 25.0,
-    "pct_pass_completion_pct": 30.0,
-    "pct_shots_per90": 91.3
+    "pct_interceptions_per90": 20.2,
+    "pct_ball_recoveries_per90": 6.8,
+    "pct_passes_final_third_per90": 58.3,
+    "pct_carry_distance_per90": 24.1,
+    "pct_pass_completion_pct": 29.6,
+    "pct_shots_per90": 90.1
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

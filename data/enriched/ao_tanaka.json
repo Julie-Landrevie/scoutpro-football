@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 3,
-  "goals": 0,
+  "goals": 1,
   "xg_total": 0.87,
   "xg_per90": 0.29,
   "shots_total": 1,
@@ -32,19 +32,19 @@
   "player_name": "Ao Tanaka",
   "percentiles": {
     "pct_xg_per90": 100.0,
-    "pct_xA_per90": 66.7,
-    "pct_key_passes_per90": 38.1,
-    "pct_progressive_passes_per90": 49.2,
-    "pct_progressive_carries_per90": 6.3,
-    "pct_pressures_per90": 49.2,
+    "pct_xA_per90": 71.0,
+    "pct_key_passes_per90": 41.9,
+    "pct_progressive_passes_per90": 50.0,
+    "pct_progressive_carries_per90": 6.5,
+    "pct_pressures_per90": 53.2,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 84.1,
-    "pct_ball_recoveries_per90": 6.3,
-    "pct_passes_final_third_per90": 28.6,
-    "pct_carry_distance_per90": 7.9,
-    "pct_pass_completion_pct": 9.5,
-    "pct_shots_per90": 31.7
+    "pct_interceptions_per90": 83.9,
+    "pct_ball_recoveries_per90": 4.8,
+    "pct_passes_final_third_per90": 25.8,
+    "pct_carry_distance_per90": 6.5,
+    "pct_pass_completion_pct": 9.7,
+    "pct_shots_per90": 33.9
   },
   "percentile_group": "CDM",
-  "percentile_sample_size": 63
+  "percentile_sample_size": 62
 }

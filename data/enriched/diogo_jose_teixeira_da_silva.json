@@ -1,6 +1,6 @@
 {
   "matches_analyzed": 7,
-  "goals": 0.0,
+  "goals": 1.0,
   "xg_total": 2.29,
   "xg_per90": 0.33,
   "shots_total": 10.0,
@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 1.6,
   "player_name": "Diogo José Teixeira da Silva",
   "percentiles": {
-    "pct_xg_per90": 97.2,
-    "pct_xA_per90": 89.5,
-    "pct_key_passes_per90": 85.8,
-    "pct_progressive_passes_per90": 17.6,
-    "pct_progressive_carries_per90": 68.5,
-    "pct_pressures_per90": 59.3,
+    "pct_xg_per90": 96.2,
+    "pct_xA_per90": 87.1,
+    "pct_key_passes_per90": 83.9,
+    "pct_progressive_passes_per90": 17.1,
+    "pct_progressive_carries_per90": 68.2,
+    "pct_pressures_per90": 57.1,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 38.2,
-    "pct_ball_recoveries_per90": 13.5,
-    "pct_passes_final_third_per90": 78.4,
-    "pct_carry_distance_per90": 57.0,
-    "pct_pass_completion_pct": 58.8,
-    "pct_shots_per90": 85.8
+    "pct_interceptions_per90": 39.6,
+    "pct_ball_recoveries_per90": 13.8,
+    "pct_passes_final_third_per90": 78.1,
+    "pct_carry_distance_per90": 56.0,
+    "pct_pass_completion_pct": 57.9,
+    "pct_shots_per90": 84.9
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }

@@ -31,20 +31,20 @@
   "ball_recoveries_per90": 2.0,
   "player_name": "Almoez Ali Zainalabiddin Abdulla",
   "percentiles": {
-    "pct_xg_per90": 86.4,
-    "pct_xA_per90": 62.7,
-    "pct_key_passes_per90": 20.7,
-    "pct_progressive_passes_per90": 1.9,
-    "pct_progressive_carries_per90": 3.1,
-    "pct_pressures_per90": 72.8,
+    "pct_xg_per90": 84.8,
+    "pct_xA_per90": 72.7,
+    "pct_key_passes_per90": 22.8,
+    "pct_progressive_passes_per90": 2.2,
+    "pct_progressive_carries_per90": 3.3,
+    "pct_pressures_per90": 70.6,
     "pct_duel_win_pct": 100.0,
-    "pct_interceptions_per90": 15.3,
-    "pct_ball_recoveries_per90": 23.0,
-    "pct_passes_final_third_per90": 32.9,
-    "pct_carry_distance_per90": 11.0,
-    "pct_pass_completion_pct": 58.8,
-    "pct_shots_per90": 75.5
+    "pct_interceptions_per90": 16.9,
+    "pct_ball_recoveries_per90": 23.3,
+    "pct_passes_final_third_per90": 32.7,
+    "pct_carry_distance_per90": 10.3,
+    "pct_pass_completion_pct": 57.9,
+    "pct_shots_per90": 75.3
   },
   "percentile_group": "MID",
-  "percentile_sample_size": 3566
+  "percentile_sample_size": 3247
 }
