@@ -1,31 +1,50 @@
 # ⚽ ScoutPro — Player Intelligence Platform
 
-> Football player scouting & profiling platform powered by StatsBomb Open Data
+> Football player scouting & profiling platform powered by StatsBomb Open Data  
 > **Julie Landrevie · Football Data & Video Analyst**
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://scoutpro-football.streamlit.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Julie--Landrevie-181717?style=flat-square&logo=github)](https://github.com/Julie-Landrevie/scoutpro-football)
 
 ---
 
 ## Aperçu
 
-ScoutPro est une interface de recrutement football data-driven inspirée des cartes FIFA permettant de :
+ScoutPro est une interface de recrutement football data-driven inspirée des cartes FIFA.  
+La **v2** enrichit chaque fiche joueur avec un **Scout Report** basé sur les vraies données StatsBomb — stats avancées, percentiles par groupe de poste, et analyse sur des centaines de matchs réels.
 
-- 🔍 **Rechercher** des joueurs selon position, club, nationalité, âge, note globale, dispositif tactique et ouverture au transfert
-- 📊 **Profiler** chaque joueur avec une fiche style carte FIFA : radar d'attributs, barres PAC/TIR/PAS/DRI/DEF/PHY, points forts & faibles, systèmes adaptés
-- 🎯 **Matcher** des profils selon le style de jeu de son équipe (possession, contre-attaque, pressing haut, bloc bas, jeu direct, transitions)
-- 💶 **Estimer** la valeur marchande et la probabilité d'ouverture à une transaction
-- 📈 **Comparer** deux joueurs d'une même position côte à côte via un radar superposé
+### Fonctionnalités
 
-🌐 **App en ligne :** [scoutpro-football.streamlit.app](https://scoutpro-football.streamlit.app)
+- 🔍 **Recherche** par position, club, nationalité, âge, note, dispositif tactique, ouverture au transfert
+- 📊 **Profil joueur** — fiche FIFA-like, radar d'attributs, barres PAC/TIR/PAS/DRI/DEF/PHY
+- 🎯 **Matching tactique** — top 5 profils selon le style de jeu et la formation
+- 📈 **Comparaison** — radar superposé entre deux joueurs du même poste
+- 💶 **Valeur marchande** — estimation par tranche de niveau + référence manuelle pour 98 stars
+- 🔬 **Scout Report** *(v2)* — stats réelles StatsBomb : xG/90, passes progressives, pressing, carries, interceptions, percentiles vs groupe de poste
+
+---
+
+## Scout Report — stats avancées
+
+Pour les joueurs couverts par les données StatsBomb open data (6 343 joueurs enrichis), un onglet **🔬 Scout Report** apparaît avec :
+
+| Catégorie | Métriques |
+|-----------|-----------|
+| Offensif | xG total · xG/90 · xA/90 · Passes clés/90 · Tirs/90 · Buts |
+| Progression | Passes progressives/90 · Carries progressives/90 · Distance portée balle · Passes tiers offensif |
+| Pressing & Défense | Pressings/90 · Récupérations/90 · Interceptions/90 · Duels gagnés % |
+| Percentiles | Chaque stat comparée aux joueurs du même groupe de poste (ATT / MID / CDM / DEF / GK) |
+
+> ⚠️ Les stats reflètent les matchs couverts par StatsBomb — pas nécessairement une saison complète. Le club affiché correspond à la période couverte, pas au club actuel.
 
 ---
 
 ## Données
 
-| Source | Compétitions | Joueurs |
-|--------|-------------|---------|
-| StatsBomb Open Data | UEFA Euro 2024 & 2020 · FIFA World Cup 2022 & 2018 · Copa America 2024 · AFCON 2023 · La Liga (6 saisons) · Ligue 1 (3 saisons) · Bundesliga (2 saisons) · Champions League (2 saisons) · Premier League · Serie A · MLS | **2 263 joueurs uniques** |
-
-Attributs calculés à partir des données brutes : PAC · TIR · PAS · DRI · DEF · PHY + xG · passes progressives · dribbles · pressings · passes clés · assists
+| Source | Compétitions couvertes | Joueurs |
+|--------|----------------------|---------|
+| StatsBomb Open Data | La Liga 16 saisons (2005-2021) · UCL 11 saisons (2008-2019) · Premier League 2015/16 & 2003/04 · Ligue 1 3 saisons · Bundesliga 2 saisons · Serie A 2015/16 · World Cup 2018 & 2022 · Euro 2020 & 2024 · Copa America 2024 · AFCON 2023 · MLS 2023 | **6 343 joueurs enrichis** |
+| Référence manuelle | Valeurs Transfermarkt + notes FIFA approximatives | **98 stars** |
 
 ---
 
@@ -33,13 +52,19 @@ Attributs calculés à partir des données brutes : PAC · TIR · PAS · DRI · 
 
 ```
 scoutpro-football/
-├── app.py                # Application Streamlit interactive (dark mode)
-├── data_pipeline.py      # Pipeline de collecte StatsBomb → JSON/CSV
-├── portfolio.html        # Version portfolio standalone — dark mode, 80 joueurs intégrés
-├── requirements.txt      # Dépendances Python
+├── app.py                        # Application Streamlit v2
+├── data_pipeline.py              # Pipeline StatsBomb → players.json
+├── scout_report_pipeline.py      # Enrichissement stats avancées EDF
+├── extend_all_data.py            # Enrichissement maximal 43 compétitions
+├── compute_percentiles.py        # Calcul percentiles par groupe de poste
+├── fix_all.py                    # Correction noms / nationalités / notes
+├── apply_reference.py            # Application référence manuelle 98 stars
+├── enrich_from_fbref.py          # Enrichissement FBref (soccerdata)
+├── requirements.txt
 └── data/
-    ├── players.json      # 2 263 joueurs profilés
-    └── players.csv
+    ├── players.json              # 959 joueurs profilés
+    ├── players_reference.json    # Référence manuelle 98 stars
+    └── enriched/                 # 6 343 fichiers JSON stats avancées
 ```
 
 ---
@@ -47,71 +72,28 @@ scoutpro-football/
 ## Installation & lancement
 
 ```bash
-# Cloner le repo
 git clone https://github.com/Julie-Landrevie/scoutpro-football.git
 cd scoutpro-football
-
-# Installer les dépendances
 pip install -r requirements.txt
 
-# (Optionnel) Régénérer les données depuis StatsBomb
+# Régénérer les données (optionnel — 30-60 min)
 python data_pipeline.py
+python extend_all_data.py
+python compute_percentiles.py
+python apply_reference.py
+python fix_all.py
 
-# Lancer l'application Streamlit
 streamlit run app.py
 ```
-
----
-
-## Version portfolio
-
-Ouvrir `portfolio.html` directement dans un navigateur — **aucune installation requise**.
-80 joueurs intégrés en statique, filtres interactifs, matching tactique, dark mode natif.
-
----
-
-## Fonctionnalités détaillées
-
-### Filtres de recherche
-- Nom, position, club, nationalité
-- Note minimale (55–97)
-- Tranche d'âge (17–40 ans)
-- Dispositif tactique (4-3-3, 4-4-2, 4-2-3-1, 3-5-2, 3-4-3, 5-3-2)
-- Ouverture au transfert (probable / incertain / peu probable)
-- Stats avancées : buts minimum, xG minimum
-
-### Fiche joueur
-- Carte style FIFA avec note globale et 6 attributs
-- Radar Plotly interactif
-- Barres d'attributs colorées selon le niveau
-- Tags points forts / points faibles / systèmes
-- Formations compatibles avec meilleur dispositif mis en avant
-- Compétitions couvertes
-
-### Matching tactique
-Sélectionner son style de jeu et sa formation → le moteur pondère les attributs selon le profil tactique et retourne le **top 5 des joueurs** les plus adaptés avec un score de compatibilité en %.
-
-| Style | Attributs prioritaires |
-|-------|----------------------|
-| Possession / jeu court | Passe · Physique · Défense |
-| Contre-attaque | Vitesse · Tir · Dribble |
-| Pressing haut | Physique · Défense · Vitesse |
-| Jeu direct / long | Physique · Tir · Défense |
-| Transitions rapides | Vitesse · Dribble · Tir |
-| Bloc bas défensif | Défense · Physique · Passe |
-
-### Comparaison
-Sélectionner un deuxième joueur de même position → radar superposé + tableau comparatif attribut par attribut.
 
 ---
 
 ## Stack technique
 
 ```
-Python 3.11+
-pandas · numpy · statsbombpy
+Python 3.11+ · pandas · numpy · statsbombpy · soccerdata
 Streamlit · Plotly · mplsoccer · matplotlib
-Git · GitHub
+Git · GitHub · Streamlit Cloud
 ```
 
 ---
@@ -120,10 +102,10 @@ Git · GitHub
 
 - 🎓 Sports Analytics — University of Michigan (Coursera)
 - 🎓 Analyse Vidéo et Data dans le Sport — Université de Lorraine
-- 🎓 Dartfish Certified Analyst
-- 🎓 Once Sport Certified *(in progress)*
-- 🎓 Nacsport Certified *(in progress)*
+- ✅ Dartfish Certified Analyst
+- 🔨 Once Sport Certified *(en cours)*
+- 🔨 Nacsport Certified *(en cours)*
 
 ---
 
-📩 julie.landrevie@free.fr
+📩 [julie.landrevie@free.fr](mailto:julie.landrevie@free.fr) · [Portfolio](https://notion.so/julie-landrevie) · [LinkedIn](https://linkedin.com/in/julie-landrevie)
