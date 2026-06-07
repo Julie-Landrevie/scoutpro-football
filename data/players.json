@@ -1840,16 +1840,16 @@
     "dribble_score": 82,
     "defense_score": 83,
     "physic_score": 78,
-    "goals": 0.0,
-    "xg_total": 0.133169645,
+    "goals": 1,
+    "xg_total": 1.04,
     "assists": 0,
-    "key_passes": 1.0,
+    "key_passes": 12,
     "passes_total": 171.0,
     "pass_completion": 0.8830409357,
     "dribbles_total": 6.0,
     "dribbles_won": 4.0,
-    "pressures": 44.0,
-    "progressive_passes": 73.0,
+    "pressures": 167,
+    "progressive_passes": 145,
     "formations": [
       "4-3-3",
       "4-2-3-1",
@@ -1875,7 +1875,8 @@
       "Ligue 1 2022/23"
     ],
     "fbref_matched": true,
-    "fbref_match_score": 0.67
+    "fbref_match_score": 0.67,
+    "enriched_matches": 25
   },
   {
     "player": "El Bitshiabu",
@@ -12160,16 +12161,16 @@
     "dribble_score": 76,
     "defense_score": 72,
     "physic_score": 53,
-    "goals": 0.0,
-    "xg_total": 0.202505158,
+    "goals": 4,
+    "xg_total": 2.1,
     "assists": 0,
-    "key_passes": 3.0,
+    "key_passes": 18,
     "passes_total": 84.0,
     "pass_completion": 0.75,
     "dribbles_total": 12.0,
     "dribbles_won": 6.0,
-    "pressures": 66.0,
-    "progressive_passes": 17.0,
+    "pressures": 168,
+    "progressive_passes": 53,
     "formations": [
       "4-3-3",
       "4-2-3-1",
@@ -12194,7 +12195,8 @@
     ],
     "fbref_matched": true,
     "fbref_match_score": 0.5,
-    "ref_matched": true
+    "ref_matched": true,
+    "enriched_matches": 11
   },
   {
     "player": "Manuel Ribeiro",
@@ -14122,16 +14124,16 @@
     "dribble_score": 78,
     "defense_score": 53,
     "physic_score": 42,
-    "goals": 0.0,
+    "goals": 0,
     "xg_total": 0.0,
     "assists": 0,
-    "key_passes": 0.0,
+    "key_passes": 1,
     "passes_total": 14.0,
     "pass_completion": 0.9285714286,
     "dribbles_total": 1.0,
     "dribbles_won": 1.0,
-    "pressures": 8.0,
-    "progressive_passes": 2.0,
+    "pressures": 55,
+    "progressive_passes": 42,
     "formations": [
       "4-2-3-1",
       "4-3-3",
@@ -14154,7 +14156,8 @@
       "Copa America 2024"
     ],
     "ref_matched": true,
-    "ref_name": "Bernardo Silva"
+    "ref_name": "Bernardo Silva",
+    "enriched_matches": 4
   },
   {
     "player": "Tim Ream",
