@@ -2139,7 +2139,7 @@
   {
     "player": "Marcelo Brozović",
     "player_id": 5469.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CDM",
     "overall": 74,
@@ -2289,7 +2289,7 @@
   {
     "player": "Milad Mohammadi",
     "player_id": 5720.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "LB",
     "overall": 73,
@@ -2338,7 +2338,7 @@
   {
     "player": "Jude Bellingham",
     "player_id": 30714.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CAM",
     "overall": 90,
@@ -2443,7 +2443,7 @@
   {
     "player": "Georges Mikautadze",
     "player_id": 33234.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "ST",
     "overall": 79,
@@ -2641,7 +2641,7 @@
   {
     "player": "Erik Janža",
     "player_id": 28211.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "LB",
     "overall": 72,
@@ -2691,7 +2691,7 @@
   {
     "player": "Kasey Palmer",
     "player_id": 3317.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 84,
@@ -2742,7 +2742,7 @@
   {
     "player": "Marin Pongracic",
     "player_id": 8773.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CB",
     "overall": 83,
@@ -2791,7 +2791,7 @@
   {
     "player": "Adam Čerin",
     "player_id": 31968.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "CDM",
     "overall": 71,
@@ -2838,7 +2838,7 @@
   {
     "player": "Gabriel Urbina",
     "player_id": 36212.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "LB",
     "overall": 71,
@@ -2887,7 +2887,7 @@
   {
     "player": "Przemysław Frankowski",
     "player_id": 7979.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "RWB",
     "overall": 82,
@@ -2990,7 +2990,7 @@
   {
     "player": "Joël Latibeaudiere",
     "player_id": 32685.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 70,
@@ -3139,7 +3139,7 @@
   {
     "player": "Seyed Hosseini",
     "player_id": 5228.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CB",
     "overall": 69,
@@ -3186,7 +3186,7 @@
   {
     "player": "Josip Šutalo",
     "player_id": 37148.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CB",
     "overall": 69,
@@ -3237,7 +3237,7 @@
   {
     "player": "Ethan Pinnock",
     "player_id": 4610.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -3388,7 +3388,7 @@
   {
     "player": "Borna Sosa",
     "player_id": 12625.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "LB",
     "overall": 82,
@@ -3437,7 +3437,7 @@
   {
     "player": "Jakub Kiwior",
     "player_id": 44166.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CB",
     "overall": 83,
@@ -3488,7 +3488,7 @@
   {
     "player": "Gabriel Cortéz",
     "player_id": 113732.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 69,
@@ -3538,7 +3538,7 @@
   {
     "player": "Raheem Sterling",
     "player_id": 3233.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "LW",
     "overall": 84,
@@ -3587,7 +3587,7 @@
   {
     "player": "Žan Karničnik",
     "player_id": 137487.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "RB",
     "overall": 69,
@@ -3635,7 +3635,7 @@
   {
     "player": "Kieran Trippier",
     "player_id": 3308.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RB",
     "overall": 82,
@@ -3687,7 +3687,7 @@
   {
     "player": "Mehdi Taremi",
     "player_id": 5226.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "ST",
     "overall": 68,
@@ -3736,7 +3736,7 @@
   {
     "player": "Strahinja Pavlović",
     "player_id": 27719.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CB",
     "overall": 83,
@@ -3787,7 +3787,7 @@
   {
     "player": "Joško Gvardiol",
     "player_id": 33018.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CB",
     "overall": 83,
@@ -3890,7 +3890,7 @@
   {
     "player": "Rodrigo Sáez",
     "player_id": 35738.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "CDM",
     "overall": 68,
@@ -3937,7 +3937,7 @@
   {
     "player": "Breel Embolo",
     "player_id": 5545.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "ST",
     "overall": 79,
@@ -3989,7 +3989,7 @@
   {
     "player": "Morteza Pouraliganji",
     "player_id": 5220.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CB",
     "overall": 68,
@@ -4037,7 +4037,7 @@
   {
     "player": "Lautaro Martínez",
     "player_id": 11456.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "ST",
     "overall": 88,
@@ -4089,7 +4089,7 @@
   {
     "player": "Christoph Baumgartner",
     "player_id": 24977.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "RW",
     "overall": 84,
@@ -4191,7 +4191,7 @@
   {
     "player": "Ramin Rezaeian",
     "player_id": 5235.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "RB",
     "overall": 67,
@@ -4239,7 +4239,7 @@
   {
     "player": "Declan Rice",
     "player_id": 3943.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -4399,7 +4399,7 @@
   {
     "player": "Richard Montoya",
     "player_id": 49395.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CM",
     "overall": 67,
@@ -4445,7 +4445,7 @@
   {
     "player": "Luke Shaw",
     "player_id": 3382.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "LB",
     "overall": 82,
@@ -4551,7 +4551,7 @@
   {
     "player": "Mateo Kovačić",
     "player_id": 5456.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CM",
     "overall": 83,
@@ -4603,7 +4603,7 @@
   {
     "player": "Darwin Núñez",
     "player_id": 32478.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "ST",
     "overall": 84,
@@ -4655,7 +4655,7 @@
   {
     "player": "Luka Jovic",
     "player_id": 6319.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "ST",
     "overall": 79,
@@ -4708,7 +4708,7 @@
   {
     "player": "Harry Maguire",
     "player_id": 3336.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CB",
     "overall": 83,
@@ -4762,7 +4762,7 @@
   {
     "player": "Kyle Walker",
     "player_id": 3205.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RB",
     "overall": 82,
@@ -4814,7 +4814,7 @@
   {
     "player": "Paulo Huincales",
     "player_id": 31012.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "CB",
     "overall": 66,
@@ -4966,7 +4966,7 @@
   {
     "player": "Tyler Adams",
     "player_id": 12751.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CDM",
     "overall": 84,
@@ -5017,7 +5017,7 @@
   {
     "player": "Bobby De Cordova-Reid",
     "player_id": 9923.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -5166,7 +5166,7 @@
   {
     "player": "Facundo Rebollo",
     "player_id": 36288.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "RW",
     "overall": 65,
@@ -5214,7 +5214,7 @@
   {
     "player": "Wilder Mendoza",
     "player_id": 6313.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 65,
@@ -5261,7 +5261,7 @@
   {
     "player": "Marc Guehi",
     "player_id": 34526.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CB",
     "overall": 83,
@@ -5314,7 +5314,7 @@
   {
     "player": "Ray Andrade",
     "player_id": 384888.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CAM",
     "overall": 65,
@@ -5361,7 +5361,7 @@
   {
     "player": "Daniel Mejía",
     "player_id": 27423.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "RB",
     "overall": 65,
@@ -5408,7 +5408,7 @@
   {
     "player": "Robert Lewandowski",
     "player_id": 5668.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "ST",
     "overall": 88,
@@ -5458,7 +5458,7 @@
   {
     "player": "Andrija Živković",
     "player_id": 6318.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "RWB",
     "overall": 65,
@@ -5506,7 +5506,7 @@
   {
     "player": "Luis Lopez",
     "player_id": 37070.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -5555,7 +5555,7 @@
   {
     "player": "Hakim Ziyech",
     "player_id": 5237.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "RM",
     "overall": 65,
@@ -5650,7 +5650,7 @@
   {
     "player": "Nikola Milenković",
     "player_id": 5603.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CB",
     "overall": 83,
@@ -5703,7 +5703,7 @@
   {
     "player": "John Stones",
     "player_id": 3244.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CB",
     "overall": 83,
@@ -5757,7 +5757,7 @@
   {
     "player": "Rodri",
     "player_id": 6765.0,
-    "team": "Spain",
+    "team": "Manchester City",
     "nationality": "ES",
     "pos": "CB",
     "overall": 91,
@@ -5914,7 +5914,7 @@
   {
     "player": "Igor Osorio",
     "player_id": 26256.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "CB",
     "overall": 64,
@@ -6011,7 +6011,7 @@
   {
     "player": "Konrad Laimer",
     "player_id": 8506.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "CDM",
     "overall": 84,
@@ -6060,7 +6060,7 @@
   {
     "player": "Bukayo Saka",
     "player_id": 22084.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RW",
     "overall": 88,
@@ -6113,7 +6113,7 @@
   {
     "player": "Ricardo Pepi",
     "player_id": 26151.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "ST",
     "overall": 64,
@@ -6160,7 +6160,7 @@
   {
     "player": "Saša Lukić",
     "player_id": 6687.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CDM",
     "overall": 84,
@@ -6258,7 +6258,7 @@
   {
     "player": "Sofyan Amrabat",
     "player_id": 5234.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "CDM",
     "overall": 84,
@@ -6310,7 +6310,7 @@
   {
     "player": "Christian Pulisic",
     "player_id": 8246.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "LW",
     "overall": 84,
@@ -6411,7 +6411,7 @@
   {
     "player": "Michail Antonio",
     "player_id": 3349.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 85,
@@ -6460,7 +6460,7 @@
   {
     "player": "Marcus Rashford",
     "player_id": 3318.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RW",
     "overall": 84,
@@ -6560,7 +6560,7 @@
   {
     "player": "Luis Marulanda",
     "player_id": 27158.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "ST",
     "overall": 64,
@@ -6608,7 +6608,7 @@
   {
     "player": "Piotr Zieliński",
     "player_id": 5660.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CM",
     "overall": 83,
@@ -6659,7 +6659,7 @@
   {
     "player": "Paweł Dawidowicz",
     "player_id": 30739.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CB",
     "overall": 83,
@@ -6710,7 +6710,7 @@
   {
     "player": "Raphael Belloli",
     "player_id": 10595.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "RW",
     "overall": 63,
@@ -6807,7 +6807,7 @@
   {
     "player": "Jhon Andrade",
     "player_id": 27277.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CM",
     "overall": 63,
@@ -6854,7 +6854,7 @@
   {
     "player": "Saeid Afagh",
     "player_id": 5722.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CDM",
     "overall": 63,
@@ -6902,7 +6902,7 @@
   {
     "player": "Enner Lastra",
     "player_id": 28559.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CAM",
     "overall": 63,
@@ -6950,7 +6950,7 @@
   {
     "player": "Lukáš Provod",
     "player_id": 28034.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CDM",
     "overall": 63,
@@ -7046,7 +7046,7 @@
   {
     "player": "Ahmad Nourollahi",
     "player_id": 124167.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CDM",
     "overall": 63,
@@ -7095,7 +7095,7 @@
   {
     "player": "Nicolò Barella",
     "player_id": 8181.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CM",
     "overall": 87,
@@ -7147,7 +7147,7 @@
   {
     "player": "Timi Elšnik",
     "player_id": 15896.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "CDM",
     "overall": 63,
@@ -7247,7 +7247,7 @@
   {
     "player": "Ladislav Krejčí",
     "player_id": 28272.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CB",
     "overall": 63,
@@ -7295,7 +7295,7 @@
   {
     "player": "Erick Farfán",
     "player_id": 7175.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "CDM",
     "overall": 63,
@@ -7344,7 +7344,7 @@
   {
     "player": "Jefferson Solís",
     "player_id": 5678.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CDM",
     "overall": 84,
@@ -7544,7 +7544,7 @@
   {
     "player": "Jakub Moder",
     "player_id": 29480.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CDM",
     "overall": 84,
@@ -7643,7 +7643,7 @@
   {
     "player": "Sergio Flores",
     "player_id": 10836.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CM",
     "overall": 63,
@@ -7741,7 +7741,7 @@
   {
     "player": "Robin Hranáč",
     "player_id": 81330.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CB",
     "overall": 62,
@@ -7838,7 +7838,7 @@
   {
     "player": "Marko Arnautović",
     "player_id": 3325.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "ST",
     "overall": 85,
@@ -7888,7 +7888,7 @@
   {
     "player": "Giorgi Kochorashvili",
     "player_id": 41202.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "CDM",
     "overall": 62,
@@ -7986,7 +7986,7 @@
   {
     "player": "Ritsu Doan",
     "player_id": 8361.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "RW",
     "overall": 84,
@@ -8087,7 +8087,7 @@
   {
     "player": "Michael Hector",
     "player_id": 16768.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 62,
@@ -8135,7 +8135,7 @@
   {
     "player": "Antonee Robinson",
     "player_id": 4614.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "LB",
     "overall": 82,
@@ -8286,7 +8286,7 @@
   {
     "player": "Bruno Fernandes",
     "player_id": 5204.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "CDM",
     "overall": 87,
@@ -8336,7 +8336,7 @@
   {
     "player": "Jaka Bijol",
     "player_id": 16047.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "CB",
     "overall": 83,
@@ -8485,7 +8485,7 @@
   {
     "player": "Romelu Menama",
     "player_id": 3289.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "ST",
     "overall": 62,
@@ -8583,7 +8583,7 @@
   {
     "player": "José Chávez",
     "player_id": 114003.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -8631,7 +8631,7 @@
   {
     "player": "N'Golo Kanté",
     "player_id": 3961.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CM",
     "overall": 84,
@@ -8731,7 +8731,7 @@
   {
     "player": "Julio Espínola",
     "player_id": 47112.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "LW",
     "overall": 62,
@@ -8879,7 +8879,7 @@
   {
     "player": "Héctor Rosales",
     "player_id": 398489.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 62,
@@ -8926,7 +8926,7 @@
   {
     "player": "Tomáš Holeš",
     "player_id": 16469.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CB",
     "overall": 62,
@@ -8974,7 +8974,7 @@
   {
     "player": "Marcelino Espinoza",
     "player_id": 36532.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "CDM",
     "overall": 62,
@@ -9121,7 +9121,7 @@
   {
     "player": "Mauricio Isla",
     "player_id": 18874.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "RB",
     "overall": 61,
@@ -9168,7 +9168,7 @@
   {
     "player": "Luis Barrón",
     "player_id": 26386.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CDM",
     "overall": 61,
@@ -9317,7 +9317,7 @@
   {
     "player": "Vladimír Coufal",
     "player_id": 16570.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "RWB",
     "overall": 82,
@@ -9369,7 +9369,7 @@
   {
     "player": "Jack Grealish",
     "player_id": 9638.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "LW",
     "overall": 84,
@@ -9525,7 +9525,7 @@
   {
     "player": "Tomáš Souček",
     "player_id": 4870.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CDM",
     "overall": 84,
@@ -9577,7 +9577,7 @@
   {
     "player": "Ivan Ilić",
     "player_id": 30179.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CDM",
     "overall": 84,
@@ -9628,7 +9628,7 @@
   {
     "player": "Mason Mount",
     "player_id": 7843.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CAM",
     "overall": 84,
@@ -9776,7 +9776,7 @@
   {
     "player": "Yunus Musah",
     "player_id": 38792.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CM",
     "overall": 83,
@@ -9875,7 +9875,7 @@
   {
     "player": "Jurriën Timber",
     "player_id": 21809.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CB",
     "overall": 83,
@@ -10074,7 +10074,7 @@
   {
     "player": "Dexter Lembikisa",
     "player_id": 61204.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "RWB",
     "overall": 60,
@@ -10265,7 +10265,7 @@
   {
     "player": "Nicolas Seiwald",
     "player_id": 39460.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "CDM",
     "overall": 84,
@@ -10366,7 +10366,7 @@
   {
     "player": "Vanja Drkušić",
     "player_id": 205932.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "CB",
     "overall": 60,
@@ -10514,7 +10514,7 @@
   {
     "player": "Mathías Miramontes",
     "player_id": 7104.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "CB",
     "overall": 60,
@@ -10563,7 +10563,7 @@
   {
     "player": "Aleksandar Mitrović",
     "player_id": 4269.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "ST",
     "overall": 85,
@@ -10613,7 +10613,7 @@
   {
     "player": "Johan Palacio",
     "player_id": 5691.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "LB",
     "overall": 60,
@@ -10808,7 +10808,7 @@
   {
     "player": "Piero Córdova",
     "player_id": 101509.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CM",
     "overall": 60,
@@ -10856,7 +10856,7 @@
   {
     "player": "Petar Stojanović",
     "player_id": 16528.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "RM",
     "overall": 60,
@@ -10902,7 +10902,7 @@
   {
     "player": "Davinson Mina",
     "player_id": 3494.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CB",
     "overall": 83,
@@ -10952,7 +10952,7 @@
   {
     "player": "Maximiliano Vilches",
     "player_id": 35492.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "LW",
     "overall": 60,
@@ -11000,7 +11000,7 @@
   {
     "player": "Ali Gholizadeh",
     "player_id": 23874.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "RM",
     "overall": 60,
@@ -11096,7 +11096,7 @@
   {
     "player": "Teun Koopmeiners",
     "player_id": 7891.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CDM",
     "overall": 84,
@@ -11298,7 +11298,7 @@
   {
     "player": "Nicola Zalewski",
     "player_id": 50502.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "LWB",
     "overall": 82,
@@ -11349,7 +11349,7 @@
   {
     "player": "Nemanja Gudelj",
     "player_id": 16489.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CDM",
     "overall": 84,
@@ -11449,7 +11449,7 @@
   {
     "player": "Julián Álvarez",
     "player_id": 29560.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "ST",
     "overall": 87,
@@ -11607,7 +11607,7 @@
   {
     "player": "Nahitan Acosta",
     "player_id": 5247.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "RB",
     "overall": 59,
@@ -11654,7 +11654,7 @@
   {
     "player": "Ethan Ampadu",
     "player_id": 4934.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CDM",
     "overall": 59,
@@ -11755,7 +11755,7 @@
   {
     "player": "Roberto Toro",
     "player_id": 47055.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 59,
@@ -11802,7 +11802,7 @@
   {
     "player": "Jan Bednarek",
     "player_id": 4626.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CB",
     "overall": 59,
@@ -12000,7 +12000,7 @@
   {
     "player": "Dan Ndoye",
     "player_id": 45190.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CAM",
     "overall": 84,
@@ -12050,7 +12050,7 @@
   {
     "player": "Cristian Romero",
     "player_id": 20572.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CB",
     "overall": 83,
@@ -12201,7 +12201,7 @@
   {
     "player": "Manuel Ribeiro",
     "player_id": 36659.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "CDM",
     "overall": 84,
@@ -12303,7 +12303,7 @@
   {
     "player": "Shamar Nicholson",
     "player_id": 31455.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 85,
@@ -12353,7 +12353,7 @@
   {
     "player": "Toby Alderweireld",
     "player_id": 20005.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CB",
     "overall": 58,
@@ -12403,7 +12403,7 @@
   {
     "player": "Noussair Mazraoui",
     "player_id": 15890.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "LB",
     "overall": 82,
@@ -12455,7 +12455,7 @@
   {
     "player": "Weston McKennie",
     "player_id": 8526.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CM",
     "overall": 83,
@@ -12508,7 +12508,7 @@
   {
     "player": "Kacper Urbanski",
     "player_id": 33680.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "ST",
     "overall": 85,
@@ -12606,7 +12606,7 @@
   {
     "player": "Lamine Yamal",
     "player_id": 316046.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "RW",
     "overall": 87,
@@ -12709,7 +12709,7 @@
   {
     "player": "Neco Williams",
     "player_id": 34794.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "LWB",
     "overall": 82,
@@ -12816,7 +12816,7 @@
   {
     "player": "Carlos Ochandarte",
     "player_id": 36359.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 58,
@@ -12864,7 +12864,7 @@
   {
     "player": "Damion Lowe",
     "player_id": 49120.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 84,
@@ -13015,7 +13015,7 @@
   {
     "player": "Alexis Mac Allister",
     "player_id": 27886.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CDM",
     "overall": 86,
@@ -13118,7 +13118,7 @@
   {
     "player": "Bruno Moura",
     "player_id": 25142.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "CDM",
     "overall": 58,
@@ -13412,7 +13412,7 @@
   {
     "player": "Lisandro Martínez",
     "player_id": 27768.0,
-    "team": "Argentina",
+    "team": "Manchester United",
     "nationality": "AR",
     "pos": "CB",
     "overall": 88,
@@ -13563,7 +13563,7 @@
   {
     "player": "Youssef En-Nesyri",
     "player_id": 6301.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "ST",
     "overall": 85,
@@ -13614,7 +13614,7 @@
   {
     "player": "Ángel Di María",
     "player_id": 2995.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "RW",
     "overall": 58,
@@ -13711,7 +13711,7 @@
   {
     "player": "Romain Saïss",
     "player_id": 5219.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "CB",
     "overall": 58,
@@ -13760,7 +13760,7 @@
   {
     "player": "Carmelo Añez",
     "player_id": 113717.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 58,
@@ -13909,7 +13909,7 @@
   {
     "player": "Phil Foden",
     "player_id": 4354.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "LW",
     "overall": 89,
@@ -14012,7 +14012,7 @@
   {
     "player": "Remo Freuler",
     "player_id": 6983.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CDM",
     "overall": 84,
@@ -14062,7 +14062,7 @@
   {
     "player": "Ali Karimi",
     "player_id": 125818.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CDM",
     "overall": 57,
@@ -14112,10 +14112,10 @@
   {
     "player": "Éderson",
     "player_id": 27702.0,
-    "team": "Brazil",
+    "team": "Manchester City",
     "nationality": "PT",
     "pos": "CDM",
-    "overall": 88,
+    "overall": 86,
     "market_value": "80M€ – 100M€",
     "transfer_open": 72,
     "pace_score": 44,
@@ -14162,7 +14162,7 @@
   {
     "player": "Tim Ream",
     "player_id": 18242.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CB",
     "overall": 83,
@@ -14261,7 +14261,7 @@
   {
     "player": "Tajon Buchanan",
     "player_id": 24024.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "LM",
     "overall": 82,
@@ -14310,7 +14310,7 @@
   {
     "player": "Conor Gallagher",
     "player_id": 29399.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -14362,7 +14362,7 @@
   {
     "player": "Kamal Miller",
     "player_id": 23828.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CB",
     "overall": 57,
@@ -14560,7 +14560,7 @@
   {
     "player": "Kevin De Bruyne",
     "player_id": 3089.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "RW",
     "overall": 88,
@@ -14665,7 +14665,7 @@
   {
     "player": "Stefan Posch",
     "player_id": 11821.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "RB",
     "overall": 82,
@@ -14715,7 +14715,7 @@
   {
     "player": "Giovani Celso",
     "player_id": 3313.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CM",
     "overall": 83,
@@ -14764,7 +14764,7 @@
   {
     "player": "Gonzalo Montiel",
     "player_id": 28263.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "RB",
     "overall": 82,
@@ -14815,7 +14815,7 @@
   {
     "player": "Ismael Koné",
     "player_id": 133229.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CDM",
     "overall": 84,
@@ -14914,7 +14914,7 @@
   {
     "player": "Khvicha Kvaratskhelia",
     "player_id": 38229.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "LW",
     "overall": 84,
@@ -15016,7 +15016,7 @@
   {
     "player": "Julián Quiñones",
     "player_id": 35375.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "LW",
     "overall": 57,
@@ -15064,7 +15064,7 @@
   {
     "player": "João Moutinho",
     "player_id": 48720.0,
-    "team": "Brazil",
+    "team": "Wolverhampton",
     "nationality": "PT",
     "pos": "CDM",
     "overall": 79,
@@ -15217,7 +15217,7 @@
   {
     "player": "Václav Černý",
     "player_id": 8116.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CAM",
     "overall": 84,
@@ -15268,7 +15268,7 @@
   {
     "player": "Jorge Filho",
     "player_id": 7024.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CDM",
     "overall": 57,
@@ -15366,7 +15366,7 @@
   {
     "player": "Rúben Dias",
     "player_id": 5206.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "CB",
     "overall": 88,
@@ -15470,7 +15470,7 @@
   {
     "player": "Roland Sallai",
     "player_id": 19316.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CAM",
     "overall": 84,
@@ -15623,7 +15623,7 @@
   {
     "player": "Jan Vertonghen",
     "player_id": 3077.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CB",
     "overall": 57,
@@ -15673,7 +15673,7 @@
   {
     "player": "João Cancelo",
     "player_id": 7005.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "LWB",
     "overall": 82,
@@ -15724,7 +15724,7 @@
   {
     "player": "Moisés Corozo",
     "player_id": 37726.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CDM",
     "overall": 57,
@@ -15878,7 +15878,7 @@
   {
     "player": "Timothy Castagne",
     "player_id": 6989.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "LB",
     "overall": 82,
@@ -15930,7 +15930,7 @@
   {
     "player": "Dani Olmo",
     "player_id": 16532.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "LW",
     "overall": 87,
@@ -15984,7 +15984,7 @@
   {
     "player": "Dayot Upamecano",
     "player_id": 8519.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CB",
     "overall": 84,
@@ -16088,7 +16088,7 @@
   {
     "player": "Bernardo Silva",
     "player_id": 3193.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "CAM",
     "overall": 88,
@@ -16289,7 +16289,7 @@
   {
     "player": "Jhegson Carabalí",
     "player_id": 23830.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CDM",
     "overall": 56,
@@ -16337,7 +16337,7 @@
   {
     "player": "Theo Hernandez",
     "player_id": 6704.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "LB",
     "overall": 82,
@@ -16437,7 +16437,7 @@
   {
     "player": "Joshua Sargent",
     "player_id": 22168.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "ST",
     "overall": 56,
@@ -16487,7 +16487,7 @@
   {
     "player": "Joseph Scally",
     "player_id": 36830.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "RB",
     "overall": 82,
@@ -16587,7 +16587,7 @@
   {
     "player": "Ao Tanaka",
     "player_id": 37208.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "CDM",
     "overall": 56,
@@ -16783,7 +16783,7 @@
   {
     "player": "Ivan Perišić",
     "player_id": 5474.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "LW",
     "overall": 84,
@@ -16834,7 +16834,7 @@
   {
     "player": "Alejandro Balde",
     "player_id": 39161.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "LB",
     "overall": 84,
@@ -16888,7 +16888,7 @@
   {
     "player": "Ibrahima Konaté",
     "player_id": 11135.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CB",
     "overall": 85,
@@ -17092,7 +17092,7 @@
   {
     "player": "Boris Cespedes",
     "player_id": 28949.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 56,
@@ -17139,7 +17139,7 @@
   {
     "player": "Nayef Aguerd",
     "player_id": 12149.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "CB",
     "overall": 83,
@@ -17293,7 +17293,7 @@
   {
     "player": "Nathan Aké",
     "player_id": 3306.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CB",
     "overall": 83,
@@ -17345,7 +17345,7 @@
   {
     "player": "Ben Davies",
     "player_id": 3086.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CB",
     "overall": 83,
@@ -17444,7 +17444,7 @@
   {
     "player": "Marc Cucurella",
     "player_id": 17620.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "LB",
     "overall": 82,
@@ -17496,7 +17496,7 @@
   {
     "player": "Fernando Pereyra",
     "player_id": 113715.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 84,
@@ -17547,7 +17547,7 @@
   {
     "player": "Gerardo Zamora",
     "player_id": 27896.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "LB",
     "overall": 56,
@@ -17841,7 +17841,7 @@
   {
     "player": "David Hoilett",
     "player_id": 9922.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "RM",
     "overall": 56,
@@ -17888,7 +17888,7 @@
   {
     "player": "Leandro Paredes",
     "player_id": 16308.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CDM",
     "overall": 84,
@@ -17989,7 +17989,7 @@
   {
     "player": "Sergej Milinković-Savić",
     "player_id": 5589.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CDM",
     "overall": 84,
@@ -18039,7 +18039,7 @@
   {
     "player": "Daley Blind",
     "player_id": 3311.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "LWB",
     "overall": 82,
@@ -18090,7 +18090,7 @@
   {
     "player": "Enzo Fernandez",
     "player_id": 38718.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CDM",
     "overall": 84,
@@ -18192,7 +18192,7 @@
   {
     "player": "Gregory Leigh",
     "player_id": 3159.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 56,
@@ -18388,7 +18388,7 @@
   {
     "player": "Willi Orban",
     "player_id": 8509.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CB",
     "overall": 83,
@@ -18439,7 +18439,7 @@
   {
     "player": "Kléper Ferreira",
     "player_id": 20016.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "CB",
     "overall": 83,
@@ -18544,7 +18544,7 @@
   {
     "player": "Filip Mladenović",
     "player_id": 7993.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "LWB",
     "overall": 82,
@@ -18595,7 +18595,7 @@
   {
     "player": "Cody Gakpo",
     "player_id": 20750.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "ST",
     "overall": 85,
@@ -18648,7 +18648,7 @@
   {
     "player": "Riccardo Calafiori",
     "player_id": 41768.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CB",
     "overall": 83,
@@ -18699,7 +18699,7 @@
   {
     "player": "Miguel Terceros",
     "player_id": 336796.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "LW",
     "overall": 55,
@@ -18846,7 +18846,7 @@
   {
     "player": "Łukasz Skorupski",
     "player_id": 11508.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "GK",
     "overall": 83,
@@ -18897,7 +18897,7 @@
   {
     "player": "Miguel Rejala",
     "player_id": 12603.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "RW",
     "overall": 55,
@@ -18946,7 +18946,7 @@
   {
     "player": "Mehdi Torabi",
     "player_id": 124161.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "LM",
     "overall": 55,
@@ -18994,7 +18994,7 @@
   {
     "player": "Nahuel Lucero",
     "player_id": 29201.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "RB",
     "overall": 55,
@@ -19042,7 +19042,7 @@
   {
     "player": "Matteo Darmian",
     "player_id": 4587.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CB",
     "overall": 83,
@@ -19094,7 +19094,7 @@
   {
     "player": "Mijat Gaćinović",
     "player_id": 8669.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "LWB",
     "overall": 55,
@@ -19143,7 +19143,7 @@
   {
     "player": "Mathías Rolón",
     "player_id": 87429.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CM",
     "overall": 55,
@@ -19191,7 +19191,7 @@
   {
     "player": "Matěj Jurásek",
     "player_id": 39143.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CAM",
     "overall": 84,
@@ -19242,7 +19242,7 @@
   {
     "player": "Miguel Blanco",
     "player_id": 33176.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -19292,7 +19292,7 @@
   {
     "player": "Yuto Nagatomo",
     "player_id": 5690.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "LWB",
     "overall": 55,
@@ -19342,7 +19342,7 @@
   {
     "player": "Mateo Retegui",
     "player_id": 31093.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "ST",
     "overall": 85,
@@ -19494,7 +19494,7 @@
   {
     "player": "Michał Skóraś",
     "player_id": 28453.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "RWB",
     "overall": 55,
@@ -19644,7 +19644,7 @@
   {
     "player": "Michael Gregoritsch",
     "player_id": 8309.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "ST",
     "overall": 85,
@@ -19695,7 +19695,7 @@
   {
     "player": "Nicholas Arthuer",
     "player_id": 68574.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "RW",
     "overall": 55,
@@ -19745,7 +19745,7 @@
   {
     "player": "Youssouf Fofana",
     "player_id": 11990.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CM",
     "overall": 82,
@@ -20052,7 +20052,7 @@
   {
     "player": "Memphis Depay",
     "player_id": 2988.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "ST",
     "overall": 55,
@@ -20301,7 +20301,7 @@
   {
     "player": "Milos Kerkez",
     "player_id": 89635.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "LWB",
     "overall": 82,
@@ -20404,7 +20404,7 @@
   {
     "player": "Álvaro Morata",
     "player_id": 3477.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "ST",
     "overall": 83,
@@ -20662,7 +20662,7 @@
   {
     "player": "Matías Acosta",
     "player_id": 46677.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "LB",
     "overall": 55,
@@ -20711,7 +20711,7 @@
   {
     "player": "Mohamed Ben Romdhane",
     "player_id": 102816.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "CAM",
     "overall": 55,
@@ -20811,7 +20811,7 @@
   {
     "player": "Mohamed Amdouni",
     "player_id": 48335.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CAM",
     "overall": 84,
@@ -20861,7 +20861,7 @@
   {
     "player": "Ádám Nagy",
     "player_id": 7162.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CDM",
     "overall": 55,
@@ -20911,7 +20911,7 @@
   {
     "player": "Mohammad Zadegan",
     "player_id": 124175.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CB",
     "overall": 55,
@@ -21009,7 +21009,7 @@
   {
     "player": "Montassar Talbi",
     "player_id": 32450.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "CB",
     "overall": 83,
@@ -21060,7 +21060,7 @@
   {
     "player": "Matías Susperreguy",
     "player_id": 34476.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "LB",
     "overall": 55,
@@ -21162,7 +21162,7 @@
   {
     "player": "Zuriko Davitashvili",
     "player_id": 44183.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "RW",
     "overall": 55,
@@ -21211,7 +21211,7 @@
   {
     "player": "Mikel Merino",
     "player_id": 3042.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "CAM",
     "overall": 84,
@@ -21312,7 +21312,7 @@
   {
     "player": "Nader Ghandri",
     "player_id": 25582.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "CB",
     "overall": 55,
@@ -21360,7 +21360,7 @@
   {
     "player": "Ádám Lang",
     "player_id": 3153.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CB",
     "overall": 55,
@@ -21409,7 +21409,7 @@
   {
     "player": "Mojmír Chytil",
     "player_id": 32985.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "ST",
     "overall": 55,
@@ -21459,7 +21459,7 @@
   {
     "player": "Mike Maignan",
     "player_id": 3761.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "GK",
     "overall": 87,
@@ -21564,7 +21564,7 @@
   {
     "player": "Maya Yoshida",
     "player_id": 3300.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "CB",
     "overall": 55,
@@ -21614,7 +21614,7 @@
   {
     "player": "Matthew Turner",
     "player_id": 12352.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "GK",
     "overall": 83,
@@ -21664,7 +21664,7 @@
   {
     "player": "Márton Dárdai",
     "player_id": 40920.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CB",
     "overall": 55,
@@ -21714,7 +21714,7 @@
   {
     "player": "Milan Borjan",
     "player_id": 15958.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "GK",
     "overall": 55,
@@ -21763,7 +21763,7 @@
   {
     "player": "Édison Peralta",
     "player_id": 5525.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 55,
@@ -21861,7 +21861,7 @@
   {
     "player": "Mikel Oyarzabal",
     "player_id": 6685.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "ST",
     "overall": 83,
@@ -22114,7 +22114,7 @@
   {
     "player": "Michel Aebischer",
     "player_id": 16016.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "LWB",
     "overall": 82,
@@ -22367,7 +22367,7 @@
   {
     "player": "Sebastian Szymański",
     "player_id": 4664.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CM",
     "overall": 55,
@@ -22417,7 +22417,7 @@
   {
     "player": "Selim Amallah",
     "player_id": 23774.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "CM",
     "overall": 83,
@@ -22516,7 +22516,7 @@
   {
     "player": "Wes Harding",
     "player_id": 13577.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "RWB",
     "overall": 55,
@@ -22661,7 +22661,7 @@
   {
     "player": "Santiago Giménez",
     "player_id": 31053.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "ST",
     "overall": 85,
@@ -22712,7 +22712,7 @@
   {
     "player": "Shaquell Moore",
     "player_id": 6806.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "RB",
     "overall": 82,
@@ -22764,7 +22764,7 @@
   {
     "player": "Shogo Taniguchi",
     "player_id": 37215.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "CB",
     "overall": 55,
@@ -22813,7 +22813,7 @@
   {
     "player": "Shūichi Gonda",
     "player_id": 25719.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "GK",
     "overall": 55,
@@ -22862,7 +22862,7 @@
   {
     "player": "Silvan Widmer",
     "player_id": 7796.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "RWB",
     "overall": 82,
@@ -22963,7 +22963,7 @@
   {
     "player": "Solomon Kverkvelia",
     "player_id": 16005.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "CB",
     "overall": 55,
@@ -23013,7 +23013,7 @@
   {
     "player": "Sardar Azmoun",
     "player_id": 5224.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "ST",
     "overall": 85,
@@ -23166,7 +23166,7 @@
   {
     "player": "Ruben Vargas",
     "player_id": 30401.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CAM",
     "overall": 84,
@@ -23316,7 +23316,7 @@
   {
     "player": "Wojciech Szczęsny",
     "player_id": 5669.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "GK",
     "overall": 83,
@@ -23415,7 +23415,7 @@
   {
     "player": "William Saliba",
     "player_id": 17592.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CB",
     "overall": 87,
@@ -23574,7 +23574,7 @@
   {
     "player": "Roozbeh Cheshmi",
     "player_id": 5222.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CB",
     "overall": 55,
@@ -23675,7 +23675,7 @@
   {
     "player": "Saman Ghoddos",
     "player_id": 5240.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "LW",
     "overall": 84,
@@ -23777,10 +23777,10 @@
   {
     "player": "Rui Patrício",
     "player_id": 24140.0,
-    "team": "Granada",
+    "team": "AS Roma",
     "nationality": "PT",
     "pos": "GK",
-    "overall": 88,
+    "overall": 80,
     "market_value": "80M€ – 100M€",
     "transfer_open": 32,
     "pace_score": 46,
@@ -23976,7 +23976,7 @@
   {
     "player": "Sadegh Moharrami",
     "player_id": 23538.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "RWB",
     "overall": 55,
@@ -24024,7 +24024,7 @@
   {
     "player": "Sam Adekugbe",
     "player_id": 29758.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "LB",
     "overall": 55,
@@ -24228,7 +24228,7 @@
   {
     "player": "Veljko Birmančević",
     "player_id": 28075.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "RWB",
     "overall": 55,
@@ -24427,7 +24427,7 @@
   {
     "player": "Trent Alexander-Arnold",
     "player_id": 3664.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -24528,7 +24528,7 @@
   {
     "player": "Unai Mendibil",
     "player_id": 11748.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "GK",
     "overall": 55,
@@ -24576,7 +24576,7 @@
   {
     "player": "Valentin Carboni",
     "player_id": 148397.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "RW",
     "overall": 84,
@@ -24675,7 +24675,7 @@
   {
     "player": "Steven Berghuis",
     "player_id": 7745.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CAM",
     "overall": 55,
@@ -24725,7 +24725,7 @@
   {
     "player": "Wajdi Kechrida",
     "player_id": 105944.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "RWB",
     "overall": 55,
@@ -24775,7 +24775,7 @@
   {
     "player": "Virgil van Dijk",
     "player_id": 3669.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CB",
     "overall": 87,
@@ -24828,7 +24828,7 @@
   {
     "player": "Wahbi Khazri",
     "player_id": 3196.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "ST",
     "overall": 85,
@@ -24931,7 +24931,7 @@
   {
     "player": "Víctor Zavala",
     "player_id": 30944.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "LW",
     "overall": 55,
@@ -24979,7 +24979,7 @@
   {
     "player": "Víctor Ramos",
     "player_id": 28943.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "ES",
     "pos": "RB",
     "overall": 79,
@@ -25131,7 +25131,7 @@
   {
     "player": "Walker Zimmerman",
     "player_id": 12524.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CB",
     "overall": 55,
@@ -25280,7 +25280,7 @@
   {
     "player": "Steven Bergwijn",
     "player_id": 8259.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "ST",
     "overall": 55,
@@ -25329,7 +25329,7 @@
   {
     "player": "Steven Vitoria",
     "player_id": 11846.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CB",
     "overall": 55,
@@ -25429,7 +25429,7 @@
   {
     "player": "Sávio de Oliveira",
     "player_id": 44455.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "RW",
     "overall": 55,
@@ -25583,7 +25583,7 @@
   {
     "player": "Wendell Borges",
     "player_id": 8212.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "LB",
     "overall": 82,
@@ -25736,7 +25736,7 @@
   {
     "player": "Wayne Hennessey",
     "player_id": 3488.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "GK",
     "overall": 55,
@@ -25886,7 +25886,7 @@
   {
     "player": "Thorgan Hazard",
     "player_id": 5632.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CAM",
     "overall": 84,
@@ -26189,7 +26189,7 @@
   {
     "player": "Patrick Pentz",
     "player_id": 9731.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "GK",
     "overall": 55,
@@ -26237,7 +26237,7 @@
   {
     "player": "Orbelín Alvarado",
     "player_id": 26280.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CM",
     "overall": 55,
@@ -26386,7 +26386,7 @@
   {
     "player": "Otar Kakabadze",
     "player_id": 25036.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "RWB",
     "overall": 55,
@@ -26487,7 +26487,7 @@
   {
     "player": "Pablo Gavira",
     "player_id": 133353.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "CM",
     "overall": 55,
@@ -26583,7 +26583,7 @@
   {
     "player": "Patrick Wimmer",
     "player_id": 33297.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "RW",
     "overall": 84,
@@ -26731,7 +26731,7 @@
   {
     "player": "Yerry González",
     "player_id": 6196.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CB",
     "overall": 83,
@@ -26933,7 +26933,7 @@
   {
     "player": "Pavel Šulc",
     "player_id": 28227.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CM",
     "overall": 55,
@@ -26982,7 +26982,7 @@
   {
     "player": "Pedro Quiróz",
     "player_id": 5528.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "GK",
     "overall": 55,
@@ -27029,7 +27029,7 @@
   {
     "player": "Ondřej Lingr",
     "player_id": 27826.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CAM",
     "overall": 55,
@@ -27079,7 +27079,7 @@
   {
     "player": "Omar Fernández",
     "player_id": 29009.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -27130,7 +27130,7 @@
   {
     "player": "Olivier Giroud",
     "player_id": 3604.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "ST",
     "overall": 80,
@@ -27235,7 +27235,7 @@
   {
     "player": "Nicolás Otamendi",
     "player_id": 3090.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CB",
     "overall": 55,
@@ -27284,7 +27284,7 @@
   {
     "player": "Nicolás González",
     "player_id": 20687.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "LM",
     "overall": 82,
@@ -27331,7 +27331,7 @@
   {
     "player": "Nicolò Fagioli",
     "player_id": 38909.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CDM",
     "overall": 84,
@@ -27482,7 +27482,7 @@
   {
     "player": "Nikola Vlašić",
     "player_id": 3441.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "RW",
     "overall": 84,
@@ -27632,7 +27632,7 @@
   {
     "player": "Youri Tielemans",
     "player_id": 2954.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CDM",
     "overall": 84,
@@ -27835,7 +27835,7 @@
   {
     "player": "Yomar Rodriguez",
     "player_id": 367353.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "ES",
     "pos": "RWB",
     "overall": 82,
@@ -27936,7 +27936,7 @@
   {
     "player": "Oliver Sonne",
     "player_id": 130731.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "RWB",
     "overall": 55,
@@ -28034,7 +28034,7 @@
   {
     "player": "Petr Ševčík",
     "player_id": 23454.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CDM",
     "overall": 55,
@@ -28084,7 +28084,7 @@
   {
     "player": "Rodrigo Acosta",
     "player_id": 62016.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "ES",
     "pos": "GK",
     "overall": 55,
@@ -28185,7 +28185,7 @@
   {
     "player": "Renaldo Cephas",
     "player_id": 405926.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CAM",
     "overall": 55,
@@ -28281,7 +28281,7 @@
   {
     "player": "Yann Sommer",
     "player_id": 5550.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "GK",
     "overall": 83,
@@ -28382,7 +28382,7 @@
   {
     "player": "Ricardo Araya",
     "player_id": 5544.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CB",
     "overall": 55,
@@ -28431,7 +28431,7 @@
   {
     "player": "Richie Laryea",
     "player_id": 16120.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "RM",
     "overall": 55,
@@ -28479,7 +28479,7 @@
   {
     "player": "Yahia allah",
     "player_id": 31295.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "LB",
     "overall": 55,
@@ -28677,7 +28677,7 @@
   {
     "player": "Robin Le Normand",
     "player_id": 22128.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "CB",
     "overall": 82,
@@ -28880,7 +28880,7 @@
   {
     "player": "Rodrigo De Paul",
     "player_id": 7797.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "RM",
     "overall": 82,
@@ -28927,7 +28927,7 @@
   {
     "player": "Rodrigo Cornejo",
     "player_id": 113712.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "ES",
     "pos": "RW",
     "overall": 55,
@@ -29130,7 +29130,7 @@
   {
     "player": "Randal Kolo Muani",
     "player_id": 22097.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "ST",
     "overall": 81,
@@ -29185,7 +29185,7 @@
   {
     "player": "Philipp Lienhart",
     "player_id": 8931.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "CB",
     "overall": 83,
@@ -29237,7 +29237,7 @@
   {
     "player": "Philipp Mwene",
     "player_id": 13315.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "LB",
     "overall": 82,
@@ -29340,7 +29340,7 @@
   {
     "player": "Yassine Meriah",
     "player_id": 5651.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "CB",
     "overall": 55,
@@ -29435,7 +29435,7 @@
   {
     "player": "Predrag Rajković",
     "player_id": 15731.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "GK",
     "overall": 83,
@@ -29485,7 +29485,7 @@
   {
     "player": "Péter Gulácsi",
     "player_id": 8524.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "GK",
     "overall": 83,
@@ -29535,7 +29535,7 @@
   {
     "player": "Rafael Leão",
     "player_id": 18360.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "ST",
     "overall": 85,
@@ -29636,7 +29636,7 @@
   {
     "player": "Yassine Bounou",
     "player_id": 6785.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "GK",
     "overall": 83,
@@ -29686,7 +29686,7 @@
   {
     "player": "Rafael Amaury",
     "player_id": 28266.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "ST",
     "overall": 55,
@@ -29735,7 +29735,7 @@
   {
     "player": "Yannick Carrasco",
     "player_id": 5633.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "LW",
     "overall": 84,
@@ -29786,7 +29786,7 @@
   {
     "player": "Ramiro Ponce",
     "player_id": 113995.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "RW",
     "overall": 55,
@@ -29835,7 +29835,7 @@
   {
     "player": "Ramón Acosta",
     "player_id": 87603.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "LW",
     "overall": 55,
@@ -29934,7 +29934,7 @@
   {
     "player": "Aaron Ramsey",
     "player_id": 3517.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CM",
     "overall": 83,
@@ -30034,7 +30034,7 @@
   {
     "player": "Emiliano Martínez",
     "player_id": 6909.0,
-    "team": "Argentina",
+    "team": "Aston Villa",
     "nationality": "AR",
     "pos": "GK",
     "overall": 88,
@@ -30087,7 +30087,7 @@
   {
     "player": "Dani Carvajal",
     "player_id": 5721.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "RB",
     "overall": 82,
@@ -30187,7 +30187,7 @@
   {
     "player": "Daniel James",
     "player_id": 11252.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "LM",
     "overall": 82,
@@ -30288,7 +30288,7 @@
   {
     "player": "Danilo",
     "player_id": 3063.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "PT",
     "pos": "RB",
     "overall": 85,
@@ -30390,7 +30390,7 @@
   {
     "player": "Darío Osorio",
     "player_id": 204925.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "RW",
     "overall": 55,
@@ -30438,7 +30438,7 @@
   {
     "player": "David Doudera",
     "player_id": 35441.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "LWB",
     "overall": 55,
@@ -30587,7 +30587,7 @@
   {
     "player": "Davide Frattesi",
     "player_id": 30926.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CM",
     "overall": 83,
@@ -30690,7 +30690,7 @@
   {
     "player": "Davy Klaassen",
     "player_id": 4318.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "CAM",
     "overall": 84,
@@ -30742,7 +30742,7 @@
   {
     "player": "Deiver Mena",
     "player_id": 27473.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "LB",
     "overall": 55,
@@ -30842,7 +30842,7 @@
   {
     "player": "Demarai Gray",
     "player_id": 3312.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "LW",
     "overall": 55,
@@ -30942,7 +30942,7 @@
   {
     "player": "Denzel Dumfries",
     "player_id": 8125.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "RWB",
     "overall": 82,
@@ -31043,7 +31043,7 @@
   {
     "player": "Damián Benítez",
     "player_id": 87449.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CM",
     "overall": 55,
@@ -31092,7 +31092,7 @@
   {
     "player": "Daizen Maeda",
     "player_id": 30628.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "ST",
     "overall": 55,
@@ -31142,7 +31142,7 @@
   {
     "player": "Diego Contreras",
     "player_id": 26369.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "LW",
     "overall": 55,
@@ -31190,7 +31190,7 @@
   {
     "player": "Daichi Kamada",
     "player_id": 9411.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "LW",
     "overall": 84,
@@ -31291,7 +31291,7 @@
   {
     "player": "Carlos Romero",
     "player_id": 15452.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "RW",
     "overall": 84,
@@ -31342,7 +31342,7 @@
   {
     "player": "Chris Mepham",
     "player_id": 4767.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CB",
     "overall": 83,
@@ -31393,7 +31393,7 @@
   {
     "player": "Chris Richards",
     "player_id": 41266.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CB",
     "overall": 83,
@@ -31546,7 +31546,7 @@
   {
     "player": "Claudio Muñoz",
     "player_id": 4691.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "GK",
     "overall": 83,
@@ -31645,7 +31645,7 @@
   {
     "player": "Cole Palmer",
     "player_id": 39461.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RW",
     "overall": 84,
@@ -31697,7 +31697,7 @@
   {
     "player": "Connor Roberts",
     "player_id": 4774.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "RWB",
     "overall": 82,
@@ -31851,7 +31851,7 @@
   {
     "player": "Cristiano Ronaldo",
     "player_id": 5207.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "ST",
     "overall": 82,
@@ -31901,7 +31901,7 @@
   {
     "player": "Cyle Larin",
     "player_id": 16459.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "ST",
     "overall": 85,
@@ -32050,7 +32050,7 @@
   {
     "player": "César Claros",
     "player_id": 113730.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 55,
@@ -32098,7 +32098,7 @@
   {
     "player": "César Tanco",
     "player_id": 3957.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "RB",
     "overall": 55,
@@ -32147,7 +32147,7 @@
   {
     "player": "César Castro",
     "player_id": 26368.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CB",
     "overall": 83,
@@ -32197,7 +32197,7 @@
   {
     "player": "Di'Shon Bernard",
     "player_id": 33145.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 55,
@@ -32245,7 +32245,7 @@
   {
     "player": "Diego Roman",
     "player_id": 232736.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "RWB",
     "overall": 55,
@@ -32495,7 +32495,7 @@
   {
     "player": "Fabian Schär",
     "player_id": 5537.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CB",
     "overall": 83,
@@ -32596,7 +32596,7 @@
   {
     "player": "Fabián González",
     "player_id": 10290.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -32797,7 +32797,7 @@
   {
     "player": "Federico Chiesa",
     "player_id": 7156.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "RWB",
     "overall": 83,
@@ -32851,7 +32851,7 @@
   {
     "player": "Federico Dimarco",
     "player_id": 12255.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "LWB",
     "overall": 82,
@@ -32954,7 +32954,7 @@
   {
     "player": "Felix Caicedo",
     "player_id": 30111.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CB",
     "overall": 83,
@@ -33155,7 +33155,7 @@
   {
     "player": "Ferran Torres",
     "player_id": 6748.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "RW",
     "overall": 83,
@@ -33210,7 +33210,7 @@
   {
     "player": "Filip Kostić",
     "player_id": 5591.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "LWB",
     "overall": 82,
@@ -33365,7 +33365,7 @@
   {
     "player": "Eric Dier",
     "player_id": 10956.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CB",
     "overall": 83,
@@ -33467,7 +33467,7 @@
   {
     "player": "Diego Arcosa",
     "player_id": 28729.0,
-    "team": "Uruguay",
+    "team": "Uruguay (sélection)",
     "nationality": "UY",
     "pos": "CAM",
     "overall": 55,
@@ -33665,7 +33665,7 @@
   {
     "player": "Diogo Costa",
     "player_id": 32975.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "GK",
     "overall": 83,
@@ -33866,7 +33866,7 @@
   {
     "player": "Dominik Livaković",
     "player_id": 16531.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "GK",
     "overall": 55,
@@ -33915,7 +33915,7 @@
   {
     "player": "Dominik Szoboszlai",
     "player_id": 21209.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CAM",
     "overall": 84,
@@ -33966,7 +33966,7 @@
   {
     "player": "Dries Mertens",
     "player_id": 5630.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CAM",
     "overall": 55,
@@ -34016,7 +34016,7 @@
   {
     "player": "Dušan Tadić",
     "player_id": 3831.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CAM",
     "overall": 55,
@@ -34065,7 +34065,7 @@
   {
     "player": "Dušan Vlahović",
     "player_id": 18015.0,
-    "team": "Serbia",
+    "team": "Serbia (sélection)",
     "nationality": "RS",
     "pos": "CAM",
     "overall": 84,
@@ -34168,7 +34168,7 @@
   {
     "player": "Edson Velázquez",
     "player_id": 5567.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CDM",
     "overall": 55,
@@ -34217,7 +34217,7 @@
   {
     "player": "Eduardo Camavinga",
     "player_id": 24778.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "LB",
     "overall": 84,
@@ -34270,7 +34270,7 @@
   {
     "player": "Eduardo Rojas",
     "player_id": 27317.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "ST",
     "overall": 55,
@@ -34318,7 +34318,7 @@
   {
     "player": "Ehsan Hajsafi",
     "player_id": 5230.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "LM",
     "overall": 55,
@@ -34464,7 +34464,7 @@
   {
     "player": "Carlos Figueroa",
     "player_id": 28567.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CB",
     "overall": 55,
@@ -34668,7 +34668,7 @@
   {
     "player": "Alexander Carabalí",
     "player_id": 32677.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "GK",
     "overall": 55,
@@ -34716,7 +34716,7 @@
   {
     "player": "Alexander Asín",
     "player_id": 15481.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 55,
@@ -34912,7 +34912,7 @@
   {
     "player": "Ali Maâloul",
     "player_id": 5647.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "LWB",
     "overall": 55,
@@ -35012,7 +35012,7 @@
   {
     "player": "Alireza Jahanbakhsh",
     "player_id": 5239.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "RW",
     "overall": 55,
@@ -35062,7 +35062,7 @@
   {
     "player": "Alireza Beiranvand",
     "player_id": 5227.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "GK",
     "overall": 55,
@@ -35109,7 +35109,7 @@
   {
     "player": "Alisson",
     "player_id": 5547.0,
-    "team": "Brazil",
+    "team": "Liverpool",
     "nationality": "BR",
     "pos": "GK",
     "overall": 89,
@@ -35162,7 +35162,7 @@
   {
     "player": "Alistair Johnston",
     "player_id": 44703.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "RB",
     "overall": 55,
@@ -35212,7 +35212,7 @@
   {
     "player": "Alphonso Davies",
     "player_id": 12365.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CAM",
     "overall": 84,
@@ -35416,7 +35416,7 @@
   {
     "player": "Andraž Šporar",
     "player_id": 31866.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "ST",
     "overall": 55,
@@ -35465,7 +35465,7 @@
   {
     "player": "Andreas Pereira",
     "player_id": 6846.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "CM",
     "overall": 83,
@@ -35567,7 +35567,7 @@
   {
     "player": "Andries Noppert",
     "player_id": 8326.0,
-    "team": "Netherlands",
+    "team": "Netherlands (sélection)",
     "nationality": "NL",
     "pos": "GK",
     "overall": 55,
@@ -35664,7 +35664,7 @@
   {
     "player": "Alex Barrios",
     "player_id": 170230.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 85,
@@ -35715,7 +35715,7 @@
   {
     "player": "Andy Andrade",
     "player_id": 13435.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "RWB",
     "overall": 55,
@@ -35764,7 +35764,7 @@
   {
     "player": "Alessandro Bastoni",
     "player_id": 7480.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CB",
     "overall": 83,
@@ -35865,7 +35865,7 @@
   {
     "player": "Abdelhamid Sabiri",
     "player_id": 3634.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "CM",
     "overall": 55,
@@ -35915,7 +35915,7 @@
   {
     "player": "Abderrazak Hamdallah",
     "player_id": 59493.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "ST",
     "overall": 55,
@@ -35965,7 +35965,7 @@
   {
     "player": "Abdessamad Ezzalzouli",
     "player_id": 149714.0,
-    "team": "Morocco",
+    "team": "Morocco (sélection)",
     "nationality": "MA",
     "pos": "LM",
     "overall": 82,
@@ -36065,7 +36065,7 @@
   {
     "player": "Abolfazl Jalali",
     "player_id": 326758.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "LB",
     "overall": 55,
@@ -36166,7 +36166,7 @@
   {
     "player": "Adam Buksa",
     "player_id": 7663.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "ST",
     "overall": 55,
@@ -36264,7 +36264,7 @@
   {
     "player": "Adrien Rabiot",
     "player_id": 3026.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CM",
     "overall": 83,
@@ -36371,7 +36371,7 @@
   {
     "player": "Adrián Cubas",
     "player_id": 28657.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 55,
@@ -36518,7 +36518,7 @@
   {
     "player": "Alan Palma",
     "player_id": 37945.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CDM",
     "overall": 55,
@@ -36566,7 +36566,7 @@
   {
     "player": "Aldo Chávez",
     "player_id": 35009.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -36617,7 +36617,7 @@
   {
     "player": "Alejandro Garnacho",
     "player_id": 52129.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "LW",
     "overall": 84,
@@ -36717,7 +36717,7 @@
   {
     "player": "Andrés Villa",
     "player_id": 6193.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CDM",
     "overall": 84,
@@ -36818,7 +36818,7 @@
   {
     "player": "Carlos Gómez",
     "player_id": 26297.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CM",
     "overall": 83,
@@ -36868,7 +36868,7 @@
   {
     "player": "Aymen Dahmen",
     "player_id": 105943.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "GK",
     "overall": 83,
@@ -37121,7 +37121,7 @@
   {
     "player": "Barnabás Varga",
     "player_id": 12921.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "ST",
     "overall": 55,
@@ -37170,7 +37170,7 @@
   {
     "player": "Bartosz Slisz",
     "player_id": 15859.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CDM",
     "overall": 55,
@@ -37219,7 +37219,7 @@
   {
     "player": "Ben Díaz",
     "player_id": 4735.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "ST",
     "overall": 85,
@@ -37270,7 +37270,7 @@
   {
     "player": "Bendegúz Bolla",
     "player_id": 46789.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "RWB",
     "overall": 55,
@@ -37371,7 +37371,7 @@
   {
     "player": "Benjamin Šeško",
     "player_id": 38759.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "ST",
     "overall": 85,
@@ -37522,7 +37522,7 @@
   {
     "player": "Brayan Casaverde",
     "player_id": 111560.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "CAM",
     "overall": 55,
@@ -37625,7 +37625,7 @@
   {
     "player": "Brennan Johnson",
     "player_id": 29377.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "RM",
     "overall": 82,
@@ -37675,7 +37675,7 @@
   {
     "player": "Bruno Villagomez",
     "player_id": 21315.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 55,
@@ -37724,7 +37724,7 @@
   {
     "player": "Bruno Petković",
     "player_id": 7693.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "ST",
     "overall": 55,
@@ -37775,7 +37775,7 @@
   {
     "player": "Cameron Carter-Vickers",
     "player_id": 15971.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CB",
     "overall": 55,
@@ -37823,7 +37823,7 @@
   {
     "player": "Camilo Gil",
     "player_id": 27225.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "GK",
     "overall": 83,
@@ -37923,7 +37923,7 @@
   {
     "player": "Axel Witsel",
     "player_id": 5642.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CDM",
     "overall": 84,
@@ -37974,7 +37974,7 @@
   {
     "player": "Angelo Quiñónez",
     "player_id": 37737.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "RWB",
     "overall": 55,
@@ -38024,7 +38024,7 @@
   {
     "player": "Axel Disasi",
     "player_id": 7439.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "RB",
     "overall": 82,
@@ -38076,7 +38076,7 @@
   {
     "player": "Anis Ben Slimane",
     "player_id": 35592.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "CAM",
     "overall": 84,
@@ -38433,7 +38433,7 @@
   {
     "player": "Antonín Barák",
     "player_id": 7801.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "CAM",
     "overall": 84,
@@ -38485,7 +38485,7 @@
   {
     "player": "Anzor Mekvabishvili",
     "player_id": 264017.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "CDM",
     "overall": 55,
@@ -38732,7 +38732,7 @@
   {
     "player": "Atiba Hutchinson",
     "player_id": 31684.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CDM",
     "overall": 55,
@@ -38781,7 +38781,7 @@
   {
     "player": "Attila Fiola",
     "player_id": 11268.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CB",
     "overall": 55,
@@ -38830,7 +38830,7 @@
   {
     "player": "Attila Szalai",
     "player_id": 46376.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CB",
     "overall": 83,
@@ -38928,7 +38928,7 @@
   {
     "player": "Aurélien Tchouaméni",
     "player_id": 10481.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "CDM",
     "overall": 86,
@@ -39239,7 +39239,7 @@
   {
     "player": "Kamil Grosicki",
     "player_id": 5667.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "LM",
     "overall": 55,
@@ -39287,7 +39287,7 @@
   {
     "player": "Kaoru Mitoma",
     "player_id": 37211.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "LWB",
     "overall": 82,
@@ -39339,7 +39339,7 @@
   {
     "player": "Karim Ansarifard",
     "player_id": 5231.0,
-    "team": "Iran",
+    "team": "Iran (sélection)",
     "nationality": "IR",
     "pos": "CAM",
     "overall": 55,
@@ -39438,7 +39438,7 @@
   {
     "player": "Karol Świderski",
     "player_id": 8836.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "ST",
     "overall": 85,
@@ -39490,7 +39490,7 @@
   {
     "player": "Karoy Anderson",
     "player_id": 206048.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 84,
@@ -39643,7 +39643,7 @@
   {
     "player": "Kevin Danso",
     "player_id": 11820.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "CB",
     "overall": 83,
@@ -39694,7 +39694,7 @@
   {
     "player": "Kevin Cortez",
     "player_id": 348757.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "ST",
     "overall": 55,
@@ -39948,7 +39948,7 @@
   {
     "player": "Kieffer Moore",
     "player_id": 3853.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "ST",
     "overall": 85,
@@ -39998,7 +39998,7 @@
   {
     "player": "Kingsley Coman",
     "player_id": 8217.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "RW",
     "overall": 83,
@@ -40051,7 +40051,7 @@
   {
     "player": "Ko Itakura",
     "player_id": 29595.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "CB",
     "overall": 83,
@@ -40102,7 +40102,7 @@
   {
     "player": "Kobbie Mainoo",
     "player_id": 99174.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -40153,7 +40153,7 @@
   {
     "player": "Krzysztof Piątek",
     "player_id": 12493.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "ST",
     "overall": 55,
@@ -40203,7 +40203,7 @@
   {
     "player": "Kwadwo Duah",
     "player_id": 49007.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "ST",
     "overall": 55,
@@ -40305,7 +40305,7 @@
   {
     "player": "Kaheim Dixon",
     "player_id": 435137.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "CAM",
     "overall": 55,
@@ -40355,7 +40355,7 @@
   {
     "player": "Leander Dendoncker",
     "player_id": 6331.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "CDM",
     "overall": 84,
@@ -40562,7 +40562,7 @@
   {
     "player": "José Teixeira",
     "player_id": 16028.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "RWB",
     "overall": 55,
@@ -40808,7 +40808,7 @@
   {
     "player": "José Gonzáles",
     "player_id": 5535.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 55,
@@ -40907,7 +40907,7 @@
   {
     "player": "João Cardoso",
     "player_id": 32122.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CDM",
     "overall": 84,
@@ -41008,7 +41008,7 @@
   {
     "player": "Jules Koundé",
     "player_id": 4445.0,
-    "team": "France",
+    "team": "France (sélection)",
     "nationality": "FR",
     "pos": "RB",
     "overall": 86,
@@ -41264,7 +41264,7 @@
   {
     "player": "Julio Vela-Alvizu",
     "player_id": 36949.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "GK",
     "overall": 55,
@@ -41414,7 +41414,7 @@
   {
     "player": "Lasha Dvali",
     "player_id": 7655.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "CB",
     "overall": 55,
@@ -41464,7 +41464,7 @@
   {
     "player": "Leandro Trossard",
     "player_id": 16559.0,
-    "team": "Belgium",
+    "team": "Belgium (sélection)",
     "nationality": "BE",
     "pos": "ST",
     "overall": 85,
@@ -41613,7 +41613,7 @@
   {
     "player": "Manuel Akanji",
     "player_id": 5549.0,
-    "team": "Switzerland",
+    "team": "Switzerland (sélection)",
     "nationality": "CH",
     "pos": "CB",
     "overall": 83,
@@ -41866,7 +41866,7 @@
   {
     "player": "Marcelo Justiniano",
     "player_id": 223769.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 55,
@@ -42066,7 +42066,7 @@
   {
     "player": "Marcos Lanfranco",
     "player_id": 23749.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 55,
@@ -42114,7 +42114,7 @@
   {
     "player": "Marcos Hidalgo",
     "player_id": 35939.0,
-    "team": "Chile",
+    "team": "Chile (sélection)",
     "nationality": "CL",
     "pos": "LW",
     "overall": 55,
@@ -42212,7 +42212,7 @@
   {
     "player": "Mario Pašalić",
     "player_id": 11603.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "RW",
     "overall": 84,
@@ -42265,7 +42265,7 @@
   {
     "player": "Mark Kaye",
     "player_id": 16252.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CDM",
     "overall": 55,
@@ -42313,7 +42313,7 @@
   {
     "player": "Marko Livaja",
     "player_id": 22041.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "ST",
     "overall": 55,
@@ -42412,7 +42412,7 @@
   {
     "player": "Martín Zubimendi",
     "player_id": 24921.0,
-    "team": "Spain",
+    "team": "Spain (sélection)",
     "nationality": "ES",
     "pos": "CDM",
     "overall": 85,
@@ -42667,7 +42667,7 @@
   {
     "player": "László Kleinheisler",
     "player_id": 16502.0,
-    "team": "Hungary",
+    "team": "Hungary (sélection)",
     "nationality": "HU",
     "pos": "CDM",
     "overall": 55,
@@ -42814,7 +42814,7 @@
   {
     "player": "Leonel Arauz",
     "player_id": 47131.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CDM",
     "overall": 55,
@@ -42967,7 +42967,7 @@
   {
     "player": "Lorenzo Pellegrini",
     "player_id": 6963.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CM",
     "overall": 83,
@@ -43118,7 +43118,7 @@
   {
     "player": "Lucas Cruz",
     "player_id": 113734.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "LW",
     "overall": 84,
@@ -43218,7 +43218,7 @@
   {
     "player": "Lucas de Lima",
     "player_id": 22600.0,
-    "team": "Brazil",
+    "team": "Brazil (sélection)",
     "nationality": "BR",
     "pos": "CAM",
     "overall": 55,
@@ -43315,7 +43315,7 @@
   {
     "player": "Luis Magallón",
     "player_id": 28825.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CM",
     "overall": 55,
@@ -43364,7 +43364,7 @@
   {
     "player": "Luis Castrillón",
     "player_id": 5521.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 55,
@@ -43510,7 +43510,7 @@
   {
     "player": "Luka Ivanušec",
     "player_id": 28368.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "CM",
     "overall": 55,
@@ -43560,7 +43560,7 @@
   {
     "player": "Luka Sučić",
     "player_id": 39490.0,
-    "team": "Croatia",
+    "team": "Croatia (sélection)",
     "nationality": "HR",
     "pos": "RW",
     "overall": 55,
@@ -43659,7 +43659,7 @@
   {
     "player": "Josip Iličić",
     "player_id": 7139.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "ST",
     "overall": 55,
@@ -43960,7 +43960,7 @@
   {
     "player": "Guillermo Bruckner",
     "player_id": 47057.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "GK",
     "overall": 55,
@@ -44007,7 +44007,7 @@
   {
     "player": "Guram Kashia",
     "player_id": 7839.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "CB",
     "overall": 55,
@@ -44057,7 +44057,7 @@
   {
     "player": "Haji Wright",
     "player_id": 22008.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "ST",
     "overall": 55,
@@ -44158,7 +44158,7 @@
   {
     "player": "Harry Kane",
     "player_id": 10955.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "ST",
     "overall": 90,
@@ -44212,7 +44212,7 @@
   {
     "player": "Harry Wilson",
     "player_id": 9540.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CM",
     "overall": 83,
@@ -44264,7 +44264,7 @@
   {
     "player": "Heorhii Tsitaishvili",
     "player_id": 22242.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "LWB",
     "overall": 55,
@@ -44314,7 +44314,7 @@
   {
     "player": "Hernesto Benítez",
     "player_id": 47186.0,
-    "team": "Paraguay",
+    "team": "Paraguay (sélection)",
     "nationality": "EU",
     "pos": "CM",
     "overall": 55,
@@ -44363,7 +44363,7 @@
   {
     "player": "Hernán Galíndez",
     "player_id": 37522.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "GK",
     "overall": 55,
@@ -44411,7 +44411,7 @@
   {
     "player": "Hidemasa Morita",
     "player_id": 37221.0,
-    "team": "Japan",
+    "team": "Japan (sélection)",
     "nationality": "JP",
     "pos": "CDM",
     "overall": 55,
@@ -44801,7 +44801,7 @@
   {
     "player": "Gonçalo Inácio",
     "player_id": 42106.0,
-    "team": "Portugal",
+    "team": "Portugal (sélection)",
     "nationality": "PT",
     "pos": "CB",
     "overall": 55,
@@ -44850,7 +44850,7 @@
   {
     "player": "Gonzalo Jiménez",
     "player_id": 31152.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CAM",
     "overall": 84,
@@ -44900,7 +44900,7 @@
   {
     "player": "Jorge Ramos",
     "player_id": 26406.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "ES",
     "pos": "RB",
     "overall": 79,
@@ -44952,7 +44952,7 @@
   {
     "player": "Giovanni Reyna",
     "player_id": 34339.0,
-    "team": "United States",
+    "team": "United States (sélection)",
     "nationality": "US",
     "pos": "CM",
     "overall": 83,
@@ -45105,7 +45105,7 @@
   {
     "player": "Franco Téllez",
     "player_id": 45377.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "LM",
     "overall": 55,
@@ -45299,7 +45299,7 @@
   {
     "player": "Gareth Bale",
     "player_id": 6399.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "ST",
     "overall": 55,
@@ -45397,7 +45397,7 @@
   {
     "player": "Germán Pezzella",
     "player_id": 7161.0,
-    "team": "Argentina",
+    "team": "Argentina (sélection)",
     "nationality": "AR",
     "pos": "CB",
     "overall": 83,
@@ -45497,7 +45497,7 @@
   {
     "player": "Gernot Trauner",
     "player_id": 8778.0,
-    "team": "Austria",
+    "team": "Austria (sélection)",
     "nationality": "AT",
     "pos": "CB",
     "overall": 55,
@@ -45593,7 +45593,7 @@
   {
     "player": "Giacomo Raspadori",
     "player_id": 25048.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "ST",
     "overall": 85,
@@ -45644,7 +45644,7 @@
   {
     "player": "Gianluca Vargas",
     "player_id": 7143.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 85,
@@ -45695,7 +45695,7 @@
   {
     "player": "Gianluca Scamacca",
     "player_id": 10992.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "ST",
     "overall": 85,
@@ -45798,7 +45798,7 @@
   {
     "player": "Giorgi Chakvetadze",
     "player_id": 23646.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "RW",
     "overall": 55,
@@ -45848,7 +45848,7 @@
   {
     "player": "Giorgi Mamardashvili",
     "player_id": 102371.0,
-    "team": "Georgia",
+    "team": "Georgia (sélection)",
     "nationality": "GE",
     "pos": "GK",
     "overall": 83,
@@ -45898,7 +45898,7 @@
   {
     "player": "Giovanni Di Lorenzo",
     "player_id": 11514.0,
-    "team": "Italy",
+    "team": "Italy (sélection)",
     "nationality": "IT",
     "pos": "CB",
     "overall": 83,
@@ -46103,7 +46103,7 @@
   {
     "player": "Issam Jebali",
     "player_id": 16352.0,
-    "team": "Tunisia",
+    "team": "Tunisia (sélection)",
     "nationality": "TN",
     "pos": "ST",
     "overall": 55,
@@ -46153,7 +46153,7 @@
   {
     "player": "Jhon Bonilla",
     "player_id": 18855.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CB",
     "overall": 55,
@@ -46253,7 +46253,7 @@
   {
     "player": "Jindřich Staněk",
     "player_id": 28040.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "GK",
     "overall": 55,
@@ -46352,7 +46352,7 @@
   {
     "player": "Joe Allen",
     "player_id": 10931.0,
-    "team": "Wales",
+    "team": "Wales (sélection)",
     "nationality": "WL",
     "pos": "CDM",
     "overall": 55,
@@ -46500,7 +46500,7 @@
   {
     "player": "Johan Ibarra",
     "player_id": 26336.0,
-    "team": "Mexico",
+    "team": "Mexico (sélection)",
     "nationality": "MX",
     "pos": "CB",
     "overall": 55,
@@ -46548,7 +46548,7 @@
   {
     "player": "John Zamora",
     "player_id": 21131.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "RW",
     "overall": 55,
@@ -46597,7 +46597,7 @@
   {
     "player": "Jonathan Bell",
     "player_id": 110050.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "LWB",
     "overall": 82,
@@ -46750,7 +46750,7 @@
   {
     "player": "Jonathan Osorio",
     "player_id": 12770.0,
-    "team": "Canada",
+    "team": "Canada (sélection)",
     "nationality": "CA",
     "pos": "CDM",
     "overall": 55,
@@ -46848,7 +46848,7 @@
   {
     "player": "Jordan Henderson",
     "player_id": 3532.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "CDM",
     "overall": 84,
@@ -46899,7 +46899,7 @@
   {
     "player": "Jordan Pickford",
     "player_id": 3468.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "GK",
     "overall": 83,
@@ -47103,7 +47103,7 @@
   {
     "player": "Jhon Copete",
     "player_id": 8817.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "ST",
     "overall": 85,
@@ -47206,7 +47206,7 @@
   {
     "player": "Jesús Chávez",
     "player_id": 114004.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "CB",
     "overall": 83,
@@ -47405,7 +47405,7 @@
   {
     "player": "Jackson Vernaza",
     "player_id": 51969.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "CB",
     "overall": 55,
@@ -47453,7 +47453,7 @@
   {
     "player": "Jahmali Waite",
     "player_id": 226523.0,
-    "team": "Jamaica",
+    "team": "Jamaica (sélection)",
     "nationality": "EU",
     "pos": "GK",
     "overall": 55,
@@ -47501,7 +47501,7 @@
   {
     "player": "Jakub Piotrowski",
     "player_id": 20841.0,
-    "team": "Poland",
+    "team": "Poland (sélection)",
     "nationality": "PL",
     "pos": "CM",
     "overall": 55,
@@ -47550,7 +47550,7 @@
   {
     "player": "James Rubio",
     "player_id": 5695.0,
-    "team": "Colombia",
+    "team": "Colombia (sélection)",
     "nationality": "CO",
     "pos": "CAM",
     "overall": 84,
@@ -47649,7 +47649,7 @@
   {
     "player": "Jan Kuchta",
     "player_id": 29484.0,
-    "team": "Czech Republic",
+    "team": "Czech Republic (sélection)",
     "nationality": "CZ",
     "pos": "ST",
     "overall": 55,
@@ -47698,7 +47698,7 @@
   {
     "player": "Jesús Molina",
     "player_id": 35205.0,
-    "team": "Peru",
+    "team": "Peru (sélection)",
     "nationality": "AR",
     "pos": "CDM",
     "overall": 84,
@@ -47749,7 +47749,7 @@
   {
     "player": "Jan Mlakar",
     "player_id": 31089.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "LM",
     "overall": 55,
@@ -47796,7 +47796,7 @@
   {
     "player": "Jan Oblak",
     "player_id": 6378.0,
-    "team": "Slovenia",
+    "team": "Slovenia (sélection)",
     "nationality": "SI",
     "pos": "GK",
     "overall": 83,
@@ -47846,7 +47846,7 @@
   {
     "player": "Jarrod Bowen",
     "player_id": 9640.0,
-    "team": "England",
+    "team": "England (sélection)",
     "nationality": "EN",
     "pos": "RW",
     "overall": 84,
@@ -47897,7 +47897,7 @@
   {
     "player": "Jaume Mendoza",
     "player_id": 40037.0,
-    "team": "Bolivia",
+    "team": "Bolivia (sélection)",
     "nationality": "EU",
     "pos": "ST",
     "overall": 55,
@@ -48098,7 +48098,7 @@
   {
     "player": "Jeremy Morante",
     "player_id": 40211.0,
-    "team": "Ecuador",
+    "team": "Ecuador (sélection)",
     "nationality": "EC",
     "pos": "LW",
     "overall": 55,
