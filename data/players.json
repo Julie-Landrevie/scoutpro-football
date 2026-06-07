@@ -19441,58 +19441,6 @@
     "fbref_match_score": 1.0
   },
   {
-    "player": "Michael Martínez",
-    "player_id": 34396.0,
-    "team": "Ecuador",
-    "nationality": "AR",
-    "pos": "ST",
-    "overall": 88,
-    "market_value": "100M€ – 130M€",
-    "transfer_open": 72,
-    "pace_score": 42,
-    "shoot_score": 45,
-    "pass_score": 64,
-    "dribble_score": 40,
-    "defense_score": 54,
-    "physic_score": 45,
-    "goals": 0.0,
-    "xg_total": 0.203843194,
-    "assists": 0,
-    "key_passes": 1.0,
-    "passes_total": 17.0,
-    "pass_completion": 0.8823529412,
-    "dribbles_total": 0.0,
-    "dribbles_won": 0.0,
-    "pressures": 14.0,
-    "progressive_passes": 8.0,
-    "formations": [
-      "4-3-3",
-      "4-4-2",
-      "4-2-3-1"
-    ],
-    "best_formation": "4-3-3",
-    "strengths": [
-      "Précision passe"
-    ],
-    "weaknesses": [
-      "Jeu de passe",
-      "Travail défensif",
-      "Finition"
-    ],
-    "systems": [
-      "Attaque directe",
-      "Pressing avant",
-      "Profondeur"
-    ],
-    "competitions": [
-      "FIFA World Cup 2022"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.5,
-    "ref_matched": true,
-    "ref_name": "Lautaro Martínez"
-  },
-  {
     "player": "Mateusz Wieteska",
     "player_id": 8704.0,
     "team": "Clermont Foot",
@@ -29392,59 +29340,6 @@
     "enriched_matches": 4
   },
   {
-    "player": "Yeferson Martínez",
-    "player_id": 25115.0,
-    "team": "Venezuela",
-    "nationality": "AR",
-    "pos": "LW",
-    "overall": 88,
-    "market_value": "100M€ – 130M€",
-    "transfer_open": 69,
-    "pace_score": 48,
-    "shoot_score": 40,
-    "pass_score": 59,
-    "dribble_score": 64,
-    "defense_score": 43,
-    "physic_score": 41,
-    "goals": 0.0,
-    "xg_total": 0.0,
-    "assists": 0,
-    "key_passes": 1.0,
-    "passes_total": 15.0,
-    "pass_completion": 0.8,
-    "dribbles_total": 2.0,
-    "dribbles_won": 1.0,
-    "pressures": 3.0,
-    "progressive_passes": 3.0,
-    "formations": [
-      "4-3-3",
-      "4-2-3-1",
-      "3-4-3"
-    ],
-    "best_formation": "4-3-3",
-    "strengths": [
-      "Polyvalence",
-      "Discipline tactique"
-    ],
-    "weaknesses": [
-      "Jeu de passe",
-      "Travail défensif",
-      "Finition"
-    ],
-    "systems": [
-      "Haute pression",
-      "Ailier haut",
-      "Contre-pressing"
-    ],
-    "competitions": [
-      "Copa America 2024"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.5,
-    "ref_matched": true,
-    "ref_name": "Lautaro Martínez"
-  },
-  {
     "player": "Phillip Tietz",
     "player_id": 9221.0,
     "team": "Augsburg",
@@ -33819,59 +33714,6 @@
       "Ligue 1 2022/23"
     ],
     "enriched_matches": 7
-  },
-  {
-    "player": "Diogo Jota",
-    "player_id": 9929.0,
-    "team": "Portugal",
-    "nationality": "PT",
-    "pos": "ST",
-    "overall": 88,
-    "market_value": "80M€ – 100M€",
-    "transfer_open": 28,
-    "pace_score": 48,
-    "shoot_score": 40,
-    "pass_score": 41,
-    "dribble_score": 64,
-    "defense_score": 52,
-    "physic_score": 42,
-    "goals": 0.0,
-    "xg_total": 0.0,
-    "assists": 0,
-    "key_passes": 0.0,
-    "passes_total": 12.0,
-    "pass_completion": 0.5,
-    "dribbles_total": 2.0,
-    "dribbles_won": 1.0,
-    "pressures": 12.0,
-    "progressive_passes": 2.0,
-    "formations": [
-      "4-3-3",
-      "4-4-2",
-      "4-2-3-1"
-    ],
-    "best_formation": "4-3-3",
-    "strengths": [
-      "Polyvalence",
-      "Discipline tactique"
-    ],
-    "weaknesses": [
-      "Jeu de passe",
-      "Travail défensif",
-      "Finition"
-    ],
-    "systems": [
-      "Attaque directe",
-      "Pressing avant",
-      "Profondeur"
-    ],
-    "competitions": [
-      "UEFA Euro 2024"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.43,
-    "ref_matched": true,
-    "ref_name": "Bernardo Silva"
   },
   {
     "player": "Diogo Costa",
@@ -40875,56 +40717,6 @@
     "fbref_match_score": 0.5
   },
   {
-    "player": "José Martínez",
-    "player_id": 37700.0,
-    "team": "Peru",
-    "nationality": "AR",
-    "pos": "RM",
-    "overall": 88,
-    "market_value": "100M€ – 130M€",
-    "transfer_open": 41,
-    "pace_score": 40,
-    "shoot_score": 40,
-    "pass_score": 70,
-    "dribble_score": 40,
-    "defense_score": 47,
-    "physic_score": 41,
-    "goals": 0.0,
-    "xg_total": 0.0,
-    "assists": 0,
-    "key_passes": 1.0,
-    "passes_total": 8.0,
-    "pass_completion": 1.0,
-    "dribbles_total": 0.0,
-    "dribbles_won": 0.0,
-    "pressures": 7.0,
-    "progressive_passes": 1.0,
-    "formations": [
-      "4-4-2",
-      "4-2-3-1"
-    ],
-    "best_formation": "4-4-2",
-    "strengths": [
-      "Précision passe"
-    ],
-    "weaknesses": [
-      "Travail défensif",
-      "Finition",
-      "Dribble"
-    ],
-    "systems": [
-      "Ailier rentrant",
-      "Contre-attaque"
-    ],
-    "competitions": [
-      "Copa America 2024"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.5,
-    "ref_matched": true,
-    "ref_name": "Lautaro Martínez"
-  },
-  {
     "player": "José Teixeira",
     "player_id": 16028.0,
     "team": "Portugal",
@@ -42573,58 +42365,6 @@
     "competitions": [
       "La Liga 2020/21"
     ]
-  },
-  {
-    "player": "Mario Martínez",
-    "player_id": 6772.0,
-    "team": "Villarreal",
-    "nationality": "AR",
-    "pos": "RB",
-    "overall": 88,
-    "market_value": "100M€ – 130M€",
-    "transfer_open": 72,
-    "pace_score": 50,
-    "shoot_score": 40,
-    "pass_score": 63,
-    "dribble_score": 78,
-    "defense_score": 56,
-    "physic_score": 48,
-    "goals": 0.0,
-    "xg_total": 0.0110668205,
-    "assists": 0,
-    "key_passes": 1.0,
-    "passes_total": 46.0,
-    "pass_completion": 0.8043478261,
-    "dribbles_total": 1.0,
-    "dribbles_won": 1.0,
-    "pressures": 11.0,
-    "progressive_passes": 20.0,
-    "formations": [
-      "4-3-3",
-      "4-2-3-1",
-      "3-4-3"
-    ],
-    "best_formation": "4-3-3",
-    "strengths": [
-      "Passes progressives"
-    ],
-    "weaknesses": [
-      "Jeu de passe",
-      "Travail défensif",
-      "Finition"
-    ],
-    "systems": [
-      "Piston offensif",
-      "Débordement",
-      "Centres"
-    ],
-    "competitions": [
-      "La Liga 2020/21"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.5,
-    "ref_matched": true,
-    "ref_name": "Lautaro Martínez"
   },
   {
     "player": "Mario Pašalić",
@@ -47818,58 +47558,6 @@
     "competitions": [
       "Ligue 1 2022/23"
     ]
-  },
-  {
-    "player": "Iván Martínez",
-    "player_id": 40890.0,
-    "team": "Celta Vigo",
-    "nationality": "AR",
-    "pos": "GK",
-    "overall": 88,
-    "market_value": "100M€ – 130M€",
-    "transfer_open": 58,
-    "pace_score": 53,
-    "shoot_score": 40,
-    "pass_score": 63,
-    "dribble_score": 40,
-    "defense_score": 44,
-    "physic_score": 48,
-    "goals": 0,
-    "xg_total": 0.0,
-    "assists": 0,
-    "key_passes": 0,
-    "passes_total": 66.0,
-    "pass_completion": 0.7424242424,
-    "dribbles_total": 0.0,
-    "dribbles_won": 0.0,
-    "pressures": 6,
-    "progressive_passes": 182,
-    "formations": [
-      "4-3-3",
-      "4-4-2",
-      "3-5-2"
-    ],
-    "best_formation": "4-3-3",
-    "strengths": [
-      "Passes progressives"
-    ],
-    "weaknesses": [
-      "Jeu de passe",
-      "Travail défensif",
-      "Finition"
-    ],
-    "systems": [
-      "Relance au pied",
-      "Distribution longue"
-    ],
-    "competitions": [
-      "La Liga 2020/21"
-    ],
-    "fbref_matched": true,
-    "fbref_match_score": 0.6,
-    "ref_matched": true,
-    "ref_name": "Lautaro Martínez",
-    "enriched_matches": 8
   },
   {
     "player": "Jackson Vernaza",
