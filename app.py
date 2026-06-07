@@ -84,6 +84,21 @@ CLEAN_TO_SB = {
     "Jules Koundé":         "jules_kounde",
     "William Saliba":       "william_saliba",
     "Mike Maignan":         "mike_maignan",
+    "Vinícius Jr.":         "vinicius_jose_paixao_de_oliveira_junior",
+    "Neymar":               "neymar_da_silva_santos_junior",
+    "Marcelo":              "marcelo_vieira_da_silva_junior",
+    "Rodrygo":              "rodrygo_goes",
+    "Lionel Messi":         "lionel_andres_messi_cuccittini",
+    "Cristiano Ronaldo":    "cristiano_ronaldo_dos_santos_aveiro",
+    "Luka Modrić":          "luka_modric",
+    "Sergio Ramos":         "sergio_ramos_garcia",
+    "Jordi Alba":           "jordi_alba_ramos",
+    "Sergio Busquets":      "sergio_busquets_i_burgos",
+    "Pedri":                "pedro_gonzalez_lopez",
+    "Gavi":                 "gavi",
+    "Bernardo Silva":       "bernardo_mota_veiga_de_carvalho_e_silva",
+    "Vitinha":              "vitor_machado_ferreira",
+    "Marquinhos":           "marcos_aoas_correa",
 }
 
 def _slugify(name: str) -> str:
