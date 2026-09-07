@@ -260,12 +260,12 @@ if match_btn and style_jeu != "— Sélectionner —" and poste_besoin != "— S
     top  = candidates.nlargest(5, 'match_score')
     if top.empty:
         st.warning("Aucun joueur trouvé pour cette combinaison. Essaie un autre poste ou une autre formation.")
-        st.stop()
-    cols = st.columns(min(5, len(top)))
-    for i,(_, p) in enumerate(top.iterrows()):
-        with cols[i]:
-            score_color = '#00c853' if p['match_score']>=70 else '#f59e0b' if p['match_score']>=50 else '#ef4444'
-            st.markdown(f"""
+    else:
+        cols = st.columns(min(5, len(top)))
+        for i,(_, p) in enumerate(top.iterrows()):
+            with cols[i]:
+                score_color = '#00c853' if p['match_score']>=70 else '#f59e0b' if p['match_score']>=50 else '#ef4444'
+                st.markdown(f"""
 <div style="background:#141e30;border:1px solid #1e2d45;border-radius:12px;padding:16px;text-align:center">
 <div style="font-size:28px;font-weight:900;color:{score_color}">{p['match_score']:.0f}%</div>
 <div style="font-size:13px;font-weight:700;color:#e8ecf4;margin:6px 0">{p['player'].split()[-1]}</div>
@@ -634,26 +634,29 @@ Observations tactiques, points forts observés, contexte des actions clés...</e
 </div>
 """, unsafe_allow_html=True)
 
-            note_scout = st.text_area(
-                "Observations vidéo (Dartfish / Once Sport)",
-                placeholder="Ex : Très bon dans la récupération haute, déclenche le pressing au bon moment. Vision de jeu remarquable dans les transitions...",
-                height=120,
-                label_visibility="collapsed"
-            )
+        note_key = f"note_{p['player'].replace(' ','_').lower()}"
+        if note_key not in st.session_state:
+            st.session_state[note_key] = ""
 
-            if note_scout:
-                note_path = Path(f"data/enriched/notes_{p['player'].replace(' ','_').lower()}.txt")
-                if st.button("💾 Sauvegarder la note"):
-                    note_path.write_text(note_scout, encoding="utf-8")
-                    st.success(f"Note sauvegardée → {note_path}")
+        note_scout = st.text_area(
+            "Observations vidéo (Dartfish / Once Sport)",
+            value=st.session_state[note_key],
+            placeholder="Ex : Très bon dans la récupération haute, déclenche le pressing au bon moment. Vision de jeu remarquable dans les transitions...",
+            height=120,
+            label_visibility="collapsed"
+        )
 
-            # Load existing note if any
-            note_path = Path(f"data/enriched/notes_{p['player'].replace(' ','_').lower()}.txt")
-            if note_path.exists():
-                st.markdown(f"""
-<div style="background:#0a1a0a;border:1px solid rgba(16,185,129,0.3);border-radius:8px;padding:12px 16px;font-size:12px;color:#6b9e6b;margin-top:8px">
-📎 Note existante : {note_path.read_text(encoding='utf-8')}
-</div>""", unsafe_allow_html=True)
+        if st.button("💾 Sauvegarder la note"):
+            st.session_state[note_key] = note_scout
+            st.success("Note enregistrée pour cette session.")
+
+        st.caption("ℹ️ Note conservée le temps de la session uniquement — limitation de l'hébergement Streamlit Cloud, pas de base de données persistante branchée.")
+
+        if st.session_state[note_key]:
+            st.markdown(f"""
+            <div style="background:#0a1a0a;border:1px solid rgba(16,185,129,0.3);border-radius:8px;padding:12px 16px;font-size:12px;color:#6b9e6b;margin-top:8px">
+            📎 Note actuelle : {st.session_state[note_key]}
+            </div>""", unsafe_allow_html=True)
 
     # ── FOOTER ────────────────────────────────────────────────────────────
     st.markdown("<div style='text-align:center;color:#1e2d45;font-size:11px;margin-top:20px'>ScoutPro v2 · Julie Landrevie · StatsBomb Open Data · 2263 joueurs · 18 compétitions · Scout Report CdM 2022 / Euro 2024</div>", unsafe_allow_html=True)
