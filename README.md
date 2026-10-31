@@ -103,7 +103,7 @@ Git · GitHub · Streamlit Cloud
 - 🎓 Sports Analytics — University of Michigan (Coursera)
 - 🎓 Analyse Vidéo et Data dans le Sport — Université de Lorraine
 - ✅ Dartfish Certified Analyst
-- 🔨 Once Sport Certified *(en cours)*
+- ✅ Once Sport Certified 
 - 🔨 Nacsport Certified *(en cours)*
 
 ---
