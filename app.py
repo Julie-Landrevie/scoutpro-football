@@ -1,44 +1,68 @@
 """
-ScoutPro — Application Streamlit de recrutement & profilage
-Données : StatsBomb Open Data — 2263 joueurs, 18 compétitions
-v2 : + onglet Scout Report (stats enrichies CdM 2022 / Euro 2024)
+ScoutPro — recrutement et profilage (français / anglais, clair / sombre)
+Données : StatsBomb Open Data. Charte commune : jl_ui.py et .streamlit/config.toml.
 Lancement : streamlit run app.py
 """
 
-import json, ast, os, unicodedata
-import pandas as pd
-import numpy as np
-import plotly.graph_objects as go
-import streamlit as st
+import ast
+import json
+import unicodedata
 from pathlib import Path
 
-st.set_page_config(
-    page_title="ScoutPro | Football Scouting",
-    page_icon="⚽",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+import streamlit as st
 
-st.markdown("""
-<style>
-[data-testid="stAppViewContainer"]{background:#0a0e1a}
-[data-testid="stSidebar"]{background:#0f1624 !important;border-right:1px solid #1e2d45}
-[data-testid="stSidebar"] *{color:#c9d1e0 !important}
-[data-testid="stSidebar"] input,[data-testid="stSidebar"] select{
-background:#1a2235 !important;border:1px solid #2a3a55 !important;color:#e8ecf4 !important;border-radius:8px}
-[data-testid="metric-container"]{background:#141e30;border:1px solid #1e2d45;border-radius:10px;padding:12px}
-[data-testid="metric-container"] label{color:#6b7fa3 !important;font-size:12px !important}
-[data-testid="metric-container"] [data-testid="stMetricValue"]{color:#e8ecf4 !important}
-div[data-testid="stDataFrame"]{background:#141e30;border-radius:10px}
-.stTabs [data-baseweb="tab-list"]{background:#0f1624;border-radius:8px;padding:4px}
-.stTabs [data-baseweb="tab"]{color:#6b7fa3;border-radius:6px}
-.stTabs [aria-selected="true"]{background:#1a2235 !important;color:#e8ecf4 !important}
-h1,h2,h3{color:#e8ecf4 !important}
-p,li{color:#c9d1e0}
-.stMarkdown{color:#c9d1e0}
-div[data-testid="stVerticalBlock"] > div > div > div{color:#c9d1e0}
-</style>
-""", unsafe_allow_html=True)
+from jl_ui import C, footer, fr_num, header, kpi, note, plotly_style, setup, t
+
+setup("ScoutPro — Julie Landrevie", "ScoutPro — Julie Landrevie", icon="⚽")
+
+import numpy as np  # noqa: E402,F401
+import pandas as pd  # noqa: E402
+import plotly.graph_objects as go  # noqa: E402
+
+# Vocabulaire des fiches (les données sont en français)
+TAGS_EN = {
+    'Discipline tactique': 'Tactical discipline', 'Dribble efficace': 'Effective dribbling',
+    'Dribble réussi': 'Successful dribbling', 'Efficacité but': 'Clinical in front of goal', 'Finition': 'Finishing',
+    'Passe de qualité': 'Quality passing', 'Passes clés': 'Key passes', 'Passes progressives': 'Progressive passes',
+    'Polyvalence': 'Versatility', 'Pressing intense': 'Intense pressing', 'Précision passe': 'Passing accuracy',
+    'Vitesse': 'Pace', 'Dribble': 'Dribbling', 'Expérience top niveau': 'Top-level experience',
+    'Jeu de passe': 'Passing game', 'Pressing': 'Pressing', 'Régularité': 'Consistency',
+    'Travail défensif': 'Defensive work', '3 derrière': 'Back three', 'Ailier haut': 'High winger',
+    'Ailier rentrant': 'Inverted winger', 'Attaque directe': 'Direct attack', 'Bloc bas': 'Low block',
+    'Box-to-box': 'Box-to-box', 'Centres': 'Crosses', 'Contre-attaque': 'Counter-attack',
+    'Contre-pressing': 'Counter-pressing', 'Couverture de zone': 'Zonal cover', 'Distribution longue': 'Long distribution',
+    'Double pivot': 'Double pivot', 'Débordement': 'Overlapping runs', 'Entre les lignes': 'Between the lines',
+    'Haute pression': 'High press', 'Jeu de possession': 'Possession play', 'Ligne haute': 'High line',
+    'Milieu créatif': 'Creative midfielder', 'Piston droit': 'Right wing-back', 'Piston gauche': 'Left wing-back',
+    'Piston offensif': 'Attacking wing-back', 'Pressing avant': 'Front pressing', 'Pressing collectif': 'Collective pressing',
+    'Profondeur': 'Runs in behind', 'Relance au pied': 'Playing out from the back', 'Récupération': 'Ball recovery',
+    'Sortie balle au sol': 'Build-up on the ground', 'Transitions': 'Transitions',
+}
+
+
+def tag(s):
+    return t(s, TAGS_EN.get(s, s))
+
+
+ATTR = [('pace_score', 'Vitesse', 'Pace'), ('shoot_score', 'Tir', 'Shooting'), ('pass_score', 'Passe', 'Passing'),
+        ('dribble_score', 'Dribble', 'Dribbling'), ('defense_score', 'Défense', 'Defending'),
+        ('physic_score', 'Physique', 'Physical')]
+STYLES = {
+    "possession": (("Possession / jeu court", "Possession / short passing"),
+                   {'pass_score': 0.35, 'physic_score': 0.2, 'defense_score': 0.2, 'dribble_score': 0.15, 'shoot_score': 0.1}),
+    "counter": (("Contre-attaque", "Counter-attack"),
+                {'pace_score': 0.35, 'shoot_score': 0.3, 'dribble_score': 0.2, 'pass_score': 0.1, 'physic_score': 0.05}),
+    "press": (("Pressing haut", "High press"),
+              {'physic_score': 0.3, 'defense_score': 0.3, 'pace_score': 0.2, 'pass_score': 0.1, 'shoot_score': 0.1}),
+    "direct": (("Jeu direct / long", "Direct / long ball"),
+               {'physic_score': 0.35, 'shoot_score': 0.3, 'defense_score': 0.2, 'pace_score': 0.1, 'pass_score': 0.05}),
+    "transitions": (("Transitions rapides", "Fast transitions"),
+                    {'pace_score': 0.35, 'dribble_score': 0.25, 'shoot_score': 0.2, 'pass_score': 0.15, 'physic_score': 0.05}),
+    "lowblock": (("Bloc bas défensif", "Defensive low block"),
+                 {'defense_score': 0.4, 'physic_score': 0.3, 'pass_score': 0.15, 'pace_score': 0.1, 'shoot_score': 0.05}),
+}
+NONE = "__none__"
+ALL = "__all__"
 
 
 # ── CHARGEMENT DES DONNÉES ───────────────────────────────────────────────────
@@ -47,25 +71,27 @@ div[data-testid="stVerticalBlock"] > div > div > div{color:#c9d1e0}
 def load_players():
     path = Path("data/players.json")
     if not path.exists():
-        st.error("❌ data/players.json introuvable. Lancez : python data_pipeline.py")
+        st.error(t("data/players.json introuvable. Lancez : python data_pipeline.py",
+                   "data/players.json not found. Run: python data_pipeline.py"))
         st.stop()
     with open(path, encoding="utf-8") as f:
         raw = json.load(f)
     df = pd.DataFrame(raw)
+
     def safe_parse(x):
-        if isinstance(x, list): return x
-        if not x or (isinstance(x, float) and pd.isna(x)): return []
+        if isinstance(x, list):
+            return x
+        if not x or (isinstance(x, float) and pd.isna(x)):
+            return []
         try:
             result = ast.literal_eval(str(x))
             return result if isinstance(result, list) else []
         except Exception:
             return []
 
-    for col in ['formations','strengths','weaknesses','systems','competitions']:
+    for col in ['formations', 'strengths', 'weaknesses', 'systems', 'competitions']:
         if col in df.columns:
             df[col] = df[col].apply(safe_parse)
-    if 'age' not in df.columns:
-        df['age'] = 25
     return df
 
 
@@ -160,503 +186,445 @@ def load_enriched(player_name: str) -> dict | None:
 
     return None
 
-
 df_all = load_players()
 df = df_all.sort_values('overall', ascending=False).drop_duplicates('player').reset_index(drop=True)
+# L'âge n'est pas dans les données actuelles : on ne l'affiche que s'il est renseigné (pas de valeur inventée).
+HAS_AGE = 'age' in df.columns and df['age'].notna().any()
 
 
-# ── SIDEBAR ──────────────────────────────────────────────────────────────────
+def radar(series, height=300, rng=(40, 99)):
+    """series : liste de (nom, valeurs, couleur). Le radar suit le thème clair / sombre."""
+    fig = go.Figure()
+    for name, (labels, vals), color in series:
+        fig.add_trace(go.Scatterpolar(r=vals + [vals[0]], theta=labels + [labels[0]], fill='toself', name=name,
+                                      line=dict(color=color, width=2.5), opacity=0.9))
+    fig.update_layout(polar=dict(bgcolor='rgba(0,0,0,0)', radialaxis=dict(visible=True, range=list(rng))),
+                      showlegend=len(series) > 1, legend=dict(orientation='h', y=-0.12))
+    return plotly_style(fig, height=height)
+
+
+def bar_rows(items, maxv=100, suffix=""):
+    """Barres horizontales en HTML (suivent le thème grâce aux variables CSS de jl_ui)."""
+    html = ""
+    for label, val in items:
+        w = max(0, min(100, val / maxv * 100))
+        html += (f'<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">'
+                 f'<div style="width:150px;font-size:0.85rem;color:var(--jl-ink2)">{label}</div>'
+                 f'<div style="flex:1;background:var(--jl-grid);border-radius:3px;height:8px">'
+                 f'<div style="width:{w:.0f}%;background:var(--jl-teal);height:8px;border-radius:3px"></div></div>'
+                 f'<div style="width:44px;font-size:0.9rem;font-weight:700;color:var(--jl-ink);text-align:right">{val:.0f}{suffix}</div>'
+                 f'</div>')
+    st.markdown(html, unsafe_allow_html=True)
+
+
+def kv_rows(d):
+    st.markdown("".join(
+        f'<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--jl-grid);'
+        f'font-size:0.9rem"><span style="color:var(--jl-ink2)">{k}</span><span style="color:var(--jl-ink);font-weight:700">{v}</span></div>'
+        for k, v in d.items()), unsafe_allow_html=True)
+
+
+def tags(items, mark=""):
+    st.markdown("".join(f'<span class="jl-tag">{mark}{tag(s)}</span>' for s in items) or "—", unsafe_allow_html=True)
+
+
+def num(v, dec=2):
+    if v is None or (isinstance(v, float) and np.isnan(v)):
+        return "—"
+    if isinstance(v, (int, np.integer)) or dec == 0:
+        return fr_num(float(v), 0)
+    return fr_num(float(v), dec)
+
+
+# ── BARRE LATÉRALE ───────────────────────────────────────────────────────────
 
 with st.sidebar:
-    st.markdown("## ⚽ ScoutPro")
-    st.caption("Recrutement & Profilage · StatsBomb Open Data")
-    st.markdown("---")
+    st.markdown("### ScoutPro")
+    st.caption(t("Recrutement et profilage · StatsBomb Open Data", "Recruitment and profiling · StatsBomb Open Data"))
 
-    search = st.text_input("🔍 Recherche joueur", placeholder="Nom…")
-    pos_options = ["Toutes"] + sorted([str(x) for x in df['pos'].dropna().unique().tolist()])
-    pos_sel = st.selectbox("Position", pos_options)
-    nat_options = ["Toutes"] + sorted([str(x) for x in df['nationality'].dropna().unique().tolist()])
-    nat_sel = st.selectbox("Nationalité", nat_options)
-    # Filtrer les équipes nationales de la liste clubs
+    search = st.text_input(t("Recherche", "Search"), placeholder=t("Nom…", "Name…"))
+    pos_sel = st.selectbox(t("Poste", "Position"), [ALL] + sorted(str(x) for x in df['pos'].dropna().unique()),
+                           format_func=lambda v: t("Tous", "All") if v == ALL else v)
+    nat_sel = st.selectbox(t("Nationalité", "Nationality"), [ALL] + sorted(str(x) for x in df['nationality'].dropna().unique()),
+                           format_func=lambda v: t("Toutes", "All") if v == ALL else v)
     NATIONAL_NAMES = {
-        'France','Spain','Germany','Portugal','Brazil','Argentina','England',
-        'Italy','Netherlands','Belgium','Croatia','Morocco','Senegal','Nigeria',
-        'Serbia','Denmark','Switzerland','Austria','Turkey','Ukraine','Poland',
-        'Georgia','Scotland','Hungary','Albania','Romania','Slovenia','Uruguay',
-        'Colombia','Ecuador','Chile','Mexico','United States','Canada','Japan',
-        'South Korea','Australia','Cameroon','Ghana','Tunisia','Saudi Arabia',
-        'Iran','Costa Rica','Wales','Czech Republic','Slovakia','Bolivia',
-        'Peru','Paraguay','Jamaica',
+        'France', 'Spain', 'Germany', 'Portugal', 'Brazil', 'Argentina', 'England',
+        'Italy', 'Netherlands', 'Belgium', 'Croatia', 'Morocco', 'Senegal', 'Nigeria',
+        'Serbia', 'Denmark', 'Switzerland', 'Austria', 'Turkey', 'Ukraine', 'Poland',
+        'Georgia', 'Scotland', 'Hungary', 'Albania', 'Romania', 'Slovenia', 'Uruguay',
+        'Colombia', 'Ecuador', 'Chile', 'Mexico', 'United States', 'Canada', 'Japan',
+        'South Korea', 'Australia', 'Cameroon', 'Ghana', 'Tunisia', 'Saudi Arabia',
+        'Iran', 'Costa Rica', 'Wales', 'Czech Republic', 'Slovakia', 'Bolivia',
+        'Peru', 'Paraguay', 'Jamaica',
     }
-    all_teams = df['team'].dropna().unique().tolist()
-    club_list = sorted([t for t in all_teams if t not in NATIONAL_NAMES])
-    clubs = ["Tous"] + club_list
-    club_sel = st.selectbox("Club", clubs)
-    rating_min = st.slider("Note minimale", 55, 97, 65)
-    age_range = st.slider("Tranche d'âge", 17, 40, (17, 35))
-    all_forms = ['4-3-3','4-4-2','4-2-3-1','3-5-2','3-4-3','5-3-2']
-    form_sel = st.multiselect("Dispositif tactique", all_forms)
-    t_opts = {"Tous": None, "Probable (>70%)": "high", "Incertain (40-70%)": "med", "Peu probable (<40%)": "low"}
-    transfer_sel = t_opts[st.selectbox("Ouverture au transfert", list(t_opts.keys()))]
-    st.markdown("---")
-    min_goals = st.slider("Buts min", 0, 20, 0)
-    min_xg    = st.slider("xG min", 0.0, 10.0, 0.0, 0.5)
+    club_list = sorted(x for x in df['team'].dropna().unique() if x not in NATIONAL_NAMES)
+    club_sel = st.selectbox(t("Club", "Club"), [ALL] + club_list, format_func=lambda v: t("Tous", "All") if v == ALL else v)
+    rating_min = st.slider(t("Note minimale", "Minimum rating"), 55, 97, 65)
+    age_range = st.slider(t("Tranche d’âge", "Age range"), 17, 40, (17, 35)) if HAS_AGE else None
+    all_forms = ['4-3-3', '4-4-2', '4-2-3-1', '3-5-2', '3-4-3', '5-3-2']
+    form_sel = st.multiselect(t("Dispositif tactique", "Formation"), all_forms)
+    T_OPTS = {ALL: ("Toutes", "Any"), "high": ("Probable (> 70 %)", "Likely (>70%)"),
+              "med": ("Incertaine (40 à 70 %)", "Uncertain (40-70%)"), "low": ("Peu probable (< 40 %)", "Unlikely (<40%)")}
+    transfer_sel = st.selectbox(t("Ouverture au transfert", "Transfer openness"), list(T_OPTS),
+                                format_func=lambda k: t(*T_OPTS[k]))
+    min_goals = st.slider(t("Buts minimum", "Minimum goals"), 0, 20, 0)
+    min_xg = st.slider(t("xG minimum", "Minimum xG"), 0.0, 10.0, 0.0, 0.5)
 
-    # MATCHING
     st.markdown("---")
-    st.markdown("### 🎯 Matching tactique")
-    st.caption("Décris ton style de jeu pour trouver les meilleurs profils")
-    style_jeu = st.selectbox("Style de jeu", [
-        "— Sélectionner —","Possession / jeu court","Contre-attaque","Pressing haut",
-        "Jeu direct / long","Transitions rapides","Bloc bas défensif"
-    ])
-    formation_eq  = st.selectbox("Formation de ton équipe", [
-        "— Sélectionner —","4-3-3","4-4-2","4-2-3-1","3-5-2","3-4-3","5-3-2"
-    ])
-    poste_besoin  = st.selectbox("Poste recherché en priorité", [
-        "— Sélectionner —","GK","CB","LB","RB","CDM","CM","CAM","LW","RW","ST"
-    ])
-    st.caption("Le matching calcule un score de compatibilité selon les attributs clés du style choisi (vitesse, passe, défense...). Les scores sont normalisés entre 0 et 100%.")
-    match_btn = st.button("🔍 Trouver les meilleurs profils ↗", use_container_width=True)
+    st.markdown(f"#### {t('Matching tactique', 'Tactical matching')}")
+    st.caption(t("Décris ton style de jeu pour trouver les profils les plus compatibles.",
+                 "Describe your playing style to find the most compatible profiles."))
+    style_jeu = st.selectbox(t("Style de jeu", "Playing style"), [NONE] + list(STYLES),
+                             format_func=lambda k: t("Choisir…", "Choose…") if k == NONE else t(*STYLES[k][0]))
+    formation_eq = st.selectbox(t("Formation de ton équipe", "Your team’s formation"), [NONE] + all_forms,
+                                format_func=lambda k: t("Choisir…", "Choose…") if k == NONE else k)
+    poste_besoin = st.selectbox(t("Poste recherché en priorité", "Priority position"),
+                                [NONE, "GK", "CB", "LB", "RB", "CDM", "CM", "CAM", "LW", "RW", "ST"],
+                                format_func=lambda k: t("Choisir…", "Choose…") if k == NONE else k)
+    st.caption(t("Score de compatibilité pondéré selon les attributs clés du style (vitesse, passe, défense…), ramené entre 0 et 100 %.",
+                 "Compatibility score weighted by the style’s key attributes (pace, passing, defending…), scaled from 0 to 100%."))
+    match_btn = st.button(t("Trouver les meilleurs profils", "Find the best profiles"), width="stretch")
 
 
 # ── FILTRAGE ─────────────────────────────────────────────────────────────────
 
-mask = pd.Series([True]*len(df))
-if search:            mask &= df['player'].str.lower().str.contains(search.lower(), na=False)
-if pos_sel  != "Toutes": mask &= df['pos'] == pos_sel
-if nat_sel  != "Toutes": mask &= df['nationality'] == nat_sel
-if club_sel != "Tous":   mask &= df['team'] == club_sel
+mask = pd.Series([True] * len(df))
+if search:
+    mask &= df['player'].str.lower().str.contains(search.lower(), na=False)
+if pos_sel != ALL:
+    mask &= df['pos'] == pos_sel
+if nat_sel != ALL:
+    mask &= df['nationality'] == nat_sel
+if club_sel != ALL:
+    mask &= df['team'] == club_sel
 mask &= df['overall'] >= rating_min
-mask &= df['age'].between(age_range[0], age_range[1])
+if HAS_AGE:
+    mask &= df['age'].between(age_range[0], age_range[1])
 mask &= df['goals'] >= min_goals
 mask &= df['xg_total'] >= min_xg
-if form_sel:          mask &= df['formations'].apply(lambda x: any(f in x for f in form_sel))
-if transfer_sel == "high": mask &= df['transfer_open'] >= 70
-elif transfer_sel == "med": mask &= (df['transfer_open'] >= 40) & (df['transfer_open'] < 70)
-elif transfer_sel == "low": mask &= df['transfer_open'] < 40
+if form_sel:
+    mask &= df['formations'].apply(lambda x: any(f in x for f in form_sel))
+if transfer_sel == "high":
+    mask &= df['transfer_open'] >= 70
+elif transfer_sel == "med":
+    mask &= (df['transfer_open'] >= 40) & (df['transfer_open'] < 70)
+elif transfer_sel == "low":
+    mask &= df['transfer_open'] < 40
 filtered = df[mask].reset_index(drop=True)
 
 
-# ── MATCHING LOGIC ────────────────────────────────────────────────────────────
+header("ScoutPro", t("Fiches de scouting par poste à partir des données ouvertes StatsBomb : attributs, profil tactique, "
+                     "comparaison et rapport détaillé.",
+                     "Scouting cards by position from StatsBomb open data: attributes, tactical profile, comparison and "
+                     "detailed report."))
 
-if match_btn and style_jeu != "— Sélectionner —" and poste_besoin != "— Sélectionner —":
-    st.markdown("## 🎯 Matching tactique")
-    STYLE_WEIGHTS = {
-        "Possession / jeu court":  {'pass_score':0.35,'physic_score':0.2,'defense_score':0.2,'dribble_score':0.15,'shoot_score':0.1},
-        "Contre-attaque":          {'pace_score':0.35,'shoot_score':0.3,'dribble_score':0.2,'pass_score':0.1,'physic_score':0.05},
-        "Pressing haut":           {'physic_score':0.3,'defense_score':0.3,'pace_score':0.2,'pass_score':0.1,'shoot_score':0.1},
-        "Jeu direct / long":       {'physic_score':0.35,'shoot_score':0.3,'defense_score':0.2,'pace_score':0.1,'pass_score':0.05},
-        "Transitions rapides":     {'pace_score':0.35,'dribble_score':0.25,'shoot_score':0.2,'pass_score':0.15,'physic_score':0.05},
-        "Bloc bas défensif":       {'defense_score':0.4,'physic_score':0.3,'pass_score':0.15,'pace_score':0.1,'shoot_score':0.05},
-    }
-    weights    = STYLE_WEIGHTS.get(style_jeu, {k:0.2 for k in ['pass_score','shoot_score','dribble_score','defense_score','physic_score']})
-    candidates = df[df['pos']==poste_besoin].copy()
-    if formation_eq != "— Sélectionner —":
+
+# ── MATCHING ──────────────────────────────────────────────────────────────────
+
+if match_btn and style_jeu != NONE and poste_besoin != NONE:
+    st.subheader(t("Matching tactique", "Tactical matching"))
+    weights = STYLES[style_jeu][1]
+    candidates = df[df['pos'] == poste_besoin].copy()
+    if formation_eq != NONE:
         candidates = candidates[candidates['formations'].apply(lambda x: formation_eq in x)]
-    candidates['match_score'] = sum(candidates[col]*w for col,w in weights.items() if col in candidates.columns)
-    candidates['match_score'] = (candidates['match_score'] - candidates['match_score'].min()) / \
-                                 (candidates['match_score'].max() - candidates['match_score'].min() + 1e-9) * 100
-    top  = candidates.nlargest(5, 'match_score')
+    candidates['match_score'] = sum(candidates[col] * w for col, w in weights.items() if col in candidates.columns)
+    candidates['match_score'] = ((candidates['match_score'] - candidates['match_score'].min())
+                                 / (candidates['match_score'].max() - candidates['match_score'].min() + 1e-9) * 100)
+    top = candidates.nlargest(5, 'match_score')
     if top.empty:
-        st.warning("Aucun joueur trouvé pour cette combinaison. Essaie un autre poste ou une autre formation.")
+        st.warning(t("Aucun profil pour cette combinaison. Essaie un autre poste ou une autre formation.",
+                     "No profile for this combination. Try another position or formation."))
     else:
         cols = st.columns(min(5, len(top)))
-        for i,(_, p) in enumerate(top.iterrows()):
-            with cols[i]:
-                score_color = '#00c853' if p['match_score']>=70 else '#f59e0b' if p['match_score']>=50 else '#ef4444'
-                st.markdown(f"""
-<div style="background:#141e30;border:1px solid #1e2d45;border-radius:12px;padding:16px;text-align:center">
-<div style="font-size:28px;font-weight:900;color:{score_color}">{p['match_score']:.0f}%</div>
-<div style="font-size:13px;font-weight:700;color:#e8ecf4;margin:6px 0">{p['player'].split()[-1]}</div>
-<div style="font-size:11px;color:#6b7fa3">{p['team']}</div>
-<div style="background:#1a2235;border-radius:20px;padding:3px 8px;display:inline-block;font-size:10px;color:#00c853;margin-top:6px">{p['pos']} · {p['overall']}</div>
-<div style="font-size:10px;color:#4b6080;margin-top:6px">{p['market_value']}</div>
-</div>""", unsafe_allow_html=True)
+        for i, (_, pl) in enumerate(top.iterrows()):
+            kpi(cols[i], fr_num(pl['match_score'], 0, pct=True),
+                f"<b>{pl['player']}</b><br>{pl['team']}<br>{pl['pos']} · {pl['overall']} · {pl['market_value']}",
+                accent=(i == 0))
     st.markdown("---")
+elif match_btn:
+    st.info(t("Choisis un style de jeu et un poste pour lancer le matching.",
+              "Choose a playing style and a position to run the matching."))
 
 
-# ── LAYOUT PRINCIPAL ──────────────────────────────────────────────────────────
+# ── MISE EN PAGE ─────────────────────────────────────────────────────────────
 
-col_list, col_detail = st.columns([1, 2], gap="medium")
+col_list, col_detail = st.columns([1, 2], gap="large")
 
 with col_list:
-    st.markdown(f"<div style='font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;border-bottom:1px solid #1e2d45;padding-bottom:8px;margin-bottom:16px'>🎯 {len(filtered)} joueurs</div>", unsafe_allow_html=True)
-    st.info("🔬 **Scout Report** disponible pour de nombreux joueurs — sélectionne un joueur et vérifie l’onglet 🔬 Scout Report pour ses vraies stats StatsBomb (xG, pressing, passes progressives, percentiles vs groupe de poste).")
+    st.markdown(f"**{len(filtered)}** {t('profils', 'profiles')}")
     if filtered.empty:
-        st.info("Aucun joueur ne correspond.")
+        st.info(t("Aucun profil ne correspond.", "No matching profile."))
     else:
-        selected_name = st.selectbox("Sélectionner",
-            filtered['player'].tolist(),
-            format_func=lambda n: f"{n} ({filtered[filtered['player']==n]['pos'].values[0]}) — {filtered[filtered['player']==n]['overall'].values[0]}"
-        )
-        selected = filtered[filtered['player']==selected_name].iloc[0]
-        st.markdown("---")
-        tbl = filtered[['player','pos','team','age','overall','goals','xg_total','transfer_open']].copy()
-        tbl.columns = ['Joueur','Pos','Club','Âge','Note','Buts','xG','Transfert']
-        tbl['xG'] = tbl['xG'].round(2)
-        st.dataframe(tbl, hide_index=True, use_container_width=True, height=380,
-            column_config={
-                "Note":      st.column_config.ProgressColumn("Note",      min_value=55, max_value=97,  format="%d"),
-                "Transfert": st.column_config.ProgressColumn("Transfert", min_value=0,  max_value=100, format="%d%%"),
-                "Joueur":    st.column_config.TextColumn("Joueur",    width="large"),
-                "Club":      st.column_config.TextColumn("Club",      width="medium"),
-                "xG":        st.column_config.NumberColumn("xG",      width="small", format="%.2f"),
-                "Buts":      st.column_config.NumberColumn("Buts",    width="small"),
-                "Âge":       st.column_config.NumberColumn("Âge",     width="small"),
-                "Pos":       st.column_config.TextColumn("Pos",       width="small"),
-            })
+        selected_name = st.selectbox(
+            t("Sélectionner", "Select"), filtered['player'].tolist(),
+            format_func=lambda n: f"{n} ({filtered[filtered['player'] == n]['pos'].values[0]}) · "
+                                  f"{filtered[filtered['player'] == n]['overall'].values[0]}")
+        selected = filtered[filtered['player'] == selected_name].iloc[0]
+        cols_tbl = ['player', 'pos', 'team'] + (['age'] if HAS_AGE else []) + ['overall', 'goals', 'xg_total', 'transfer_open']
+        tbl = filtered[cols_tbl].copy()
+        names = {'player': t('Nom', 'Name'), 'pos': t('Poste', 'Pos'), 'team': 'Club', 'age': t('Âge', 'Age'),
+                 'overall': t('Note', 'Rating'), 'goals': t('Buts', 'Goals'), 'xg_total': 'xG',
+                 'transfer_open': t('Transfert', 'Transfer')}
+        tbl.columns = [names[c] for c in cols_tbl]
+        st.dataframe(tbl, hide_index=True, width="stretch", height=420, column_config={
+            names['overall']: st.column_config.ProgressColumn(names['overall'], min_value=55, max_value=97, format="%d"),
+            names['transfer_open']: st.column_config.ProgressColumn(names['transfer_open'], min_value=0, max_value=100, format="%d%%"),
+            names['player']: st.column_config.TextColumn(names['player'], width="medium"),
+            'xG': st.column_config.NumberColumn('xG', width="small", format="%.2f"),
+            names['goals']: st.column_config.NumberColumn(names['goals'], width="small"),
+            names['pos']: st.column_config.TextColumn(names['pos'], width="small"),
+        })
+        note(t("Le <b>rapport détaillé</b> (stats réelles StatsBomb par 90 minutes et percentiles par poste) est disponible "
+               "pour de nombreux profils : sélectionne un nom, puis ouvre l’onglet « Rapport ».",
+               "The <b>detailed report</b> (real StatsBomb per-90 stats and percentiles by position) is available for many "
+               "profiles: select a name, then open the “Report” tab."))
 
 
 with col_detail:
     if filtered.empty:
-        st.info("Utilisez les filtres pour trouver des joueurs.")
+        st.info(t("Utilise les filtres pour trouver des profils.", "Use the filters to find profiles."))
+        footer("Données : StatsBomb (Open Data)", "Data: StatsBomb (Open Data)")
         st.stop()
 
-    p   = selected
-    ini = ''.join(w[0] for w in p['player'].split()[:2]).upper()
-    comps = p['competitions'] if isinstance(p['competitions'],list) else []
+    p = selected
+    comps = p['competitions'] if isinstance(p.get('competitions'), list) else []
 
-    # ── FIFA CARD ──────────────────────────────────────────────────────────
+    # ── CARTE DU PROFIL ──────────────────────────────────────────────────
+    sub = f"{p['team']} · {p['nationality']}" + (f" · {int(p['age'])} {t('ans', 'yrs')}" if HAS_AGE and pd.notna(p.get('age')) else "")
+    attrs_html = "".join(
+        f'<div style="text-align:center;min-width:58px"><div style="font-family:\'DM Serif Display\',Georgia,serif;'
+        f'font-size:1.6rem;color:var(--jl-ink)">{fr_num(float(p[k]), 0)}</div><div style="font-size:0.75rem;color:var(--jl-ink2)">{t(fr, en)}</div></div>'
+        for k, fr, en in ATTR)
     st.markdown(f"""
-<div style="background:linear-gradient(135deg,#0d2a0d,#091a09,#102810);border:1px solid rgba(0,200,83,0.25);border-radius:16px;padding:24px;text-align:center;margin-bottom:16px">
-<div style="font-size:56px;font-weight:900;color:#c8a200;line-height:1">{p['overall']}</div>
-<div style="font-size:36px;font-weight:900;color:rgba(100,180,100,0.2);margin:4px 0">{ini}</div>
-<div style="font-size:20px;font-weight:800;color:#e8ecf4;letter-spacing:1px">{p['player']}</div>
-<div style="font-size:13px;color:#6b7fa3;margin-top:4px">{p['team']} · {p['nationality']} · {p['age']} ans</div>
-<div style="display:inline-block;background:rgba(0,200,83,0.15);border:1px solid rgba(0,200,83,0.35);color:#00c853;font-size:11px;font-weight:700;padding:3px 14px;border-radius:20px;letter-spacing:1px;margin-top:8px">{p['pos']}</div>
-<div style="display:flex;justify-content:center;gap:16px;margin-top:14px">
-{"".join(f'<div style="background:rgba(0,0,0,0.3);border-radius:8px;padding:8px 12px;text-align:center"><div style="font-size:18px;font-weight:800;color:#c8a200">{v}</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:1px;color:rgba(255,255,255,0.35)">{l}</div></div>'
-for v,l in [(p['pace_score'],'PAC'),(p['shoot_score'],'TIR'),(p['pass_score'],'PAS'),(p['dribble_score'],'DRI'),(p['defense_score'],'DEF'),(p['physic_score'],'PHY')])}
-</div>
-</div>
-""", unsafe_allow_html=True)
+<div class="jl-kpi" style="display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap;margin-bottom:0.8rem">
+  <div style="text-align:center;min-width:90px">
+    <div class="v accent" style="font-size:3.2rem">{p['overall']}</div>
+    <div class="l">{t('Note', 'Rating')}</div>
+  </div>
+  <div style="flex:1;min-width:220px">
+    <div style="font-family:'DM Serif Display',Georgia,serif;font-size:1.7rem;color:var(--jl-ink);line-height:1.1">{p['player']}</div>
+    <div style="color:var(--jl-ink2);margin:0.2rem 0 0.4rem 0">{sub}</div>
+    <span class="jl-tag">{p['pos']}</span><span class="jl-tag">{p['market_value']}</span>
+  </div>
+  <div style="display:flex;gap:0.8rem;flex-wrap:wrap">{attrs_html}</div>
+</div>""", unsafe_allow_html=True)
 
-    st.markdown("""
-<div style="background:#1a1a0a;border:1px solid #3a3a10;border-radius:8px;padding:8px 14px;margin-bottom:10px;font-size:11px;color:#a0a060">
-⚠️ <strong>Données modélisées</strong> — Les notes et scores sont calculés à partir des actions StatsBomb open data.
-Ils reflètent l'activité dans les compétitions couvertes, pas le niveau réel du joueur.
-L'onglet <strong>🔬 Scout Report</strong> contient les vraies stats avancées pour les joueurs couverts par StatsBomb.
-</div>
-""", unsafe_allow_html=True)
+    note(t("<b>Données modélisées</b> : les notes et scores sont calculés à partir des actions StatsBomb Open Data. Ils reflètent "
+           "l’activité dans les compétitions couvertes, pas le niveau réel du joueur. L’onglet « Rapport » contient les "
+           "statistiques avancées réelles quand elles existent.",
+           "<b>Modelled data</b>: ratings and scores are computed from StatsBomb Open Data actions. They reflect activity in the "
+           "covered competitions, not the player’s true level. The “Report” tab holds real advanced stats when available."),
+         warn=True)
+    st.caption(t("Compétitions couvertes : La Liga 2005-2021, Ligue des champions 2008-2019, Premier League 2015/16, Ligue 1 2022/23, "
+                 "Bundesliga 2023/24, Coupes du monde 2018 et 2022, Euro 2024. Le club affiché est celui de la période couverte.",
+                 "Covered competitions: La Liga 2005-2021, Champions League 2008-2019, Premier League 2015/16, Ligue 1 2022/23, "
+                 "Bundesliga 2023/24, World Cups 2018 and 2022, Euro 2024. The club shown is the one during the covered period."))
 
-    st.caption("📅 Données issues de StatsBomb open data — compétitions couvertes : La Liga 2005-2021, UCL 2008-2019, Premier League 2015/16, Ligue 1 2022/23, Bundesliga 2023/24, World Cup 2018 & 2022, Euro 2024. Le club affiché correspond à la période couverte, pas nécessairement au club actuel.")
+    m = st.columns(4)
+    kpi(m[0], str(int(p['goals'])), t("Buts", "Goals"))
+    kpi(m[1], fr_num(p['xg_total'], 2), "xG")
+    kpi(m[2], str(int(p['key_passes'])), t("Passes clés", "Key passes"))
+    kpi(m[3], fr_num(p['transfer_open'], 0, pct=True), t("Ouverture au transfert", "Transfer openness"))
+    st.write("")
 
-    m1,m2,m3,m4,m5 = st.columns(5)
-    m1.metric("Buts",      int(p['goals']))
-    m2.metric("xG",        f"{p['xg_total']:.2f}")
-    m3.metric("P.clés",    int(p['key_passes']))
-    m4.metric("Âge",       int(p['age']))
-    m5.metric("Transfert", f"{p['transfer_open']}%")
-
-    st.markdown(f"""
-<div style="background:#141e30;border:1px solid #1e2d45;border-radius:10px;padding:10px 18px;margin-top:8px;display:flex;align-items:center;gap:14px">
-<span style="color:#6b7fa3;font-size:12px;white-space:nowrap">💶 Valeur estimée</span>
-<span style="color:#e8ecf4;font-size:18px;font-weight:700;letter-spacing:0.5px">{p['market_value']}</span>
-</div>
-""", unsafe_allow_html=True)
-
-    # ── TABS — on ajoute Scout Report ─────────────────────────────────────
     enriched = load_enriched(p['player'])
     has_report = enriched is not None
-
-    tab_labels = ["📊 Attributs", "⚡ Tactique", "💶 Marché", "📈 Comparaison"]
+    tab_labels = [t("Attributs", "Attributes"), t("Tactique", "Tactics"), t("Marché", "Market"), t("Comparaison", "Comparison")]
     if has_report:
-        tab_labels.append("🔬 Scout Report")
-
+        tab_labels.append(t("Rapport", "Report"))
     tabs = st.tabs(tab_labels)
-    tab1, tab2, tab3, tab4 = tabs[0], tabs[1], tabs[2], tabs[3]
-    tab_report = tabs[4] if has_report else None
 
-    # ── TAB 1 : ATTRIBUTS ─────────────────────────────────────────────────
-    with tab1:
-        c1,c2 = st.columns(2)
-        cats = ['Vitesse','Tir','Passe','Dribble','Défense','Physique']
-        vals = [p['pace_score'],p['shoot_score'],p['pass_score'],p['dribble_score'],p['defense_score'],p['physic_score']]
-        fig = go.Figure(go.Scatterpolar(
-            r=vals+[vals[0]], theta=cats+[cats[0]], fill='toself',
-            fillcolor='rgba(0,200,83,0.12)', line=dict(color='#00c853',width=2)))
-        fig.update_layout(polar=dict(bgcolor='#0d1f0d',
-            radialaxis=dict(visible=True,range=[40,99],color='#4b6080',gridcolor='#1e2d45'),
-            angularaxis=dict(color='#c9d1e0',gridcolor='#1e2d45')),
-            showlegend=False,paper_bgcolor='rgba(0,0,0,0)',plot_bgcolor='rgba(0,0,0,0)',
-            height=280,margin=dict(l=30,r=30,t=20,b=20))
-        c1.plotly_chart(fig, use_container_width=True)
-
+    # ── ATTRIBUTS ──────────────────────────────────────────────────────
+    with tabs[0]:
+        labels = [t(fr, en) for _, fr, en in ATTR]
+        vals = [float(p[k]) for k, _, _ in ATTR]
+        c1, c2 = st.columns(2)
+        with c1:
+            st.plotly_chart(radar([(p['player'], (labels, vals), C["teal"])], height=300), width="stretch", theme="streamlit")
         with c2:
-            st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin-bottom:12px'>Attributs</div>",unsafe_allow_html=True)
-            def bc(v): return '#10b981' if v>=80 else '#3b82f6' if v>=70 else '#f59e0b' if v>=60 else '#ef4444'
-            for attr,val in zip(cats,vals):
-                st.markdown(f"""<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-<div style="width:72px;font-size:12px;color:#6b7fa3">{attr}</div>
-<div style="flex:1;background:#1a2235;border-radius:3px;height:7px">
-<div style="width:{val}%;background:{bc(val)};height:7px;border-radius:3px"></div></div>
-<div style="width:28px;font-size:13px;font-weight:600;color:{bc(val)};text-align:right">{val}</div>
-</div>""",unsafe_allow_html=True)
+            st.markdown(f"**{t('Attributs', 'Attributes')}**")
+            bar_rows(list(zip(labels, vals)))
+        s = st.columns(4)
+        kpi(s[0], str(int(p['passes_total'])), t("Passes", "Passes"))
+        kpi(s[1], fr_num(p['pass_completion'] * 100, 0, pct=True), t("Passes réussies", "Pass completion"))
+        kpi(s[2], str(int(p['progressive_passes'])), t("Passes progressives", "Progressive passes"))
+        kpi(s[3], str(int(p['assists'])), t("Passes décisives", "Assists"))
+        st.write("")
+        s = st.columns(4)
+        kpi(s[0], str(int(p['dribbles_total'])), t("Dribbles tentés", "Dribbles attempted"))
+        kpi(s[1], str(int(p['dribbles_won'])), t("Dribbles réussis", "Successful dribbles"))
+        kpi(s[2], str(int(p['pressures'])), t("Pressions", "Pressures"))
+        kpi(s[3], str(int(p['key_passes'])), t("Passes clés", "Key passes"))
 
-        st.markdown("---")
-        sc1,sc2,sc3,sc4 = st.columns(4)
-        sc1.metric("Passes totales", int(p['passes_total']));    sc1.metric("Complétion", f"{p['pass_completion']*100:.0f}%")
-        sc2.metric("Passes prog.",   int(p['progressive_passes'])); sc2.metric("Dribbles",  int(p['dribbles_total']))
-        sc3.metric("Drib. réussis",  int(p['dribbles_won']));     sc3.metric("Pressings",  int(p['pressures']))
-        sc4.metric("Assists",        int(p['assists']));           sc4.metric("Passes clés",int(p['key_passes']))
-
-    # ── TAB 2 : TACTIQUE ──────────────────────────────────────────────────
-    with tab2:
-        ca,cb = st.columns(2)
+    # ── TACTIQUE ───────────────────────────────────────────────────────
+    with tabs[1]:
+        ca, cb = st.columns(2)
         with ca:
-            st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin-bottom:10px'>✅ Points forts</div>",unsafe_allow_html=True)
-            st.markdown(''.join(f'<span style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#10b981;border-radius:20px;padding:4px 10px;font-size:11px;margin:3px;display:inline-block">✓ {s}</span>' for s in p['strengths']), unsafe_allow_html=True)
-            st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin:12px 0 10px'>❌ Points faibles</div>",unsafe_allow_html=True)
-            st.markdown(''.join(f'<span style="background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3);color:#ef4444;border-radius:20px;padding:4px 10px;font-size:11px;margin:3px;display:inline-block">✗ {s}</span>' for s in p['weaknesses']), unsafe_allow_html=True)
+            st.markdown(f"**{t('Points forts', 'Strengths')}**")
+            tags(p['strengths'], "✓ ")
+            st.markdown(f"**{t('Points à travailler', 'Areas to improve')}**")
+            tags(p['weaknesses'], "✗ ")
         with cb:
-            st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin-bottom:10px'>🔷 Systèmes</div>",unsafe_allow_html=True)
-            st.markdown(''.join(f'<span style="background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.3);color:#60a5fa;border-radius:20px;padding:4px 10px;font-size:11px;margin:3px;display:inline-block">◆ {s}</span>' for s in p['systems']), unsafe_allow_html=True)
-            st.markdown("<div style='font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:#4b6080;margin:12px 0 10px'>📐 Dispositifs</div>",unsafe_allow_html=True)
-            st.markdown(''.join(f'<span style="background:{"rgba(0,200,83,0.15)" if f==p["best_formation"] else "rgba(139,92,246,0.15)"};border:1px solid {"rgba(0,200,83,0.35)" if f==p["best_formation"] else "rgba(139,92,246,0.35)"};color:{"#00c853" if f==p["best_formation"] else "#a78bfa"};border-radius:20px;padding:4px 10px;font-size:11px;margin:3px;display:inline-block">{"★ " if f==p["best_formation"] else ""}{f}</span>' for f in p['formations']), unsafe_allow_html=True)
-            st.markdown(f"<div style='margin-top:12px;font-size:12px;color:#6b7fa3'>Compétitions : {' · '.join(comps[:4])}</div>", unsafe_allow_html=True)
+            st.markdown(f"**{t('Systèmes de jeu', 'Playing systems')}**")
+            tags(p['systems'])
+            st.markdown(f"**{t('Dispositifs', 'Formations')}**")
+            st.markdown("".join(
+                f'<span class="jl-tag" style="{"border-color:var(--jl-teal);color:var(--jl-teal);font-weight:700" if f == p["best_formation"] else ""}">'
+                f'{"★ " if f == p["best_formation"] else ""}{f}</span>' for f in p['formations']) or "—", unsafe_allow_html=True)
+            if comps:
+                st.caption(f"{t('Compétitions :', 'Competitions:')} {' · '.join(comps[:4])}")
+        st.caption(t("★ : dispositif le plus adapté.", "★: best-suited formation."))
 
-    # ── TAB 3 : MARCHÉ ────────────────────────────────────────────────────
-    with tab3:
+    # ── MARCHÉ ─────────────────────────────────────────────────────────
+    with tabs[2]:
         to = p['transfer_open']
-        tc = '#10b981' if to>=65 else '#f59e0b' if to>=35 else '#ef4444'
-        tl = 'Probable' if to>=65 else 'Incertain' if to>=35 else 'Peu probable'
-        c1,c2,c3 = st.columns(3)
-        c1.metric("Valeur estimée", p['market_value'])
-        c2.metric("Transfert",      f"{to}%")
-        c3.metric("Statut",         tl)
-        st.markdown(f"""
-<div style="background:#141e30;border:1px solid #1e2d45;border-radius:12px;padding:16px;margin-top:12px">
-<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
-<span style="font-size:13px;color:#8b97b0">Probabilité de transaction</span>
-<span style="background:{tc}22;border:1px solid {tc}55;color:{tc};border-radius:20px;padding:3px 12px;font-size:12px;font-weight:600">{tl}</span>
-</div>
-<div style="height:8px;border-radius:4px;background:linear-gradient(90deg,#ef4444,#f59e0b,#10b981)">
-<div style="width:{to}%;height:8px"></div></div>
-<div style="display:flex;justify-content:space-between;font-size:10px;color:#4b6080;margin-top:4px">
-<span>Bloqué</span><span>Neutre</span><span>Ouvert</span></div>
-</div>""", unsafe_allow_html=True)
+        tl = t("Probable", "Likely") if to >= 65 else t("Incertain", "Uncertain") if to >= 35 else t("Peu probable", "Unlikely")
+        c = st.columns(3)
+        kpi(c[0], str(p['market_value']), t("Valeur estimée", "Estimated value"))
+        kpi(c[1], fr_num(to, 0, pct=True), t("Ouverture au transfert", "Transfer openness"))
+        kpi(c[2], tl, t("Statut", "Status"), accent=to >= 65)
+        st.write("")
+        bar_rows([(t("Probabilité de transaction", "Transaction likelihood"), to)], suffix=t(" %", "%"))
+        st.caption(t("Échelle : 0 = bloqué, 50 = neutre, 100 = ouvert.", "Scale: 0 = blocked, 50 = neutral, 100 = open."))
         blockers = []
-        if to<30:              blockers.append("🔴 Club peu enclin à céder")
-        if p['overall']>=85:   blockers.append("🟡 Prix élevé — négociation complexe")
-        if len(p['weaknesses'])>=3: blockers.append("🟡 Axes d'amélioration à surveiller")
-        if to>=65:             blockers.append("🟢 Fenêtre de transfert favorable")
-        for b in blockers:     st.markdown(f"- {b}")
+        if to < 30:
+            blockers.append(t("Club peu enclin à céder", "Club reluctant to sell"))
+        if p['overall'] >= 85:
+            blockers.append(t("Prix élevé, négociation complexe", "High price, complex negotiation"))
+        if len(p['weaknesses']) >= 3:
+            blockers.append(t("Axes d’amélioration à surveiller", "Areas to improve worth monitoring"))
+        if to >= 65:
+            blockers.append(t("Fenêtre de transfert favorable", "Favourable transfer window"))
+        for b in blockers:
+            st.markdown(f"- {b}")
 
-    # ── TAB 4 : COMPARAISON ───────────────────────────────────────────────
-    with tab4:
-        same_pos = df[df['pos']==p['pos']]['player'].tolist()
-        opts = [pl for pl in same_pos if pl!=p['player']]
+    # ── COMPARAISON ────────────────────────────────────────────────────
+    with tabs[3]:
+        opts = [pl for pl in df[df['pos'] == p['pos']]['player'].tolist() if pl != p['player']]
         if opts:
-            p2_name = st.selectbox("Comparer avec", opts)
-            p2      = df[df['player']==p2_name].iloc[0]
-            attrs   = ['pace_score','shoot_score','pass_score','dribble_score','defense_score','physic_score']
-            labels  = ['Vitesse','Tir','Passe','Dribble','Défense','Physique']
-            fig2 = go.Figure()
-            fig2.add_trace(go.Scatterpolar(r=[p[a] for a in attrs]+[p[attrs[0]]],  theta=labels+[labels[0]],
-                fill='toself', fillcolor='rgba(0,200,83,0.12)',  line=dict(color='#00c853',width=2), name=p['player']))
-            fig2.add_trace(go.Scatterpolar(r=[p2[a] for a in attrs]+[p2[attrs[0]]],theta=labels+[labels[0]],
-                fill='toself', fillcolor='rgba(59,130,246,0.12)',line=dict(color='#3b82f6',width=2), name=p2_name))
-            fig2.update_layout(polar=dict(bgcolor='#0d1222',
-                radialaxis=dict(visible=True,range=[40,99],color='#4b6080',gridcolor='#1e2d45'),
-                angularaxis=dict(color='#c9d1e0',gridcolor='#1e2d45')),
-                legend=dict(bgcolor='rgba(0,0,0,0)',font=dict(color='#c9d1e0')),
-                paper_bgcolor='rgba(0,0,0,0)',height=340,margin=dict(l=40,r=40,t=20,b=20))
-            st.plotly_chart(fig2, use_container_width=True)
-            cmp = pd.DataFrame({'Attribut':labels+['Overall','Âge','Buts','xG','Transf%'],
-                p['player']: [p[a] for a in attrs]+[p['overall'],int(p['age']),int(p['goals']),round(p['xg_total'],2),p['transfer_open']],
-                p2_name:     [p2[a] for a in attrs]+[p2['overall'],int(p2['age']),int(p2['goals']),round(p2['xg_total'],2),p2['transfer_open']]})
-            st.dataframe(cmp, hide_index=True, use_container_width=True)
+            p2_name = st.selectbox(t("Comparer avec", "Compare with"), opts)
+            p2 = df[df['player'] == p2_name].iloc[0]
+            labels = [t(fr, en) for _, fr, en in ATTR]
+            st.plotly_chart(radar([(p['player'], (labels, [float(p[k]) for k, _, _ in ATTR]), C["teal"]),
+                                   (p2_name, (labels, [float(p2[k]) for k, _, _ in ATTR]), C["rust"])], height=360),
+                            width="stretch", theme="streamlit")
+            rows = labels + [t("Note", "Rating"), t("Buts", "Goals"), "xG", t("Transfert (%)", "Transfer (%)")]
 
-    # ── TAB 5 : SCOUT REPORT ─────────────────────────────────────────────
-    if has_report and tab_report is not None:
-        with tab_report:
+            def col_vals(x):
+                return [fr_num(float(x[k]), 0) for k, _, _ in ATTR] + [str(x['overall']), str(int(x['goals'])),
+                                                           fr_num(x['xg_total'], 2), str(x['transfer_open'])]
+            st.dataframe(pd.DataFrame({t("Attribut", "Attribute"): rows, p['player']: col_vals(p), p2_name: col_vals(p2)}),
+                         hide_index=True, width="stretch")
+
+    # ── RAPPORT DÉTAILLÉ ───────────────────────────────────────────────
+    if has_report:
+        with tabs[4]:
             e = enriched
             pct = e.get("percentiles", {})
             n_matches = e.get("matches_analyzed", "—")
+            note(t(f"<b>Rapport : données réelles StatsBomb</b>. Statistiques avancées calculées action par action sur "
+                   f"<b>{n_matches} matchs</b> des données ouvertes (passes progressives, pressions, interceptions, xG, conduites…), "
+                   "contrairement aux scores modélisés de l’onglet Attributs.",
+                   f"<b>Report: real StatsBomb data</b>. Advanced stats computed action by action over <b>{n_matches} matches</b> "
+                   "of the open data (progressive passes, pressures, interceptions, xG, carries…), unlike the modelled scores of "
+                   "the Attributes tab."))
 
-            # ── Explication du Scout Report ────────────────────────────────
-            st.markdown(f"""
-<div style="background:#0f1a2e;border:1px solid #1e3a5f;border-radius:12px;padding:18px 22px;margin-bottom:20px">
-<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px">
-<div style="font-size:15px;font-weight:700;color:#60a5fa">🔬 Scout Report — Données réelles StatsBomb</div>
-<div style="font-size:10px;color:#2563eb;background:#1e3a5f;border-radius:6px;padding:4px 10px;white-space:nowrap">Open Data</div>
-</div>
-<div style="font-size:12px;color:#8b97b0;line-height:1.7">
-Cet onglet enrichit la fiche joueur avec des <strong style="color:#c9d1e0">stats avancées calculées sur les vrais événements StatsBomb</strong> 
-— <strong style="color:#e8ecf4">{n_matches} matchs analysés</strong> issus des données StatsBomb open data.<br>
-Contrairement aux scores FIFA-like de l'onglet Attributs (modélisés), ces données sont <strong style="color:#c9d1e0">extraites action par action</strong> : 
-passes progressives, pressing, interceptions, xG réels, carries...<br>
-Disponible uniquement pour les joueurs de l'Équipe de France présents dans les données StatsBomb open data.
-</div>
-</div>
-""", unsafe_allow_html=True)
+            st.markdown(f"#### {t('Statistiques avancées par 90 minutes', 'Advanced stats per 90 minutes')}")
+            r = st.columns(6)
+            kpi(r[0], num(e.get("progressive_passes_per90")), t("Passes prog./90", "Prog. passes/90"))
+            kpi(r[1], num(e.get("progressive_carries_per90")), t("Conduites prog./90", "Prog. carries/90"))
+            kpi(r[2], num(e.get("passes_final_third_per90")), t("Passes dernier tiers/90", "Final-third passes/90"))
+            kpi(r[3], num(e.get("pressures_per90")), t("Pressions/90", "Pressures/90"))
+            kpi(r[4], num(e.get("interceptions_per90")), t("Interceptions/90", "Interceptions/90"))
+            kpi(r[5], num(e.get("ball_recoveries_per90")), t("Récupérations/90", "Recoveries/90"))
+            st.write("")
+            r = st.columns(6)
+            kpi(r[0], num(e.get("xg_total")), t("xG total", "Total xG"))
+            kpi(r[1], num(e.get("xg_per90")), "xG/90")
+            kpi(r[2], num(e.get("xA_per90")), "xA/90")
+            kpi(r[3], num(e.get("key_passes_per90")), t("Passes clés/90", "Key passes/90"))
+            pc, dw = e.get('pass_completion_pct'), e.get('duel_win_pct')
+            kpi(r[4], fr_num(pc, 1, pct=True) if pc is not None else "—", t("Passes réussies", "Pass completion"))
+            kpi(r[5], fr_num(dw, 1, pct=True) if dw is not None else "—", t("Duels gagnés", "Duels won"))
+            st.write("")
 
-            # ── Métriques clés ──────────────────────────────────────────────
-            st.markdown("#### 📊 Stats avancées / 90 min")
-            r1c1,r1c2,r1c3,r1c4,r1c5,r1c6 = st.columns(6)
-            r1c1.metric("Passes prog./90",    e.get("progressive_passes_per90","—"))
-            r1c2.metric("Carries prog./90",   e.get("progressive_carries_per90","—"))
-            r1c3.metric("Passes tiers off./90",e.get("passes_final_third_per90","—"))
-            r1c4.metric("Pressings/90",       e.get("pressures_per90","—"))
-            r1c5.metric("Interceptions/90",   e.get("interceptions_per90","—"))
-            r1c6.metric("Récups./90",         e.get("ball_recoveries_per90","—"))
-
-            r2c1,r2c2,r2c3,r2c4,r2c5,r2c6 = st.columns(6)
-            r2c1.metric("xG total",           e.get("xg_total","—"))
-            r2c2.metric("xG/90",              e.get("xg_per90","—"))
-            r2c3.metric("xA/90",              e.get("xA_per90","—"))
-            r2c4.metric("Passes clés/90",     e.get("key_passes_per90","—"))
-            r2c5.metric("Complétion passes",  f"{e.get('pass_completion_pct','—')}%")
-            r2c6.metric("Duels gagnés %",     f"{e.get('duel_win_pct','—')}%")
-
-            st.markdown("---")
-
-            # ── Radar enrichi (6 dimensions réelles) ───────────────────────
-            col_radar, col_pct = st.columns([1, 1])
-
+            col_radar, col_pct = st.columns(2)
             with col_radar:
-                st.markdown("##### Radar — données réelles StatsBomb")
+                st.markdown(f"##### {t('Radar sur données réelles', 'Radar on real data')}")
 
                 def norm(val, lo, hi):
-                    """Normalise une valeur entre 0 et 100."""
-                    if val is None: return 50
+                    if val is None:
+                        return 50
                     return max(0, min(100, (val - lo) / (hi - lo + 1e-9) * 100))
 
-                radar_dims = [
-                    ("Progression",   norm(e.get("progressive_passes_per90",0),  0, 20)),
-                    ("Création",      norm(e.get("key_passes_per90",0),           0, 5)),
-                    ("Pressing",      norm(e.get("pressures_per90",0),            0, 20)),
-                    ("Récupération",  norm(e.get("ball_recoveries_per90",0),      0, 10)),
-                    ("Interceptions", norm(e.get("interceptions_per90",0),        0, 4)),
-                    ("Volume passes", norm(e.get("pass_completion_pct",0),        60, 100)),
-                ]
-                r_labels = [d[0] for d in radar_dims]
-                r_vals   = [d[1] for d in radar_dims]
-
-                fig_r = go.Figure(go.Scatterpolar(
-                    r=r_vals+[r_vals[0]], theta=r_labels+[r_labels[0]], fill='toself',
-                    fillcolor='rgba(96,165,250,0.15)', line=dict(color='#60a5fa', width=2)))
-                fig_r.update_layout(
-                    polar=dict(bgcolor='#0d1222',
-                        radialaxis=dict(visible=True, range=[0,100], color='#4b6080', gridcolor='#1e2d45'),
-                        angularaxis=dict(color='#c9d1e0', gridcolor='#1e2d45')),
-                    showlegend=False,
-                    paper_bgcolor='rgba(0,0,0,0)',
-                    height=300,
-                    margin=dict(l=30,r=30,t=20,b=20))
-                st.plotly_chart(fig_r, use_container_width=True)
-
+                dims = [(t("Progression", "Progression"), norm(e.get("progressive_passes_per90", 0), 0, 20)),
+                        (t("Création", "Creation"), norm(e.get("key_passes_per90", 0), 0, 5)),
+                        (t("Pressing", "Pressing"), norm(e.get("pressures_per90", 0), 0, 20)),
+                        (t("Récupération", "Recovery"), norm(e.get("ball_recoveries_per90", 0), 0, 10)),
+                        (t("Interceptions", "Interceptions"), norm(e.get("interceptions_per90", 0), 0, 4)),
+                        (t("Précision de passe", "Passing accuracy"), norm(e.get("pass_completion_pct", 0), 60, 100))]
+                st.plotly_chart(radar([(p['player'], ([d[0] for d in dims], [d[1] for d in dims]), C["teal"])],
+                                      height=320, rng=(0, 100)), width="stretch", theme="streamlit")
             with col_pct:
-                st.markdown("##### Percentiles vs dataset")
+                st.markdown(f"##### {t('Percentiles par poste', 'Percentiles by position')}")
                 if pct:
-                    pct_display = {
-                        "Passes prog./90":   pct.get("pct_progressive_passes_per90"),
-                        "Carries prog./90":  pct.get("pct_progressive_carries_per90"),
-                        "Pressing/90":       pct.get("pct_pressures_per90"),
-                        "Interceptions/90":  pct.get("pct_interceptions_per90"),
-                        "Récupérations/90":  pct.get("pct_ball_recoveries_per90"),
-                        "xG/90":             pct.get("pct_xg_per90"),
-                        "Passes clés/90":    pct.get("pct_key_passes_per90"),
-                        "Complétion passes": pct.get("pct_pass_completion_pct"),
-                    }
-                    for label, val in pct_display.items():
-                        if val is None: continue
-                        color = '#10b981' if val>=75 else '#3b82f6' if val>=50 else '#f59e0b' if val>=25 else '#ef4444'
-                        bar_w = int(val)
-                        st.markdown(f"""
-<div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
-<div style="width:130px;font-size:11px;color:#8b97b0">{label}</div>
-<div style="flex:1;background:#1a2235;border-radius:3px;height:6px">
-<div style="width:{bar_w}%;background:{color};height:6px;border-radius:3px"></div></div>
-<div style="width:36px;font-size:12px;font-weight:600;color:{color};text-align:right">{val:.0f}e</div>
-</div>""", unsafe_allow_html=True)
+                    pct_display = [(t("Passes prog./90", "Prog. passes/90"), pct.get("pct_progressive_passes_per90")),
+                                   (t("Conduites prog./90", "Prog. carries/90"), pct.get("pct_progressive_carries_per90")),
+                                   (t("Pressions/90", "Pressures/90"), pct.get("pct_pressures_per90")),
+                                   (t("Interceptions/90", "Interceptions/90"), pct.get("pct_interceptions_per90")),
+                                   (t("Récupérations/90", "Recoveries/90"), pct.get("pct_ball_recoveries_per90")),
+                                   ("xG/90", pct.get("pct_xg_per90")),
+                                   (t("Passes clés/90", "Key passes/90"), pct.get("pct_key_passes_per90")),
+                                   (t("Passes réussies", "Pass completion"), pct.get("pct_pass_completion_pct"))]
+                    bar_rows([(lab, v) for lab, v in pct_display if v is not None], suffix=t("e", "th"))
+                    if e.get("percentile_group"):
+                        st.caption(t(f"Groupe de comparaison : {e.get('percentile_group')} ({e.get('percentile_sample_size', '—')} profils).",
+                                     f"Comparison group: {e.get('percentile_group')} ({e.get('percentile_sample_size', '—')} profiles)."))
                 else:
-                    st.caption("Percentiles non disponibles — relancer le pipeline avec plusieurs joueurs.")
+                    st.caption(t("Percentiles non disponibles.", "Percentiles not available."))
 
-            st.markdown("---")
-
-            # ── Détail offensif / défensif côte à côte ─────────────────────
             col_off, col_def = st.columns(2)
-
             with col_off:
-                st.markdown("##### Profil offensif")
-                def fmt(v, dec=2):
-                    if v is None: return "—"
-                    if isinstance(v, float): return round(v, dec)
-                    return v
-
-                off_data = {
-                    "Buts":              fmt(e.get("goals"), 0),
-                    "xG total":          fmt(e.get("xg_total")),
-                    "xG/90":             fmt(e.get("xg_per90")),
-                    "Tirs total":        fmt(e.get("shots_total"), 0),
-                    "Tirs/90":           fmt(e.get("shots_per90"), 1),
-                    "xA/90":             fmt(e.get("xA_per90")),
-                    "Passes clés/90":    fmt(e.get("key_passes_per90"), 1),
-                    "Passes tiers off.": fmt(e.get("passes_final_third"), 0),
-                    "Passes prog.":      fmt(e.get("progressive_passes"), 0),
-                    "Carries prog.":     fmt(e.get("progressive_carries"), 0),
-                    "Distance portée":   f"{round(e.get('carry_distance_total', 0))} m",
-                }
-                for k, v in off_data.items():
-                    st.markdown(f"""<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2235;font-size:12px">
-<span style="color:#6b7fa3">{k}</span><span style="color:#e8ecf4;font-weight:500">{v}</span></div>""", unsafe_allow_html=True)
-
+                st.markdown(f"##### {t('Profil offensif', 'Attacking profile')}")
+                kv_rows({t("Buts", "Goals"): num(e.get("goals"), 0), t("xG total", "Total xG"): num(e.get("xg_total")),
+                         "xG/90": num(e.get("xg_per90")), t("Tirs", "Shots"): num(e.get("shots_total"), 0),
+                         t("Tirs/90", "Shots/90"): num(e.get("shots_per90"), 1), "xA/90": num(e.get("xA_per90")),
+                         t("Passes clés/90", "Key passes/90"): num(e.get("key_passes_per90"), 1),
+                         t("Passes dans le dernier tiers", "Final-third passes"): num(e.get("passes_final_third"), 0),
+                         t("Passes progressives", "Progressive passes"): num(e.get("progressive_passes"), 0),
+                         t("Conduites progressives", "Progressive carries"): num(e.get("progressive_carries"), 0),
+                         t("Distance en conduite", "Carry distance"): f"{num(e.get('carry_distance_total', 0), 0)} m"})
             with col_def:
-                st.markdown("##### Profil défensif")
-                def_data = {
-                    "Pressings":          fmt(e.get("pressures"), 0),
-                    "Pressings/90":       fmt(e.get("pressures_per90"), 1),
-                    "Duels total":        fmt(e.get("duels_total"), 0),
-                    "Duels gagnés":       fmt(e.get("duels_won"), 0),
-                    "Duels gagnés %":     f"{round(e.get('duel_win_pct', 0), 1)}%",
-                    "Interceptions":      fmt(e.get("interceptions"), 0),
-                    "Interceptions/90":   fmt(e.get("interceptions_per90"), 1),
-                    "Interc. gagnées":    fmt(e.get("interceptions_won"), 0),
-                    "Tacles":             fmt(e.get("tackles"), 0),
-                    "Tacles/90":          fmt(e.get("tackles_per90"), 1),
-                    "Récupérations":      fmt(e.get("ball_recoveries"), 0),
-                    "Récupérations/90":   fmt(e.get("ball_recoveries_per90"), 1),
-                }
-                for k, v in def_data.items():
-                    st.markdown(f"""<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #1a2235;font-size:12px">
-<span style="color:#6b7fa3">{k}</span><span style="color:#e8ecf4;font-weight:500">{v}</span></div>""", unsafe_allow_html=True)
+                st.markdown(f"##### {t('Profil défensif', 'Defensive profile')}")
+                dwp = e.get('duel_win_pct')
+                kv_rows({t("Pressions", "Pressures"): num(e.get("pressures"), 0),
+                         t("Pressions/90", "Pressures/90"): num(e.get("pressures_per90"), 1),
+                         t("Duels", "Duels"): num(e.get("duels_total"), 0),
+                         t("Duels gagnés", "Duels won"): num(e.get("duels_won"), 0),
+                         t("Duels gagnés (%)", "Duels won (%)"): fr_num(dwp, 1, pct=True) if dwp is not None else "—",
+                         t("Interceptions", "Interceptions"): num(e.get("interceptions"), 0),
+                         t("Interceptions/90", "Interceptions/90"): num(e.get("interceptions_per90"), 1),
+                         t("Tacles", "Tackles"): num(e.get("tackles"), 0),
+                         t("Tacles/90", "Tackles/90"): num(e.get("tackles_per90"), 1),
+                         t("Récupérations", "Recoveries"): num(e.get("ball_recoveries"), 0),
+                         t("Récupérations/90", "Recoveries/90"): num(e.get("ball_recoveries_per90"), 1)})
 
-            st.markdown("---")
+    # ── NOTE DE SCOUT ──────────────────────────────────────────────────
+    st.markdown(f"##### {t('Note de scout', 'Scout note')}")
+    note_key = f"note_{p['player'].replace(' ', '_').lower()}"
+    if note_key not in st.session_state:
+        st.session_state[note_key] = ""
+    note_scout = st.text_area(
+        t("Observations vidéo (Dartfish / Once Sport)", "Video observations (Dartfish / Once Sport)"),
+        value=st.session_state[note_key], height=120,
+        placeholder=t("Ex. : très bon dans la récupération haute, déclenche le pressing au bon moment…",
+                      "E.g. very good at winning the ball high, triggers the press at the right moment…"))
+    if st.button(t("Enregistrer la note", "Save the note")):
+        st.session_state[note_key] = note_scout
+        st.success(t("Note enregistrée pour cette session.", "Note saved for this session."))
+    st.caption(t("Note conservée le temps de la session uniquement (pas de base de données branchée).",
+                 "Note kept for this session only (no database connected)."))
+    if st.session_state[note_key]:
+        note(f"{t('Note actuelle :', 'Current note:')} {st.session_state[note_key]}")
 
-            # ── Note de scout ───────────────────────────────────────────────
-            st.markdown("##### 📝 Note de scout")
-            st.markdown(f"""
-<div style="background:#0f1624;border:1px solid #1e2d45;border-left:3px solid #60a5fa;border-radius:8px;padding:14px 16px;font-size:13px;color:#c9d1e0;line-height:1.7">
-<em>Zone de saisie — ajouter ici l'analyse qualitative issue des vidéos Dartfish / Once Sport.
-Observations tactiques, points forts observés, contexte des actions clés...</em>
-</div>
-""", unsafe_allow_html=True)
-
-        note_key = f"note_{p['player'].replace(' ','_').lower()}"
-        if note_key not in st.session_state:
-            st.session_state[note_key] = ""
-
-        note_scout = st.text_area(
-            "Observations vidéo (Dartfish / Once Sport)",
-            value=st.session_state[note_key],
-            placeholder="Ex : Très bon dans la récupération haute, déclenche le pressing au bon moment. Vision de jeu remarquable dans les transitions...",
-            height=120,
-            label_visibility="collapsed"
-        )
-
-        if st.button("💾 Sauvegarder la note"):
-            st.session_state[note_key] = note_scout
-            st.success("Note enregistrée pour cette session.")
-
-        st.caption("ℹ️ Note conservée le temps de la session uniquement — limitation de l'hébergement Streamlit Cloud, pas de base de données persistante branchée.")
-
-        if st.session_state[note_key]:
-            st.markdown(f"""
-            <div style="background:#0a1a0a;border:1px solid rgba(16,185,129,0.3);border-radius:8px;padding:12px 16px;font-size:12px;color:#6b9e6b;margin-top:8px">
-            📎 Note actuelle : {st.session_state[note_key]}
-            </div>""", unsafe_allow_html=True)
-
-    # ── FOOTER ────────────────────────────────────────────────────────────
-    st.markdown("<div style='text-align:center;color:#1e2d45;font-size:11px;margin-top:20px'>ScoutPro v2 · Julie Landrevie · StatsBomb Open Data · 2263 joueurs · 18 compétitions · Scout Report CdM 2022 / Euro 2024</div>", unsafe_allow_html=True)
+footer("Données : StatsBomb (Open Data)", "Data: StatsBomb (Open Data)")

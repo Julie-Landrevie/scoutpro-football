@@ -2,4 +2,4 @@ statsbombpy
 pandas
 numpy
 plotly
-streamlit
+streamlit>=1.50
